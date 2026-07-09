@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taiwan News Ticker — Politics, Diplomacy &amp; Culture</title>
+<style>
+  :root {
+    --bg: #0b0d10;
+    --panel: #14171c;
+    --panel-raised: #1a1e24;
+    --border: #262b33;
+    --text: #e8eaed;
+    --muted: #9aa4b2;
+    --accent: #4fa3ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(180deg, #0f1216 0%, #0b0d10 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 18px 24px 14px;
+  }
+  .title-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .title-block h1 {
+    margin: 0 0 4px;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+  }
+  .title-block .subtitle {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .refresh-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+  .refresh-btn {
+    cursor: pointer;
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: #05131f;
+    border-radius: 8px;
+    padding: 9px 16px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: opacity 0.15s ease;
+  }
+  .refresh-btn:hover { opacity: 0.85; }
+  .refresh-btn:disabled { opacity: 0.55; cursor: default; }
+  .refresh-status {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-align: right;
+    max-width: 220px;
+  }
+  .meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    align-items: center;
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 10px;
+  }
+  .meta-bar .live-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #2ecc71;
+    box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.6);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.55); }
+    70% { box-shadow: 0 0 0 6px rgba(46, 204, 113, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0); }
+  }
+  .filters {
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .filter-btn {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 6px 13px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    transition: opacity 0.15s ease;
+  }
+  .filter-btn.active {
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.25) inset;
+  }
+  .filter-btn[data-cat="all"] {
+    background: #2b2f36;
+  }
+  main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 18px 16px 60px;
+  }
+  .day-heading {
+    color: var(--muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 26px 0 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+  .day-heading:first-of-type {
+    margin-top: 4px;
+  }
+  .item {
+    display: flex;
+    gap: 12px;
+    padding: 13px 12px 13px 14px;
+    margin-bottom: 8px;
+    background: var(--panel);
+    border-radius: 8px;
+    border-left: 4px solid var(--item-color, var(--border));
+  }
+  .item .content { flex: 1; min-width: 0; }
+  .item-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .item-meta-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.66rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    padding: 2px 7px;
+    white-space: nowrap;
+  }
+  .source-name {
+    color: var(--muted);
+    font-size: 0.72rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .item-time {
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .item h2 {
+    font-size: 0.97rem;
+    line-height: 1.35;
+    margin: 0 0 4px;
+    font-weight: 600;
+  }
+  .item h2 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  .item h2 a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .item .summary {
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+    margin: 0;
+  }
+  .empty-state {
+    color: var(--muted);
+    text-align: center;
+    padding: 60px 20px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.72rem;
+    padding: 20px;
+    border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); }
+  @media (max-width: 480px) {
+    .title-row { flex-direction: column; }
+    .refresh-block { align-items: flex-start; width: 100%; }
+    .refresh-status { text-align: left; max-width: none; }
+    .item-meta { align-items: flex-start; }
+    .item-meta-left { flex-wrap: wrap; }
+    .source-name { white-space: normal; overflow: visible; text-overflow: clip; }
+    .item-time { margin-left: auto; }
+  }
+</style>
+</head>
+<body data-generated-at="{{ generated_at_iso }}" data-count="{{ total_count }}" data-refresh-interval="{{ refresh_interval_seconds }}">
+<header>
+  <div class="title-row">
+    <div class="title-block">
+      <h1>🇹🇼 Taiwan News Ticker</h1>
+      <div class="subtitle">Politics · Diplomacy · Culture · Cross-Strait &amp; International Relations — auto-translated to English</div>
+    </div>
+    <div class="refresh-block">
+      <button id="refresh-btn" class="refresh-btn" type="button">🔄 Refresh Now</button>
+      <span id="refresh-status" class="refresh-status"></span>
+    </div>
+  </div>
+  <div class="meta-bar">
+    <span class="live-dot" title="Auto-refreshes every {{ (refresh_interval_seconds // 60) }} min"></span>
+    <span>{{ total_count }} articles</span>
+    <span>·</span>
+    <span>{{ source_count }} sources</span>
+    <span>·</span>
+    <span>last 48 hours</span>
+    <span>·</span>
+    <span id="last-updated">updated {{ generated_at }} (Bratislava time)</span>
+  </div>
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-cat="all">All</button>
+    {% for cat in categories_present %}
+    <button class="filter-btn" data-cat="{{ cat }}"
+            style="border-color: {{ category_styles[cat].color }};">
+      <span>{{ category_styles[cat].icon }}</span>{{ category_styles[cat].label }}
+    </button>
+    {% endfor %}
+  </div>
+</header>
+<main>
+  {% if articles %}
+    {% set ns = namespace(last_day="") %}
+    {% for a in articles %}
+      {% if a.published_date != ns.last_day %}
+        <div class="day-heading">{{ a.published_date }}</div>
+        {% set ns.last_day = a.published_date %}
+      {% endif %}
+      <article class="item" data-cat="{{ a.category }}" style="--item-color: {{ category_styles[a.category].color }};">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: {{ category_styles[a.category].color }}; color: {{ category_styles[a.category].text_color }};">
+                <span>{{ category_styles[a.category].icon }}</span>{{ category_styles[a.category].label }}
+              </span>
+              <span class="source-name">{{ a.source }}</span>
+            </div>
+            <span class="item-time">🕒 {{ a.published_display }}</span>
+          </div>
+          <h2><a href="{{ a.link }}" target="_blank" rel="noopener noreferrer">{{ a.title }}</a></h2>
+          {% if a.summary %}<p class="summary">{{ a.summary }}</p>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  {% else %}
+    <div class="empty-state">No articles from the last 48 hours yet — try the Refresh Now button.</div>
+  {% endif %}
+</main>
+<footer>
+  Generated by fetch_news.py · sources listed in feeds_config.py · times shown in Europe/Bratislava · last-48-hours window
+</footer>
+<script>
+  document.getElementById('filters').addEventListener('click', function (e) {
+    var btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    document.querySelectorAll('.filter-btn').forEach(function (b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    var cat = btn.getAttribute('data-cat');
+    document.querySelectorAll('.item').forEach(function (item) {
+      item.style.display = (cat === 'all' || item.getAttribute('data-cat') === cat) ? 'flex' : 'none';
+    });
+    // A day-heading should only show if at least one item between it and
+    // the next day-heading is currently visible - otherwise filtering to a
+    // sparse category (e.g. Culture) leaves a trail of empty date labels.
+    var pendingHeading = null;
+    var pendingHasVisible = false;
+    document.querySelectorAll('main .day-heading, main .item').forEach(function (node) {
+      if (node.classList.contains('day-heading')) {
+        if (pendingHeading) pendingHeading.style.display = pendingHasVisible ? '' : 'none';
+        pendingHeading = node;
+        pendingHasVisible = false;
+      } else if (node.style.display !== 'none') {
+        pendingHasVisible = true;
+      }
+    });
+    if (pendingHeading) pendingHeading.style.display = pendingHasVisible ? '' : 'none';
+  });
+
+  (function () {
+    var body = document.body;
+    var generatedAt = body.dataset.generatedAt;
+    var lastUpdatedEl = document.getElementById('last-updated');
+    var baseText = lastUpdatedEl.textContent;
+
+    function relativeTime() {
+      if (!generatedAt) return;
+      var diffMin = Math.round((Date.now() - new Date(generatedAt).getTime()) / 60000);
+      var rel;
+      if (diffMin < 1) rel = 'just now';
+      else if (diffMin === 1) rel = '1 minute ago';
+      else if (diffMin < 60) rel = diffMin + ' minutes ago';
+      else rel = Math.round(diffMin / 60) + ' hour(s) ago';
+      lastUpdatedEl.textContent = baseText + ' — ' + rel;
+    }
+    relativeTime();
+    setInterval(relativeTime, 30000);
+
+    // Smart auto-refresh: poll the server every 60s, only reload the page
+    // when the background 15-minute fetch has actually produced new/updated
+    // content (silently does nothing if server.py isn't running).
+    function pollStatus() {
+      fetch('/api/status')
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          if (data.generated_at && data.generated_at !== generatedAt) {
+            location.reload();
+          }
+        })
+        .catch(function () { /* static file mode, or server not running - ignore */ });
+    }
+    setInterval(pollStatus, 60000);
+  })();
+
+  document.getElementById('refresh-btn').addEventListener('click', function () {
+    var btn = this;
+    var statusEl = document.getElementById('refresh-status');
+    btn.disabled = true;
+    btn.textContent = '⏳ Refreshing…';
+    statusEl.textContent = '';
+    fetch('/api/refresh', { method: 'POST' })
+      .then(function (r) {
+        if (r.status === 409) throw new Error('busy');
+        if (!r.ok) throw new Error('failed');
+        return r.json();
+      })
+      .then(function () { location.reload(); })
+      .catch(function (err) {
+        btn.disabled = false;
+        btn.textContent = '🔄 Refresh Now';
+        if (err.message === 'busy') {
+          statusEl.textContent = 'A refresh is already running — try again shortly.';
+        } else {
+          statusEl.textContent = 'Refresh server not running. Start it with: python server.py';
+        }
+      });
+  });
+</script>
+</body>
+</html>

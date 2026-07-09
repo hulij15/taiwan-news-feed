@@ -1,0 +1,2011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taiwan News Ticker — Politics, Diplomacy &amp; Culture</title>
+<style>
+  :root {
+    --bg: #0b0d10;
+    --panel: #14171c;
+    --panel-raised: #1a1e24;
+    --border: #262b33;
+    --text: #e8eaed;
+    --muted: #9aa4b2;
+    --accent: #4fa3ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(180deg, #0f1216 0%, #0b0d10 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 18px 24px 14px;
+  }
+  .title-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .title-block h1 {
+    margin: 0 0 4px;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+  }
+  .title-block .subtitle {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .refresh-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+  .refresh-btn {
+    cursor: pointer;
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: #05131f;
+    border-radius: 8px;
+    padding: 9px 16px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: opacity 0.15s ease;
+  }
+  .refresh-btn:hover { opacity: 0.85; }
+  .refresh-btn:disabled { opacity: 0.55; cursor: default; }
+  .refresh-status {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-align: right;
+    max-width: 220px;
+  }
+  .meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    align-items: center;
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 10px;
+  }
+  .meta-bar .live-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #2ecc71;
+    box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.6);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.55); }
+    70% { box-shadow: 0 0 0 6px rgba(46, 204, 113, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0); }
+  }
+  .filters {
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .filter-btn {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 6px 13px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    transition: opacity 0.15s ease;
+  }
+  .filter-btn.active {
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.25) inset;
+  }
+  .filter-btn[data-cat="all"] {
+    background: #2b2f36;
+  }
+  main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 18px 16px 60px;
+  }
+  .day-heading {
+    color: var(--muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 26px 0 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+  .day-heading:first-of-type {
+    margin-top: 4px;
+  }
+  .item {
+    display: flex;
+    gap: 12px;
+    padding: 13px 12px 13px 14px;
+    margin-bottom: 8px;
+    background: var(--panel);
+    border-radius: 8px;
+    border-left: 4px solid var(--item-color, var(--border));
+  }
+  .item .content { flex: 1; min-width: 0; }
+  .item-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .item-meta-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.66rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    padding: 2px 7px;
+    white-space: nowrap;
+  }
+  .source-name {
+    color: var(--muted);
+    font-size: 0.72rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .item-time {
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .item h2 {
+    font-size: 0.97rem;
+    line-height: 1.35;
+    margin: 0 0 4px;
+    font-weight: 600;
+  }
+  .item h2 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  .item h2 a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .item .summary {
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+    margin: 0;
+  }
+  .empty-state {
+    color: var(--muted);
+    text-align: center;
+    padding: 60px 20px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.72rem;
+    padding: 20px;
+    border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); }
+  @media (max-width: 480px) {
+    .title-row { flex-direction: column; }
+    .refresh-block { align-items: flex-start; width: 100%; }
+    .refresh-status { text-align: left; max-width: none; }
+    .item-meta { align-items: flex-start; }
+    .item-meta-left { flex-wrap: wrap; }
+    .source-name { white-space: normal; overflow: visible; text-overflow: clip; }
+    .item-time { margin-left: auto; }
+  }
+</style>
+</head>
+<body data-generated-at="2026-07-09T15:42:20.768573+00:00" data-count="95" data-refresh-interval="900">
+<header>
+  <div class="title-row">
+    <div class="title-block">
+      <h1>🇹🇼 Taiwan News Ticker</h1>
+      <div class="subtitle">Politics · Diplomacy · Culture · Cross-Strait &amp; International Relations — auto-translated to English</div>
+    </div>
+    <div class="refresh-block">
+      <button id="refresh-btn" class="refresh-btn" type="button">🔄 Refresh Now</button>
+      <span id="refresh-status" class="refresh-status"></span>
+    </div>
+  </div>
+  <div class="meta-bar">
+    <span class="live-dot" title="Auto-refreshes every 15 min"></span>
+    <span>95 articles</span>
+    <span>·</span>
+    <span>29 sources</span>
+    <span>·</span>
+    <span>last 48 hours</span>
+    <span>·</span>
+    <span id="last-updated">updated 09 Jul 2026, 17:42 (Bratislava time)</span>
+  </div>
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-cat="all">All</button>
+    
+    <button class="filter-btn" data-cat="government"
+            style="border-color: #c9a227;">
+      <span>🏛️</span>Official / Government
+    </button>
+    
+    <button class="filter-btn" data-cat="wire_zh"
+            style="border-color: #c0392b;">
+      <span>📡</span>CNA Wire (Chinese, translated)
+    </button>
+    
+    <button class="filter-btn" data-cat="wire_en"
+            style="border-color: #e67e22;">
+      <span>📡</span>CNA Wire (Focus Taiwan, English)
+    </button>
+    
+    <button class="filter-btn" data-cat="press_zh"
+            style="border-color: #27ae60;">
+      <span>📰</span>Taiwan Press (Chinese, translated)
+    </button>
+    
+    <button class="filter-btn" data-cat="press_en"
+            style="border-color: #2980b9;">
+      <span>📰</span>Taiwan Press (English)
+    </button>
+    
+    <button class="filter-btn" data-cat="analysis"
+            style="border-color: #16a085;">
+      <span>📚</span>Policy / Academic Analysis
+    </button>
+    
+  </div>
+</header>
+<main>
+  
+    
+    
+      
+        <div class="day-heading">2026-07-09</div>
+        
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 16:59</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5500199" target="_blank" rel="noopener noreferrer">Striving to flip the situation, Zheng Liwen: Chiayi County is not a patent of the DPP</a></h2>
+          <p class="summary">KMT Chairman Cheng Lai-wen attended the Chiayi County and City Women Elite Leaders Development Camp today and said that Chiayi County can be said to be the most difficult constituency in Taiwan. However, the KMT will not only not give up on Chiayi County, but also regard Chiayi County and City as the same team to…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 16:58</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148253?utm_source=rss" target="_blank" rel="noopener noreferrer">If the Communist army paralyzes 5,000 water plants in the United States before attacking Taiwan, will the United States save itself or aid Taiwan first? The latest military news reveals a cruel dilemma</a></h2>
+          <p class="summary">If Chinese hackers paralyze U.S. infrastructure on the eve of the Taiwan Strait crisis, how should the United States respond? Is there any spare capacity left to assist Taiwan? The US media &#34;Wired&#34; disclosed a closed-door war game, simulating that on July 1, 2027, the eve of the US Independence Day, if a Chinese…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 16:41</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5499676" target="_blank" rel="noopener noreferrer">They didn’t dare to say anything when they saw the CCP sending people to Taiwan to commit violence. Before his death, a leading historian criticized the Kuomintang: They were hopeless in the extreme!</a></h2>
+          <p class="summary">Akio Yaita, CEO of the Indo-Pacific Strategic Think Tank, was attacked in Taichung on the 6th by Liao Gangfa, a Chinese man who entered Taiwan with a Hong Kong passport, which aroused great concern in Taiwanese society. This case is considered to be the first cross-border suppression in the world after the Chinese…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 16:15</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/world/breakingnews/5500163" target="_blank" rel="noopener noreferrer">After Trump&#39;s NATO summit, he &#34;suddenly replaced the old Air Force One&#34; and left the country. He took off and pulled down the window panels, sparking discussion from the outside world.</a></h2>
+          <p class="summary">U.S. President Trump flew a Boeing 747 Air Force One donated by Qatar on the 6th to attend the NATO Leaders&#39; Summit in Turkey. When leaving the country on the 8th, he switched to an older model of Air Force One, sparking discussion from the outside world. The traveling press group noticed that it was different from…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 15:30</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/aopl/202607090382.aspx" target="_blank" rel="noopener noreferrer">The United States agrees to sell Tomahawk missiles to Germany. German Chancellor: Filling strategic gaps</a></h2>
+          <p class="summary">(Central News Agency, Berlin, September 9, Comprehensive Foreign News Report) German Chancellor Friedrich Merz said today that the United States has approved the sale of long-range Tomahawk Cruise Missile to Germany, saying that this move will fill an &#34;important strategic gap&#34; in German defense.</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 14:54</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/world/breakingnews/5500008" target="_blank" rel="noopener noreferrer">NATO Türkiye Summit ends, Edogan presents revolvers with engraved names to leaders of various countries</a></h2>
+          <p class="summary">NATO held a summit in Ankara, the capital of Turkey, from the 7th to 8th of this month. After the meeting, Turkish President Recep Tayyip Erdogan presented a special collectible gift to the presidents or leaders of the participating countries...</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_en" style="--item-color: #e67e22;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #e67e22; color: #1a1400;">
+                <span>📡</span>CNA Wire (Focus Taiwan, English)
+              </span>
+              <span class="source-name">Focus Taiwan (CNA English News)</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 14:53</span>
+          </div>
+          <h2><a href="https://focustaiwan.tw/culture/202607090021" target="_blank" rel="noopener noreferrer">Taiwan&#39;s overseas youth program inspires dreams of diplomacy, space</a></h2>
+          <p class="summary">Taipei, July 9 (CNA) President Lai Ching-te (later Ching-te) on Thursday met participants in Taiwan&#39;s Global Pathfinders Initiative, saying the overseas exchange program will help prepare young people to contribute to Taiwan&#39;s future.</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 14:30</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5500007" target="_blank" rel="noopener noreferrer">Free Breaking News》CCP thugs come to Taiwan! The Kuomintang exposed four more crimes and criticized them online</a></h2>
+          
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 14:21</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/aipl/202607090356.aspx" target="_blank" rel="noopener noreferrer">Vice President Xiao meets with Panama’s cross-party congressional delegation, hoping to deepen cooperation in various fields</a></h2>
+          <p class="summary">(Central News Agency reporter Ye Suping, Taipei, 9th) Vice President Hsiao Meiqin received a delegation of cross-party members of Congress from Panama today. She said that the two countries had a friendly and close partnership in the past and hoped that the two sides would continue to discuss how to deepen…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 14:01</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/acn/202607090342.aspx" target="_blank" rel="noopener noreferrer">The Taiwan Affairs Office of the State Council calls the United Front &#34;above and aboveboard&#34; and the Mainland Affairs Council: Tells the truth</a></h2>
+          <p class="summary">(Central News Agency reporter Li Yawen, Taipei, 9th) The Taiwan Affairs Office of the State Council of Mainland China said yesterday that &#34;the United Front work has been going on for a long time and is aboveboard.&#34; The Mainland Affairs Council responded today that the Taiwan Affairs Office of the State Council told…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 13:59</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5499961" target="_blank" rel="noopener noreferrer">I envy France for making it to the World Cup! Lai Ching-te: Fantasy Taiwan versus Mbappe and Messi</a></h2>
+          <p class="summary">The World Cup quarter-finals will ignite early tomorrow morning, and France, the &#34;Gaul Rooster&#34;, is regarded as the favorite to win. President Lai Ching-te revealed today (9th) that when he sat in front of the TV and watched various countries showing off their skills, he felt extremely envious and full of fantasies,…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 13:39</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/aopl/202607090332.aspx" target="_blank" rel="noopener noreferrer">It is rumored that SK Hynix’s ADR issuance in the United States was oversubscribed by more than 7 times, and the AI ​​theme market favored it.</a></h2>
+          <p class="summary">(Central News Agency, Seoul, Comprehensive Foreign News Report on the 9th) According to people familiar with the matter, South Korean chip giant SK Hynix’s plan to issue American Depositary Receipts (ADRs) in the United States with a scale of approximately US$28 billion was reportedly oversubscribed by more than 7…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 13:14</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148252?utm_source=rss" target="_blank" rel="noopener noreferrer">Beijing Observer》Is privately providing disaster relief the same as treason? From floods in Guangxi to Typhoon Bawei, China’s flood prevention faces double challenges</a></h2>
+          <p class="summary">In early July, after Typhoon Mesa (called Mesaak in China) landed in Guangxi, its residual low-pressure system brought historic extreme rainstorms, quickly pushing many places in central and southern Guangxi into the abyss of floods. The water levels of many rivers in Nanning, Guigang, Hengzhou and other places…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 13:10</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5499910" target="_blank" rel="noopener noreferrer">IPAC parliamentarians from 6 countries inspected Taiwan Strait waters Fan Yun: jointly counter Beijing’s illegal expansion</a></h2>
+          <p class="summary">A delegation of parliamentarians from the Inter-Parliamentary Alliance on China Policy (IPAC) from 6 countries from 4 continents went to Kinmen for their first on-site inspection of the waters of the Taiwan Strait. Democratic Progressive Party legislator Fan Yunjin (9th), one of the members of the delegation, said…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 12:48</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5499927" target="_blank" rel="noopener noreferrer">The Taiwan Affairs Office of the State Council is dissatisfied with the stigmatization of the United Front. Liang Wenjie bluntly said: one of the three treasures of the CCP</a></h2>
+          <p class="summary">China&#39;s Taiwan Affairs Office yesterday questioned that the DPP government has been stigmatizing the United Front. Mainland Affairs Council spokesman Liang Wenjie said today that the Taiwan Affairs Office of the State Council told the truth yesterday. It said that united front work is aboveboard. Indeed, in the…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 12:35</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5499789" target="_blank" rel="noopener noreferrer">Legislative Yuan Home Affairs Committee inspects Dongsha Liao Xianxiang: Protecting the territorial waters, environment and sovereignty of the Republic of China</a></h2>
+          <p class="summary">Today, the Internal Affairs Committee of the Legislative Yuan is still led by the Kuomintang convenor Liao Xianxiang. It leads four blue committee members Zhang Zhilun, Weng Xiaoling, Zheng Zhengqian, Lin Qianqi and government officials and staff. They took a flight to Dongsha Island to inspect the officers and…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_en" style="--item-color: #e67e22;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #e67e22; color: #1a1400;">
+                <span>📡</span>CNA Wire (Focus Taiwan, English)
+              </span>
+              <span class="source-name">Focus Taiwan (CNA English News)</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 12:23</span>
+          </div>
+          <h2><a href="https://focustaiwan.tw/politics/202607090017" target="_blank" rel="noopener noreferrer">Ex-DPP staffer receives 10 years for developing spy network for China</a></h2>
+          <p class="summary">Taipei, July 9 (CNA) The Taiwan High Court on Thursday sentenced Huang Chu-jung (黄智伟), a former Democratic Progressive Party (DPP) staffer, to 10 years in prison for developing an organization on behalf of China after recruiting two people to help gather classified information.</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 12:09</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3198332.htm" target="_blank" rel="noopener noreferrer">Yin Wei’s claim that “Shansu rushed down from the upper reaches” was questioned. The Beijing Municipal Government said it was based on the judgment of scholars.</a></h2>
+          <p class="summary">After the Neihu Lake was flooded by heavy rainfall, some people discovered that Shansu was growing in the ditch, which triggered heated discussions. Taipei City Councilor He Menghua of the Democratic Progressive Party today (9th) criticized it. Yin Wei, the chairman of the Taipei City Research and Examination…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="government" style="--item-color: #c9a227;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c9a227; color: #1a1400;">
+                <span>🏛️</span>Official / Government
+              </span>
+              <span class="source-name">Office of the President - News</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 11:52</span>
+          </div>
+          <h2><a href="https://english.president.gov.tw/NEWS/7179" target="_blank" rel="noopener noreferrer">President Lai meets Mayor Setaka Tetsuo of Nikko City, Tochigi Prefecture, Japan</a></h2>
+          <p class="summary">On the afternoon of July 8, President Lai Ching-te met with Setaka Tetsuo, Mayor of Nikko City, Toch...</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_en" style="--item-color: #e67e22;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #e67e22; color: #1a1400;">
+                <span>📡</span>CNA Wire (Focus Taiwan, English)
+              </span>
+              <span class="source-name">Focus Taiwan (CNA English News)</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 11:43</span>
+          </div>
+          <h2><a href="https://focustaiwan.tw/politics/202607090014" target="_blank" rel="noopener noreferrer">IPAC delegation tours Kinmen waters on fact-finding mission in Taiwan Strait</a></h2>
+          <p class="summary">Taipei, July 9 (CNA) A delegation from the Inter-Parliamentary Alliance on China (IPAC) on Thursday toured waters off Kinmen on board a Coast Guard Administration (CGA) patrol vessel as part of a fact-finding mission to learn about Chinese activities in the Taiwan Strait.</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 11:37</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5499771" target="_blank" rel="noopener noreferrer">With only half a year left, there will be another change in Tainan&#39;s small cabinet. Feng Xiangyong takes over the Agriculture Bureau, and Li Fanglin moves to the Civil Affairs Bureau.</a></h2>
+          <p class="summary">The Tainan City Government has once again adjusted the personnel of the small cabinet. The new Director of Agriculture, Feng Xiangyong, who was seconded from the National United University, officially took office today (9th); the former Director of Agriculture, Li Fanglin, took over as the Director of Civil Affairs,…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 11:37</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3197894.htm" target="_blank" rel="noopener noreferrer">See you again in 3 weeks! Lee Jae-myung promotes &#34;warship manufacturing&#34; to support Trump and meets to play golf in the United States</a></h2>
+          <p class="summary">South Korean President Lee Jae-myung, who went to Türkiye to attend the North Atlantic Treaty Organization (NATO) summit, met with US President Trump again on the evening of the 7th local time. &#34;Full text...&#34;</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 11:35</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5499807" target="_blank" rel="noopener noreferrer">Cancer-causing oil spreads across Taiwan! The Legislative Yuan, the government and the opposition reached a consensus: Zhuo Rongtai was invited to report on the project on 7/14</a></h2>
+          <p class="summary">The first-level carcinogen &#34;benzopyrene (BaP)&#34; found in Zoomlion&#39;s soybean salad oil exceeded the standard. The Kuomintang League and the People&#39;s Party League proposed inviting Executive President Zhuo Rongtai to submit a special report. The ruling and opposition parties reached a consensus today (9th) and agreed to…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 11:23</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5499731" target="_blank" rel="noopener noreferrer">Negotiations between the Legislative Yuan, the government and the opposition “quickly reached a consensus” on the general budget and supervisory committee personnel review procedures</a></h2>
+          <p class="summary">Legislative Yuan Han Guoyu today held a consultation between the government and the opposition regarding the procedures for this year’s central government general budget bill, the seventh Supervisory Yuan’s personnel consent power, etc. Since the decision was only on the procedural schedule, the government and the…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 11:21</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/politics/breakingnews/5499595" target="_blank" rel="noopener noreferrer">Submitted a letter to &#34;Diplomacy&#34; criticizing Taiwan for missing the lesson from Ukraine! Former CIA director names KMT</a></h2>
+          <p class="summary">The Russia-Ukraine war has entered its fifth year, and Ukraine has relied on drones to reverse the situation in the near future. David Petraeus, former director of the U.S. Central Intelligence Agency (CIA) and retired four-star general of the U.S. Army, and Kalud, a researcher at the Atlantic Council, a Washington…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 11:16</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/aipl/202607090254.aspx" target="_blank" rel="noopener noreferrer">China United Oil Products Case: The Legislative Yuan will invite Zhuo Rongtai to report on the case on the 14th</a></h2>
+          <p class="summary">(Central News Agency reporter Chen Junhua, Taipei, 9th) Legislative President Han Kuo-yu convened a consultation between the ruling and opposition parties today. The parties agreed that the Legislative Yuan will meet next Tuesday (14th). In the afternoon, Executive Director Zhuo Rongtai will be invited to conduct a…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 11:10</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3198281.htm" target="_blank" rel="noopener noreferrer">South Korea&#39;s Yu-Bang Zhuo Rongtai speaks and the ruling and opposition parties decide 7/14 Executive Yuan&#39;s special report on carcinogenic oil</a></h2>
+          <p class="summary">In the wake of the carcinogenic oil scandal involving China United Oil and Fat, the ruling and opposition parties in the Legislative Yuan unanimously agreed to invite Executive Director Zhuo Rongtai to report to the National Assembly on July 14 for consultation. It is worth mentioning that the People&#39;s Party…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 10:59</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/world/breakingnews/5499659" target="_blank" rel="noopener noreferrer">Brazil deports Russians suspected of espionage</a></h2>
+          <p class="summary">According to an official communiqué released on the 6th, the Brazilian government has decided to approve the expulsion of a Russian who was accused by the United States of posing as a Brazilian student in Europe to collect intelligence about Ukraine. The United States and Russia had previously sought extradition, but…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 10:55</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/aipl/202607090239.aspx" target="_blank" rel="noopener noreferrer">IPAC transnational members went to Kinmen waters to feel the frontline atmosphere on both sides of the Taiwan Strait</a></h2>
+          <p class="summary">(Central News Agency reporter Wu Shuwei Kinmen reported on the 9th) Kinmen has been the frontline island of the democratic camp against totalitarianism since World War II. Members of Congress from Britain, New Zealand, Ukraine and other countries took a coast guard boat out to sea in a clockwise direction this…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Military &amp; Defense</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 10:46</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/def/breakingnews/5499717" target="_blank" rel="noopener noreferrer">The range is over 1,600 kilometers! The United States agrees to sell Tomahawk missiles to add weapons to German warships and submarines</a></h2>
+          <p class="summary">Although the related deployment plan was once hinted to have been aborted, German Chancellor Friedrich Merz said on the 9th that the United States has approved the sale of long-range &#34;Tomahawk&#34; cruise missiles to Germany. Mel…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 10:30</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148187?utm_source=rss" target="_blank" rel="noopener noreferrer">&#34;Does Chen Tudou deserve the Cross-Strait Peace Prize?&#34; When Chinese Internet celebrities become popular in Taiwan, why are they questioned about their united front mission?</a></h2>
+          <p class="summary">&#34;Does Chen Tudou deserve the Cross-Strait Peace Prize?&#34; - In March this year, Taiwanese netizens heatedly discussed a Chinese Internet celebrity. The 26-year-old &#34;Chen Tudou&#34; creates funny videos with exaggerated expressions. Within two years, he gradually became popular from mainland China to Taiwan. Currently, his…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 10:27</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/acn/202607090222.aspx" target="_blank" rel="noopener noreferrer">Beijing launches second-level flood control response and Miyun District 5 red rainstorm warning</a></h2>
+          <p class="summary">(Central News Agency reporter Zhang Shuling, Beijing, 9th) Beijing has launched a second-level emergency response for flood control this afternoon, advocating working from home, and issued a red rainstorm warning for five districts including Miyun in the suburbs of Beijing. In July last year, heavy rain and flooding…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 10:22</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/world/breakingnews/5499580" target="_blank" rel="noopener noreferrer">French Foreign Minister criticizes Iran for violating ceasefire agreement, triggering new round of US attacks</a></h2>
+          <p class="summary">The U.S. Central Command stated on the 8th that it had struck about 90 Iranian military targets to maintain the smooth flow of the Strait of Hormuz. Iran&#39;s Islamic Revolutionary Guard Corps also announced that it had launched attacks on US military bases in Bahrain and Kuwait in response to US air strikes. In this…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 10:20</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/aipl/202607090218.aspx" target="_blank" rel="noopener noreferrer">Members of Congress from six countries went to Kinmen to board a ship to inspect the security situation in the Taiwan Strait, becoming the first of its kind in the world.</a></h2>
+          <p class="summary">(Central News Agency reporter Chen Yunyu in London - Wu Shuwei in Kinmen on the 9th) Members of Congress from six countries of the Inter-Parliamentary Alliance on China Policy (IPAC) boarded a ship in Kinmen to inspect the Kinmen waters today. IPAC issued a press release stating that this is the first time that a…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="government" style="--item-color: #c9a227;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c9a227; color: #1a1400;">
+                <span>🏛️</span>Official / Government
+              </span>
+              <span class="source-name">Office of the President - News</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 10:05</span>
+          </div>
+          <h2><a href="https://english.president.gov.tw/NEWS/7178" target="_blank" rel="noopener noreferrer">President Lai meets President of Guatemalan Congress Luis Alberto Contreras Colíndres</a></h2>
+          <p class="summary">On the morning of July 8, President Lai Ching-te met with a delegation led by Luis Alberto Contreras...</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="analysis" style="--item-color: #16a085;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #16a085; color: #ffffff;">
+                <span>📚</span>Policy / Academic Analysis
+              </span>
+              <span class="source-name">Taiwan Insight (Taiwan Research Hub, U. Nottingham)</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 10:00</span>
+          </div>
+          <h2><a href="https://taiwaninsight.org/2026/07/09/when-tea-becomes-everything-part-1/" target="_blank" rel="noopener noreferrer">When Tea Becomes Everything (Part 1)</a></h2>
+          <p class="summary">Written by Gawin Tiansuwan. In Part 1, the author traces a personal journey of self-discovery through tea. Moving from Western blends in the UK to traditional gongfu cha in Hong Kong, the author explores how tea provided stability during burnout. Crucially, an inspiring trip to Taiwan&#39;s iconic teahouses sparked a…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 09:30</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/acn/202607090193.aspx" target="_blank" rel="noopener noreferrer">Hong Kong’s National Security Law has been implemented for 6 years. Scholars: Provide important reference for regional security</a></h2>
+          <p class="summary">(Central News Agency reporter Chen Kaiyu, Taipei, 9th) It has been six years since the implementation of Hong Kong’s National Security Law. Some scholars said that Hong Kong’s development in recent years has become an important window for observing the evolution of regional legal system and security governance. From…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Military &amp; Defense</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 09:05</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/def/breakingnews/5499092" target="_blank" rel="noopener noreferrer">Sneak into your home to lay mines. The United States develops unmanned mine-laying submarines</a></h2>
+          <p class="summary">The application scope of unmanned underwater vehicles continues to expand, and the U.S. Navy recently added nearly US$14 million (approximately NT$449 million) in funding for a &#34;Mlaying Expendable Unmanned Submarine Vehicle&#34; (MEDUSA) research and development project. The system can be operated by submarine fish...</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 08:47</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3198180.htm" target="_blank" rel="noopener noreferrer">Leniency for oil product returns: Executive Yuan: Consumption vouchers and used containers are acceptable</a></h2>
+          <p class="summary">The case of China United Oil Products’ carcinogen benzenepyrene exceeding the legal limit continues to spread. Executive Yuan Councilor Chen Shizhong said on the 9th that the government will assist consumer groups in litigation and subsidize related costs through the Food Safety Fund of the Ministry of Health and…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 08:44</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3198175.htm" target="_blank" rel="noopener noreferrer">Li Yanqiu Sour DPP: Cancer-causing oil, sprouted potatoes, and pigs appear. At least there is dog food to eat.</a></h2>
+          <p class="summary">The carcinogenic oil crisis of China United Oil and Fat continues to spread. In response to this, media person Li Yanqiu today (9th) used the three major life revelations of this incident to express her sadness. The DPP government was unable to control food safety. Not only did carcinogenic oil appear, but it also…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 08:38</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148130?utm_source=rss" target="_blank" rel="noopener noreferrer">Lin Zhuoshui exposes Taiwan&#39;s biggest shame​​ National security depends on AIT: the ruling party&#39;s ability to coordinate vertically and horizontally is completely unqualified</a></h2>
+          <p class="summary">China&#39;s Taiwan Office recently criticized Gu Liyan, director of the American Institute in Taiwan (AIT), saying that the other party violated US President Trump&#39;s statement and regarded himself as the &#34;Emperor&#34; to undermine peace across the Taiwan Strait. Former legislator Lin Zhuoshui said that in the face of…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 08:17</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148126?utm_source=rss" target="_blank" rel="noopener noreferrer">The leftists block NT$4.2 trillion business opportunity, and anti-AI data center movements emerge across the United States</a></h2>
+          <p class="summary">Prince George&#39;s County in Maryland, USA, has officially passed a two-year moratorium on the construction of new data centers. This move not only sets a record for the most stringent restrictions on artificial intelligence (AI) data centers in the East-Mid-Atlantic region of the United States, but also reflects the…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 08:05</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/aipl/202607090160.aspx" target="_blank" rel="noopener noreferrer">China United Oil Products affects schools, Lan plans to arrange for the Ministry of Education to visit the Legislative Yuan next week for a special report</a></h2>
+          <p class="summary">(Central News Agency reporter Wang Chengzhong, Taipei, 9th) Lin Peixiang, secretary-general of the KMT Legislative Yuan, said today that the Education and Culture Committee of the Legislative Yuan should arrange a food safety project report as soon as possible and request the Ministry of Education to fully explain…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">The News Lens</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 08:03</span>
+          </div>
+          <h2><a href="https://www.thenewslens.com/article/269117" target="_blank" rel="noopener noreferrer">Is the ceasefire in the Strait of Hormuz over? The United States and Iran are at war with each other. Why did the armistice agreement break down within a month of signing?</a></h2>
+          <p class="summary">The ceasefire agreement between the United States and Iran collapsed due to Iran&#39;s suspected attack on the Hormuz merchant ship. The U.S. military launched a retaliatory strike, and President Trump declared the agreement &#34;over.&#34; The conflict between the two sides has intensified, causing international oil prices to…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 07:56</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3198114.htm" target="_blank" rel="noopener noreferrer">After the general recall, the two leaders share the stage! Revealed why he did not disclose the reason for supporting Shen Boyang in the election. Cao Xingcheng: The DPP said not to touch the unification and independence</a></h2>
+          <p class="summary">The famous speaker Akio Yaita was recently followed and beaten by Chinese nationals. Today (9th), a vigilante group held the &#34;Assault on Akio Yaita: Press Conference Condemning Cross-Border Atrocities.&#34; Taipei mayoral candidate Shen Boyang of the Democratic Progressive Party and Cao Xingcheng, founder of UMC, were…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_en" style="--item-color: #e67e22;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #e67e22; color: #1a1400;">
+                <span>📡</span>CNA Wire (Focus Taiwan, English)
+              </span>
+              <span class="source-name">Focus Taiwan (CNA English News)</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 07:27</span>
+          </div>
+          <h2><a href="https://focustaiwan.tw/politics/202607090008" target="_blank" rel="noopener noreferrer">U.S., Japan, South Korea reaffirm commitment to Taiwan Strait peace</a></h2>
+          <p class="summary">Washington, July 8 (CNA) The United States, Japan, and South Korea reaffirmed the importance of maintaining peace and stability across the Taiwan Strait, during a meeting of their top diplomats on the sidelines of the NATO summit in Turkey on Tuesday, according to the U.S. State Department.</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 07:25</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148108?utm_source=rss" target="_blank" rel="noopener noreferrer">Supporting Trump&#39;s &#34;Made in America&#34; ​​policy, Apple spends US$3 billion to upgrade Broadcom&#39;s factory, and US$60 billion investment plan in the United States is initially realized</a></h2>
+          <p class="summary">Technology giant Apple officially announced that it has reached a new multi-year chip supply agreement with its long-term chip partner Broadcom worth up to US$3 billion (approximately NT$970 billion). This landmark cooperation is not only Apple’s largest commitment to date in the American Manufacturing Program (AMP),…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 07:17</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3198105.htm" target="_blank" rel="noopener noreferrer">Xiao Suling lost the primary election and changed to wearing an orange robe to run for parliament. Kuomintang: She has resigned from the party</a></h2>
+          <p class="summary">Xiao Suling, who recently participated in the Kuomintang&#39;s New Taipei City Councilor Xinzhuang constituency primary election and ultimately lost to Xinzhuang District Taifeng District Chief Wang Peiyu, today (9th) accepted the call from the People&#39;s First Party and ran for the Xinzhuang City Councilor election. In…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 06:43</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148093?utm_source=rss" target="_blank" rel="noopener noreferrer">The High Court sentenced Huang Qurong, a former worker of the Democratic Progressive Party, to 10 years in prison for the crime of developing an organization in the presidential palace espionage case.</a></h2>
+          <p class="summary">Huang Qirong, a former senior member of the Democratic Progressive Party, was recruited by the CCP to ambush and collect intelligence in Taiwan. He conducted infiltration arrangements in the Presidential Office and the Ministry of Foreign Affairs to provide Vice President Lai Ching-te&#39;s itinerary and sensitive…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 06:39</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3197872.htm" target="_blank" rel="noopener noreferrer">Pan-blue split! The blue camp leader lost the primary election and switched to the jersey of the People&#39;s People&#39;s Party to win the election.</a></h2>
+          <p class="summary">Xiao Suling, who recently participated in the Kuomintang&#39;s New Taipei City Councilor Xinzhuang constituency primary election and ultimately lost to Xinzhuang District Taifeng District Chief Wang Peiyu, today (9th) accepted the call from the People&#39;s First Party and ran for the Xinzhuang City Councilor election. The…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 06:34</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3198025.htm" target="_blank" rel="noopener noreferrer">Give a diamond necklace as a bribe! Korean Unification Church senior officials and masters &#34;sentenced and sentenced to death&#34; Kim Jian-hee and others</a></h2>
+          <p class="summary">The Unification Church is suspected of bribing former South Korean President Yoon Seok-yue&#39;s wife, Kim Jian-hee, and other high-level political figures. In response, the South Korean Supreme Court (Supreme Court) held a verdict today (9th) and sentenced &#34;Master Ganjin&#34; Quan Sungbae to 5 years in prison, and former…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 06:10</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/acn/202607090105.aspx" target="_blank" rel="noopener noreferrer">As Akio Yaita is attacked, vigilante groups call for stricter censorship of people from Mainland China, Hong Kong and Macao coming to Taiwan.</a></h2>
+          <p class="summary">(Central News Agency reporters Li Yawen and Liu Jianbang, Taipei, 9th) Akio Yaita, CEO of the Indo-Pacific strategic think tank, was attacked by Hong Kong national Liao Sue. Vigilante groups held a press conference today to support Akio Yaita, calling on the government to tighten censorship of people from Mainland…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 05:55</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/world/breakingnews/5499140" target="_blank" rel="noopener noreferrer">To deal with China, the Philippines moved out Deng Xiaoping and exposed its long-term strategy in the South China Sea.</a></h2>
+          <p class="summary">On the eve of the 10th anniversary of the South China Sea arbitration case, Philippine Defense Secretary Gilberto Teodoro rarely quoted the famous sayings of former Chinese Communist Party leader Deng Xiaoping in an exclusive interview with the US Newsweek to describe the Philippines...</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 05:55</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3198031.htm" target="_blank" rel="noopener noreferrer">Going to work during a typhoon? Beijing Municipal Labor Bureau: Absenteeism from work will not be counted as absenteeism and wages cannot be deducted</a></h2>
+          <p class="summary">The strong typhoon &#34;Bavi&#34; continues to approach. The Central Meteorological Administration stated that if there are no special changes in its path, it is expected to issue a maritime typhoon warning at 2:30 pm today (9th) and an onshore typhoon warning early tomorrow morning. In response to the issues of attendance…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 05:47</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3198020.htm" target="_blank" rel="noopener noreferrer">Green Party Group: Food safety in opposition, cabinet report is reasonable, but &#34;scripting who wants to step down&#34; is not the solution</a></h2>
+          <p class="summary">As the China United Oils and Fats carcinogen oil scandal spread, the opposition questioned Executive President Zhuo Rongtai for &#34;hiding his name&#34; and should report to the Legislative Yuan on a special project and take political responsibility for stepping down. Zhuang Ruixiong, secretary-general of the Democratic…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 05:22</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3197899.htm" target="_blank" rel="noopener noreferrer">Khamini was killed by the United States and Israel, and the building was reduced to rubble! Iranian state media released footage for the first time</a></h2>
+          <p class="summary">Iran released new footage on the 8th of the US-Israeli airstrike in Tehran in February this year that killed former supreme leader Ali Khamenei. It can be seen that the buildings were completely reduced to rubble. Khamini was shot dead on the first day of the war, and this video was released during his funeral. &#34;Full…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 04:45</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3197956.htm" target="_blank" rel="noopener noreferrer">Mainland China predicts: Bawei will make landfall or pass through northern Taiwan during the day on the 11th</a></h2>
+          <p class="summary">The Central Meteorological Observatory of Mainland China issued an orange warning for Typhoon &#34;Bavi&#34; at 10 a.m. on July 9. It is predicted that Bavi will make landfall or pass over the northern coast of Taiwan during the day on the 11th, then approach the coast from central Fujian to southern Zhejiang, and make…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 04:36</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148038?utm_source=rss" target="_blank" rel="noopener noreferrer">Who is handing the knife to &#34;Taiwan independence&#34;? Beijing firmly rejects &#34;unpredicated dialogue&#34; between the two sides of the Taiwan Strait and criticizes Gu for becoming Trump&#39;s &#34;overlord&#34;</a></h2>
+          <p class="summary">Gu Liyan, director of the American Institute in Taiwan (AIT), recently proposed that the two sides of the Taiwan Strait should have dialogue &#34;without preconditions&#34; and that &#34;the status quo&#34; should be the basis for dialogue. He later said that nothing can more effectively deter conflicts than turning Taiwan into a…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 04:31</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3197940.htm" target="_blank" rel="noopener noreferrer">&#34;Taiwan is the EU&#39;s reliable and key democratic partner in East Asia&#34; European Parliament report calls for deepening cooperation</a></h2>
+          <p class="summary">The European Parliament plenary session adopted a report on &#34;Policy Recommendations on the Changing Geopolitical Situation in East Asia and the Need to Strengthen Cooperation with Like-minded Partners in the Region.&#34; The report pointed out that Taiwan is the EU&#39;s reliable and key democratic partner in East Asia. It…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Military &amp; Defense</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 04:27</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/def/breakingnews/5499052" target="_blank" rel="noopener noreferrer">China dispatched 41 aircraft and ships to disrupt Taiwan, and 20 military aircraft crossed the central line of the Taiwan Strait</a></h2>
+          <p class="summary">China continues to exert military pressure and gray zone harassment against Taiwan. The Ministry of National Defense announced today (9th) that from 6 a.m. yesterday (8) to 6 a.m. today, a total of 28 aircraft sorties, a total of 8 ships and 5 official ships were detected and continued to operate around the Taiwan…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 03:50</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148023?utm_source=rss" target="_blank" rel="noopener noreferrer">Lithuania turns to Beijing! The new Prime Minister stated: I have no love or dislike for China, but will seek to normalize diplomatic relations</a></h2>
+          <p class="summary">According to reports, Lithuania&#39;s new Prime Minister Sinkevičius stated in his governing platform that while maintaining a hard line toward Russia, he would adjust his foreign policy toward China. According to Euronews, on Tuesday (July 7), Lithuania’s new Prime Minister Mindaugas Sinkevičius explained his…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 03:32</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11148017?utm_source=rss" target="_blank" rel="noopener noreferrer">Is there any suspense about the typhoon holiday on Friday? The latest path of Typhoon Bawei is &#34;slowing down&#34; but still big and strong. The invasion rate in this county and city is 100%</a></h2>
+          <p class="summary">The dynamics of strong Typhoon Bavi and whether there will be a typhoon holiday on Friday have become the focus of daily concern for people across Taiwan this week! The most severe impact of Bahrain on Taiwan is expected to occur on the evening of the 10th and the day of the 11th. The latest path potential forecast…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 03:00</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3197848.htm" target="_blank" rel="noopener noreferrer">Unusual? Trump &#34;suddenly switches to old Air Force One&#34; to return to the United States, denying security threats</a></h2>
+          <p class="summary">U.S. President Trump flew on the &#34;new&#34; Air Force One when he went to the NATO summit in Türkiye, but on his return trip he used an old plane for part of the flight. As the conflict between the United States and Iran resumed, this unusual arrangement triggered speculation from the outside world. However, Trump denied…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:22</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3197841.htm" target="_blank" rel="noopener noreferrer">Opposing China’s maritime expansion, the US ambassador to the UK submitted a statement to the International Maritime Organization</a></h2>
+          <p class="summary">US Ambassador to the UK Warren Stephens submitted a statement to the United Nations International Maritime Organization (IMO) on the 7th, accusing China of using its maritime power to systematically control key ports around the world and using it as a tool of political coercion. &#34;Full text...&#34;</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:20</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11147979?utm_source=rss" target="_blank" rel="noopener noreferrer">Behind the Scenes》Who is supporting Shi Chongliang? The poisonous oil case ignited the Democratic Progressive Party, and the position of Minister of Health and Welfare is as secure as Mount Tai</a></h2>
+          <p class="summary">The controversy over the emergency contraceptive pill policy has not yet subsided. The &#34;carcinogenic poisonous oil case&#34; of China United Oils and Fats has triggered a food safety crisis one after another. In just two weeks, the Ministry of Health and Welfare has been caught in a storm of public opinion almost every…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - International</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:04</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260709/3197830.htm" target="_blank" rel="noopener noreferrer">Iran is rumored to have called for peace after being bombarded. U.S. officials: Taking advantage of the NATO summit to attack merchant ships will &#34;irritate Trump&#34;</a></h2>
+          <p class="summary">U.S. President Trump announced on the 8th that after the U.S. military launched a new wave of air strikes on Iran, Tehran took the initiative to call for peace. CNN quoted a Washington official as saying that Trump ordered this wave of attacks because he was angered by the timing of Iran&#39;s attack on merchant ships.…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taipei Times</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://www.taipeitimes.com/News/front/archives/2026/07/09/2003860448" target="_blank" rel="noopener noreferrer">Chinese tactics risk new ‘status quo,’ official says</a></h2>
+          
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taipei Times</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://www.taipeitimes.com/News/front/archives/2026/07/09/2003860451" target="_blank" rel="noopener noreferrer">Trump criticizes allies at NATO summit in Turkey</a></h2>
+          
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taipei Times</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://www.taipeitimes.com/News/taiwan/archives/2026/07/09/2003860459" target="_blank" rel="noopener noreferrer">Prep for ‘gray zone’ tactics: US lawmaker</a></h2>
+          
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taipei Times</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://www.taipeitimes.com/News/editorials/archives/2026/07/09/2003860436" target="_blank" rel="noopener noreferrer">EDITORIAL: Beijing wants to silence critics</a></h2>
+          
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taipei Times</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://www.taipeitimes.com/News/editorials/archives/2026/07/09/2003860438" target="_blank" rel="noopener noreferrer">Beijing is forcing Japan’s hand</a></h2>
+          
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taipei Times</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://www.taipeitimes.com/News/feat/archives/2026/07/09/2003860444" target="_blank" rel="noopener noreferrer">Donovan’s Deep Dives: Caning could eclipse everything else on Taiwan’s referendum ballot</a></h2>
+          
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taiwan Today</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://taiwantoday.tw/Economics/Top-News/285135/President-Lai-welcomes-Japanese-mayor" target="_blank" rel="noopener noreferrer">President Lai welcomes Japanese mayor</a></h2>
+          <p class="summary">President Lai Ching-te noted the importance of city-to-city exchanges to the ongoing development of Taiwan’s partnership with Japan in remarks welcoming a delegation led by Mayor Tetsuo Setaka of Nikko City, Tochigi prefecture, July 8 at the Presidential Office in Taipei City. The president noted that Taiwan and…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taiwan Today</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://taiwantoday.tw/Politics/Top-News/285136/President-Lai-receives-Guatemalan-delegation" target="_blank" rel="noopener noreferrer">President Lai receives Guatemalan delegation</a></h2>
+          <p class="summary">President Lai Ching-te met with a delegation led by Guatemalan Congress President Luis Alberto Contreras Colíndres at the Presidential Office July 8 in Taipei City and anticipated enhanced partnership between the allies to promote mutual prosperity and progress. Lai said Taiwan-Guatemala relations have continued…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">The News Lens</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 01:58</span>
+          </div>
+          <h2><a href="https://www.thenewslens.com/article/269111" target="_blank" rel="noopener noreferrer">The attack on Akio Yaita: Is &#34;long-arm jurisdiction&#34; materializing in Taiwan? Cross-border blitzkrieg uncovers three major national security loopholes</a></h2>
+          <p class="summary">The attack on media personality Akio Yaita raised concerns about &#34;transnational repression&#34; due to the suspect&#39;s cross-border crime pattern. This case highlights the threat from foreign forces, and its motives and local collaborative networks have become the focus of national security and await judicial clarification.</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 01:00</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11147251?utm_source=rss" target="_blank" rel="noopener noreferrer">Wang Yixiong’s point of view: Can Japan and the Philippines fight a proxy war between the United States and China?</a></h2>
+          <p class="summary">Japan and the Philippines announced at the end of May 2026 that they would launch negotiations on the delimitation of the exclusive economic zone and the continental shelf maritime boundary in accordance with the United Nations Convention on the Law of the Sea. This matter is viewed in the security pattern of the…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 00:50</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11127801?utm_source=rss" target="_blank" rel="noopener noreferrer">Li Qize&#39;s point of view: The China Federation - besides annexation and confrontation, is there a third way for both sides of the Taiwan Strait?</a></h2>
+          <p class="summary">This article proposes the &#34;Union of China&#34; as a normative institutional concept in addition to &#34;one country, two systems&#34;. The deep-seated root cause of the cross-strait deadlock is not just the conflict over reunification, but that &#34;unification&#34; has long been equated with the central government co-opting local…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 00:10</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11147908?utm_source=rss" target="_blank" rel="noopener noreferrer">Wu Dianrong&#39;s Column: Why is the Kuomintang obsessed with caning?</a></h2>
+          <p class="summary">The fall of the Qing Empire to the Republic of China was of course a revolutionary change. However, the greatest significance of the revolution to the people should be to replace the traditional Chinese &#34;five punishments&#34; (flogging, cane, imprisonment, exile, death) and extremely harsh corporal punishment with the…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 09 Jul 2026, 00:00</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11147577?utm_source=rss" target="_blank" rel="noopener noreferrer">Opinion submission: Was the advance deployment turned out to be election security?</a></h2>
+          <p class="summary">The government&#39;s response was actually very fast. It just depends on whether it is facing food security or political security. Zoomlion&#39;s soybean salad oil was found to contain excessive levels of the first-level carcinogen benzenepyrene. The problematic oil flowed all the way to the food processing industry, and…</p>
+        </div>
+      </article>
+    
+      
+        <div class="day-heading">2026-07-08</div>
+        
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Storm Media - Politics</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 23:40</span>
+          </div>
+          <h2><a href="https://www.storm.mg/article/11147130?utm_source=rss" target="_blank" rel="noopener noreferrer">Chen Miyu&#39;s point of view: &#34;Only green&#34; Taipei is hot, this is what cross-strait exchanges should be like!</a></h2>
+          <p class="summary">The dance-poem drama &#34;Only Green&#34; presented by China Oriental Song and Dance Ensemble was performed in Taiwan for the first time a few days ago, attracting a packed audience. I managed to buy tickets for the first extra performance and experienced firsthand how popular this art feast is in dozens of cities around the…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - International</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 13:38</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260708/3197252.htm" target="_blank" rel="noopener noreferrer">Take a clear stand for Taiwan! Park Eun-joo will go to Seoul to serve as the &#34;U.S. Ambassador to South Korea&#34; with a Korean background</a></h2>
+          <p class="summary">Michelle Steel, the U.S. Ambassador to South Korea nominated by U.S. President Trump, will soon go to Seoul, South Korea to officially take up her duties, becoming the second U.S. Ambassador to South Korea with a Korean background after Sung Kim. &#34;Full text...&#34;</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="government" style="--item-color: #c9a227;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c9a227; color: #1a1400;">
+                <span>🏛️</span>Official / Government
+              </span>
+              <span class="source-name">Office of the President - News</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 11:17</span>
+          </div>
+          <h2><a href="https://english.president.gov.tw/NEWS/7177" target="_blank" rel="noopener noreferrer">President Lai meets US delegation led by Senator Tammy Duckworth</a></h2>
+          <p class="summary">On the afternoon of July 7, President Lai Ching-te met with a delegation led by United States Senato...</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Military &amp; Defense</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 10:54</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/def/breakingnews/5498434" target="_blank" rel="noopener noreferrer">U.S. military’s new Indo-Pacific strategy exposed, JLTV mobile missile vehicle strengthens island defense</a></h2>
+          <p class="summary">Faced with the rapid increase in threats from missiles and drones, the US military is re-adjusting its combat methods in the Indo-Pacific region. The latest training shows that the U.S. Marine Corps has incorporated the &#34;Joint Light Tactical Vehicle&#34; (JLTV) equipped with a towed (TOW) anti-tank missile into its…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="government" style="--item-color: #c9a227;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c9a227; color: #1a1400;">
+                <span>🏛️</span>Official / Government
+              </span>
+              <span class="source-name">Office of the President - News</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 10:39</span>
+          </div>
+          <h2><a href="https://english.president.gov.tw/NEWS/7176" target="_blank" rel="noopener noreferrer">President Lai meets delegation from 2026 Taiwan International Ocean Forum</a></h2>
+          <p class="summary">On the afternoon of July 7, President Lai Ching-te met with a delegation from the 2026 Taiwan Intern...</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="analysis" style="--item-color: #16a085;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #16a085; color: #ffffff;">
+                <span>📚</span>Policy / Academic Analysis
+              </span>
+              <span class="source-name">Taiwan Insight (Taiwan Research Hub, U. Nottingham)</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 10:00</span>
+          </div>
+          <h2><a href="https://taiwaninsight.org/2026/07/08/freedom-and-forgetting-the-cheng-nan-jung-paradox-in-taiwans-democracy/" target="_blank" rel="noopener noreferrer">Freedom and Forgetting: The Cheng Nan-jung Paradox in Taiwan’s Democracy</a></h2>
+          <p class="summary">Written by Meng Kit Tang. The article examines how Cheng Nan-jung, now commemorated as a martyr of free speech, was once violently rejected by the opposition movement that later claimed his ideals. It argues that this episode is a test of democratic credibility. By placing the 1987 incident alongside present-day…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 06:02</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260708/3197383.htm" target="_blank" rel="noopener noreferrer">China’s test-firing of missiles undermines peace. The Taiwan Affairs Office of the State Council criticizes the DPP’s “overreaction” and exposes its harshness and inner weakness.</a></h2>
+          <p class="summary">In response to the mainland navy&#39;s successful launch of a submarine-launched strategic missile carrying a training simulated warhead, the Democratic Progressive Party criticized &#34;increasing surrounding tensions and undermining regional peace and stability&#34; and called on the international community to pay attention to…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 05:58</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260708/3197384.htm" target="_blank" rel="noopener noreferrer">The Nationalist Army resumes anti-communist patriotic education. The Taiwan Affairs Office of the State Council approves: instigating &#34;fighting for the DPP&#34;</a></h2>
+          <p class="summary">The Nationalist Army announced that it would resume &#34;anti-communist patriotic education&#34; for graduates of the three armed services and eight academies starting this year. The Taiwan Affairs Office of the Mainland China criticized today (8) that this was &#34;inciting them to fight for Taiwan independence and the…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 05:47</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260708/3197259.htm" target="_blank" rel="noopener noreferrer">Worried about the cross-strait situation? Taiwan&#39;s richest people move their assets out of China Taiwan Affairs Office: Deeply worried about Taiwan&#39;s independence war</a></h2>
+          <p class="summary">Bloomberg recently reported that Taiwan’s wealthy class have recently moved their assets to Singapore and other overseas markets, mainly due to concerns about the rising tensions across the Taiwan Strait. In this regard, Taiwan Affairs Office spokesperson Chen Binhua pointed out today (8th) that the key is that the…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 05:15</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260708/3197336.htm" target="_blank" rel="noopener noreferrer">Do the raw materials of zombie cigarette cartridges come from mainland China? Taiwan Affairs Office of the State Council: Resolutely crack down on cross-strait drug crimes</a></h2>
+          <p class="summary">There have been frequent reports of drug-related driving recently, and zombie cigarette cartridges made from the first-level drug &#34;etomidate&#34; have attracted attention. China&#39;s National Security Bureau stated that the relevant raw materials are mainly smuggled from mainland China and manufactured in Taiwan. The Taiwan…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 04:51</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260708/3197287.htm" target="_blank" rel="noopener noreferrer">The Mainland Affairs Council criticizes the National Unity Law for &#34;forcibly promoting reunification&#34;. The Taiwan Affairs Office of the State Council: Making up excuses to restrict cross-strait exchanges</a></h2>
+          <p class="summary">Mainland China&#39;s National Unity and Progress Promotion Law has recently come into effect, triggering criticism from the Mainland Affairs Council. The Taiwan Affairs Office of the Mainland China responded that the law was a &#34;just and necessary act&#34; and that the accusations made by the Democratic Progressive Party…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">ETtoday - Cross-Strait</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 04:34</span>
+          </div>
+          <h2><a href="https://www.ettoday.net/news/20260708/3197249.htm" target="_blank" rel="noopener noreferrer">The Mainland Affairs Council drew a red line on United Front activities. The Taiwan Affairs Office of the State Council asked: Do you know what United Front is?</a></h2>
+          <p class="summary">The &#34;Ethnic Unity and Progress Promotion Law&#34; in mainland China has recently come into effect. The Mainland Affairs Council stated that it will strengthen its review of cross-strait exchange cases and will not grant permission if there are concerns about the United Front. The Taiwan Affairs Office of the Mainland…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="wire_zh" style="--item-color: #c0392b;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #c0392b; color: #ffffff;">
+                <span>📡</span>CNA Wire (Chinese, translated)
+              </span>
+              <span class="source-name">CNA - Culture</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 04:18</span>
+          </div>
+          <h2><a href="https://www.cna.com.tw/news/acul/202607080054.aspx" target="_blank" rel="noopener noreferrer">Making the sacrificial offering &#34;rice cake&#34; Registered with Tainan Cultural Heritage Preservation Technology</a></h2>
+          <p class="summary">(Central News Agency reporter Zhang Rongxiang, Tainan, 8th) The Tainan City Government stated today that the &#34;Tainan City Traditional Crafts and Cultural Assets Preservation Technology and Conservators&#34; review committee has newly registered &#34;rice cake making technology&#34; as Tainan City&#39;s cultural assets preservation…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taiwan Today</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://taiwantoday.tw/Politics/Top-News/285110/President-Lai-receives-National-Endowment-for-Democracy-delegation" target="_blank" rel="noopener noreferrer">President Lai receives National Endowment for Democracy delegation</a></h2>
+          <p class="summary">President Lai Ching-te received a delegation comprising members of the U.S. National Endowment for Democracy and its core partners at the Presidential Office July 7 in Taipei City. According to the PO, the group is led by NED President and CEO Damon Wilson, who is in Taiwan for the fifth time since 2022, when he…</p>
+        </div>
+      </article>
+    
+      
+      <article class="item" data-cat="press_en" style="--item-color: #2980b9;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #2980b9; color: #ffffff;">
+                <span>📰</span>Taiwan Press (English)
+              </span>
+              <span class="source-name">Taiwan Today</span>
+            </div>
+            <span class="item-time">🕒 08 Jul 2026, 02:00</span>
+          </div>
+          <h2><a href="https://taiwantoday.tw/Politics/Top-News/285113/President-Lai-welcomes-US-Senator-Duckworth" target="_blank" rel="noopener noreferrer">President Lai welcomes US Senator Duckworth</a></h2>
+          <p class="summary">President Lai Ching-te received a delegation led by U.S. Senator Tammy Duckworth at the Presidential Office in Taipei City. Delegation members included Michael Frerichs, Illinois state treasurer, and Paul Faraci, Illinois senator, the PO said. Lai noted that Taiwan and the U.S. are important economic and strategic…</p>
+        </div>
+      </article>
+    
+      
+        <div class="day-heading">2026-07-07</div>
+        
+      
+      <article class="item" data-cat="press_zh" style="--item-color: #27ae60;">
+        <div class="content">
+          <div class="item-meta">
+            <div class="item-meta-left">
+              <span class="badge" style="background: #27ae60; color: #ffffff;">
+                <span>📰</span>Taiwan Press (Chinese, translated)
+              </span>
+              <span class="source-name">Liberty Times - Military &amp; Defense</span>
+            </div>
+            <span class="item-time">🕒 07 Jul 2026, 18:37</span>
+          </div>
+          <h2><a href="https://news.ltn.com.tw/news/def/breakingnews/5497484" target="_blank" rel="noopener noreferrer">The United States will set up a &#34;Patriot III&#34; missile repair plant in Europe, but Matsushita does not rule out overseas production</a></h2>
+          <p class="summary">Senior Pentagon officials said on the 7th that the United States will set up maintenance plants in Europe for Lockheed Martin&#39;s advanced &#34;Patriot 3&#34; (PAC-3) anti-aircraft missiles, and mentioned that Washington will not rule out overseas production...</p>
+        </div>
+      </article>
+    
+  
+</main>
+<footer>
+  Generated by fetch_news.py · sources listed in feeds_config.py · times shown in Europe/Bratislava · last-48-hours window
+</footer>
+<script>
+  document.getElementById('filters').addEventListener('click', function (e) {
+    var btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    document.querySelectorAll('.filter-btn').forEach(function (b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    var cat = btn.getAttribute('data-cat');
+    document.querySelectorAll('.item').forEach(function (item) {
+      item.style.display = (cat === 'all' || item.getAttribute('data-cat') === cat) ? 'flex' : 'none';
+    });
+    // A day-heading should only show if at least one item between it and
+    // the next day-heading is currently visible - otherwise filtering to a
+    // sparse category (e.g. Culture) leaves a trail of empty date labels.
+    var pendingHeading = null;
+    var pendingHasVisible = false;
+    document.querySelectorAll('main .day-heading, main .item').forEach(function (node) {
+      if (node.classList.contains('day-heading')) {
+        if (pendingHeading) pendingHeading.style.display = pendingHasVisible ? '' : 'none';
+        pendingHeading = node;
+        pendingHasVisible = false;
+      } else if (node.style.display !== 'none') {
+        pendingHasVisible = true;
+      }
+    });
+    if (pendingHeading) pendingHeading.style.display = pendingHasVisible ? '' : 'none';
+  });
+
+  (function () {
+    var body = document.body;
+    var generatedAt = body.dataset.generatedAt;
+    var lastUpdatedEl = document.getElementById('last-updated');
+    var baseText = lastUpdatedEl.textContent;
+
+    function relativeTime() {
+      if (!generatedAt) return;
+      var diffMin = Math.round((Date.now() - new Date(generatedAt).getTime()) / 60000);
+      var rel;
+      if (diffMin < 1) rel = 'just now';
+      else if (diffMin === 1) rel = '1 minute ago';
+      else if (diffMin < 60) rel = diffMin + ' minutes ago';
+      else rel = Math.round(diffMin / 60) + ' hour(s) ago';
+      lastUpdatedEl.textContent = baseText + ' — ' + rel;
+    }
+    relativeTime();
+    setInterval(relativeTime, 30000);
+
+    // Smart auto-refresh: poll the server every 60s, only reload the page
+    // when the background 15-minute fetch has actually produced new/updated
+    // content (silently does nothing if server.py isn't running).
+    function pollStatus() {
+      fetch('/api/status')
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          if (data.generated_at && data.generated_at !== generatedAt) {
+            location.reload();
+          }
+        })
+        .catch(function () { /* static file mode, or server not running - ignore */ });
+    }
+    setInterval(pollStatus, 60000);
+  })();
+
+  document.getElementById('refresh-btn').addEventListener('click', function () {
+    var btn = this;
+    var statusEl = document.getElementById('refresh-status');
+    btn.disabled = true;
+    btn.textContent = '⏳ Refreshing…';
+    statusEl.textContent = '';
+    fetch('/api/refresh', { method: 'POST' })
+      .then(function (r) {
+        if (r.status === 409) throw new Error('busy');
+        if (!r.ok) throw new Error('failed');
+        return r.json();
+      })
+      .then(function () { location.reload(); })
+      .catch(function (err) {
+        btn.disabled = false;
+        btn.textContent = '🔄 Refresh Now';
+        if (err.message === 'busy') {
+          statusEl.textContent = 'A refresh is already running — try again shortly.';
+        } else {
+          statusEl.textContent = 'Refresh server not running. Start it with: python server.py';
+        }
+      });
+  });
+</script>
+</body>
+</html>
