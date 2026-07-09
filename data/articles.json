@@ -1,5 +1,82 @@
 [
   {
+    "id": "ad387fa82a5c7a8f710f72b8136a5dacf0db21f7",
+    "title": "US, Japan, S Korea reaffirm Taiwan Strait views",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/07/10/2003860508",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/07/10/2003860508",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-10T00:00:00+00:00"
+  },
+  {
+    "id": "9281e74ee2356797c002be3fa3b185d707322533",
+    "title": "KMT demands apologies, resignation over oil scandal",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/10/2003860519",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/10/2003860519",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-10T00:00:00+00:00"
+  },
+  {
+    "id": "b11cfc3fd87d0f3ba337c2d77a85d91d3b9e10ef",
+    "title": "DPP staffer sentenced 10 years for espionage",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/10/2003860522",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/10/2003860522",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-10T00:00:00+00:00"
+  },
+  {
+    "id": "cb5cdfdd74efe55af8731f4072e79587a88fde82",
+    "title": "The key to Indo-Pacific security",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/07/10/2003860499",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/07/10/2003860499",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-10T00:00:00+00:00"
+  },
+  {
+    "id": "dbdb0847393b2dbd624f1a70a2823516eaf342d2",
+    "title": "Indian opposition party says it is facing vendetta",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/07/10/2003860534",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/07/10/2003860534",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-10T00:00:00+00:00"
+  },
+  {
+    "id": "78cca3556cb8a3d6858bc46dd420d024ce039a87",
+    "title": "The U.S. State Department responds to criticism from the Taiwan Affairs Office of the State Council: the accusations are groundless and Gu Liyan represents the position of the United States",
+    "title_original": "美國務院回應國台辦批評：指控無根據、谷立言代表美立場",
+    "summary": "(Central News Agency reporter Hou Ziying, Washington, 9th) China’s Taiwan Affairs Office recently criticized Gu Liyan, director of the American Institute in Taiwan (AIT). The U.S. State Department responded to a question from a reporter from Central News Agency today, saying that China’s accusations are baseless and…",
+    "link": "https://www.cna.com.tw/news/aipl/202607100009.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202607100009.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-07-09T19:16:18+00:00"
+  },
+  {
+    "id": "7755125cda0eac9feb7dd575fb259d6d75c46878",
+    "title": "SK Hynix issues ADR in the United States, rumored to be priced at US$149",
+    "title_original": "SK海力士赴美發行ADR 傳定價149美元",
+    "summary": "(Central News Agency, Seoul, comprehensive foreign news report on the 9th) People familiar with the matter revealed today that South Korean chip maker SK Hynix plans to price its American depositary receipts (ADRs) at US$149 per share and is expected to raise approximately US$26.5 billion (approximately NT$850…",
+    "link": "https://www.cna.com.tw/news/aopl/202607100008.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607100008.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-09T18:56:16+00:00"
+  },
+  {
     "id": "50176db06aa51c5c8220ea4021a75cf202dc4a48",
     "title": "Striving to flip the situation, Zheng Liwen: Chiayi County is not a patent of the DPP",
     "title_original": "力拚翻轉 鄭麗文：嘉義縣不是民進黨專利",
@@ -1043,16 +1120,5 @@
     "source": "Taiwan Today",
     "category": "press_en",
     "published": "2026-07-08T00:00:00+00:00"
-  },
-  {
-    "id": "05207b9d459bc4701a4f8dbc91ccf859983b27cd",
-    "title": "The United States will set up a \"Patriot III\" missile repair plant in Europe, but Matsushita does not rule out overseas production",
-    "title_original": "美國將在歐洲設「愛國者三型」飛彈維修廠 鬆口不排除海外生產",
-    "summary": "Senior Pentagon officials said on the 7th that the United States will set up maintenance plants in Europe for Lockheed Martin's advanced \"Patriot 3\" (PAC-3) anti-aircraft missiles, and mentioned that Washington will not rule out overseas production...",
-    "link": "https://news.ltn.com.tw/news/def/breakingnews/5497484",
-    "link_key": "https://news.ltn.com.tw/news/def/breakingnews/5497484",
-    "source": "Liberty Times - Military & Defense",
-    "category": "press_zh",
-    "published": "2026-07-07T16:37:51+00:00"
   }
 ]
