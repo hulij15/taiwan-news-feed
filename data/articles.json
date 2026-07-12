@@ -1,5 +1,71 @@
 [
   {
+    "id": "2aee6434c9ed3551a0afbb223f20710322de24e3",
+    "title": "Taipei reiterates position on South China Sea issue",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/07/13/2003860649",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/07/13/2003860649",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-13T00:00:00+00:00"
+  },
+  {
+    "id": "f3c121a12cb3d936e6e091cc5f882b0b67c800b5",
+    "title": "EU, 14 nations reaffirm 2016 South China Sea ruling",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/07/13/2003860650",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/07/13/2003860650",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-13T00:00:00+00:00"
+  },
+  {
+    "id": "d64342274e0eb20ffccbfacee83bd0dd1ed2a970",
+    "title": "Beijing pushes island bid using drills and lawfare",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/13/2003860660",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/13/2003860660",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-13T00:00:00+00:00"
+  },
+  {
+    "id": "e028296eb969379eb0108a4dd032bed7d87b6ff3",
+    "title": "EDITORIAL: Budgets are baffling the KMT",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/07/13/2003860640",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/07/13/2003860640",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-13T00:00:00+00:00"
+  },
+  {
+    "id": "3abd7fe2456ab8fd3dc554dbf8430f6280cefce5",
+    "title": "Notes from Central Taiwan: PRC expansion: Coming soon to islands near you",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/feat/archives/2026/07/13/2003860647",
+    "link_key": "https://www.taipeitimes.com/News/feat/archives/2026/07/13/2003860647",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-13T00:00:00+00:00"
+  },
+  {
+    "id": "b0476d2abfbcaaa99f6aba67f9848665909fd116",
+    "title": "Food safety is national security! He revealed that the major shareholder behind Taishan Enterprises was actually \"this criminal\" from China...",
+    "title_original": "食安就是國安！他曝泰山企業背後大股東 竟是出身中國「這號罪犯」......",
+    "summary": "Zoomlion's soybean salad oil was found to have excessive levels of the first-level carcinogen \"benzopyrene (BaP)\", causing a food safety crisis. Zoomlion and 11 senior executives of Taishan, Fushou and Fumao Oil, the three oil giants that jointly invested in Zoomlion, have been named as defendants. Lai Lai, convener…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5503047",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5503047",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-07-12T17:07:15+00:00"
+  },
+  {
     "id": "bb4ea03f9ce443c216529ef182059cdc29211d02",
     "title": "Is Wang Jinping abandoning military diplomacy and returning to the mainland? The truth: Chinese social platforms are spreading rumors again",
     "title_original": "王金平拋軍事外交歸大陸？ 真相：又是中國社群平台造謠",
@@ -1692,27 +1758,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-10T21:30:00+00:00"
-  },
-  {
-    "id": "02a189f4c1637128d497ef5ed1f085ed2da180c0",
-    "title": "Egypt and Qatar call on the United States and Iran to restart negotiations. Trump: The ceasefire is over",
-    "title_original": "埃及與卡達呼籲美伊重啟談判 川普：停火已經結束",
-    "summary": "(Central News Agency, Cairo, Comprehensive Foreign News Report on the 10th) The Egyptian Ministry of Foreign Affairs pointed out that the foreign ministers of Egypt and Qatar jointly called on the United States and Iran to resume negotiations today; at the same time, US President Trump stated that the ceasefire…",
-    "link": "https://www.cna.com.tw/news/aopl/202607110004.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607110004.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-10T18:13:13+00:00"
-  },
-  {
-    "id": "7aebee9eb35735d4c11782b54c3a99399e643e08",
-    "title": "Empty oil drums will do! Zoomlion’s leniency for carcinogenic oil returns, Executive Yuan announces 2 return methods",
-    "title_original": "剩空油桶也行！中聯致癌油退貨從寬認定 行政院公布2退貨方式",
-    "summary": "The incident of the carcinogen benzene pyrene found to exceed the legal limit of Zoomlion Oil and Fat continues to spread. The Executive Yuan will announce on the 9th that oil and related products produced by Zoomlion from April to June will be expanded to preventive removal from the shelves and a return mechanism…",
-    "link": "https://www.ettoday.net/news/20260711/3198991.htm",
-    "link_key": "https://www.ettoday.net/news/20260711/3198991.htm",
-    "source": "ETtoday - Politics",
-    "category": "press_zh",
-    "published": "2026-07-10T16:07:00+00:00"
   }
 ]
