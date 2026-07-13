@@ -1,5 +1,214 @@
 [
   {
+    "id": "d5bea7840fcc591989ca7b63aa7850457db17b35",
+    "title": "Taiwan on course for fastest growth in years: Academia Sinica",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/07/14/2003860701",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/07/14/2003860701",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-14T00:00:00+00:00"
+  },
+  {
+    "id": "4b2c107bdc0e424d502e5f8e7cd89c2ecb508055",
+    "title": "Senate returns to Washington with uncertain agenda",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/07/14/2003860725",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/07/14/2003860725",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-14T00:00:00+00:00"
+  },
+  {
+    "id": "5a7cb0e35a1daa9d0801c50da223c2e28bd6410f",
+    "title": "Bonnie Glaser on Taiwan and Beijing’s expanding pressure",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/feat/archives/2026/07/14/2003860698",
+    "link_key": "https://www.taipeitimes.com/News/feat/archives/2026/07/14/2003860698",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-14T00:00:00+00:00"
+  },
+  {
+    "id": "40a1ef22945e2a92de34f9ef34c6cf4fb0730606",
+    "title": "Estonian Foreign Minister Vladimir Putin: If unable to handle the Russia-Ukraine war situation, he may one day jump out of the window with his family",
+    "title_original": "愛沙尼亞外長酸普廷：若無力處理俄烏戰局 也許哪天帶著家人跳窗",
+    "summary": "The Russia-Ukraine war has lasted for more than four years. Ukraine has repeatedly achieved remarkable results by relying on drones, which not only caused the Russian army to suffer on the front line, but also recently launched large-scale drone attacks on many major cities, including the Russian capital Moscow, and…",
+    "link": "https://news.ltn.com.tw/news/world/breakingnews/5504159",
+    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5504159",
+    "source": "Liberty Times - International",
+    "category": "press_zh",
+    "published": "2026-07-13T16:51:24+00:00"
+  },
+  {
+    "id": "e32e0b2f0ddb96ae884c026092001d7b2659cc87",
+    "title": "Ji Guangyang abandons the KMT nomination to stop the bleeding! Luo Youzhi reveals changes in the election situation: Green camp turnout will grow",
+    "title_original": "佀廣洋棄國民黨提名止血！羅友志曝選情變化：綠營投票率會成長",
+    "summary": "Tie Guangyang, the son of KMT legislator Wan Meiling and a candidate for Taoyuan City Council, has been questioned by the outside world in recent days due to controversies involving bullying, verbal humiliation and high school gambling during his student days. Although he bowed and apologized a few days ago, it still…",
+    "link": "https://www.ettoday.net/news/20260714/3200496.htm",
+    "link_key": "https://www.ettoday.net/news/20260714/3200496.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-13T16:20:00+00:00"
+  },
+  {
+    "id": "6c2c0c9df51866e8959a8ab9f943bb53dc4bc607",
+    "title": "Ji Guangyang announced that he would give up the nomination. The Taoyuan City Party Headquarters of the Kuomintang responded: No nomination will be made for the time being.",
+    "title_original": "佀廣洋宣布放棄提名 國民黨桃園市黨部回應：暫不補提名",
+    "summary": "The son of Kuomintang legislator Wan Meiling and a candidate for Taoyuan City Councilor Guangyang announced today (13th) that he would give up the nomination of the Chinese Kuomintang. Cai Zhongcheng, chairman of the Taoyuan City Party Committee of the Kuomintang, said that the party currently has no plans to…",
+    "link": "https://www.ettoday.net/news/20260714/3200470.htm",
+    "link_key": "https://www.ettoday.net/news/20260714/3200470.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-13T16:20:00+00:00"
+  },
+  {
+    "id": "f7b5fcffe8dc38de12a8875395af75a15786f624",
+    "title": "Arrest before Russian election! Anti-war Naderzdin arrested, once elected president to challenge Putin",
+    "title_original": "俄大選前抓人！反戰者納德茲丁被捕 曾選總統挑戰普廷",
+    "summary": "Russian police arrested Kremlin anti-war critic Boris Nadezhdin on the 13th. He has tried to enter the presidential election in the past to challenge the current President Vladimir Putin (Vladimir Putin), and is planning to participate in...",
+    "link": "https://news.ltn.com.tw/news/world/breakingnews/5504181",
+    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5504181",
+    "source": "Liberty Times - International",
+    "category": "press_zh",
+    "published": "2026-07-13T15:59:00+00:00"
+  },
+  {
+    "id": "5a2a4490ac0be6661844de4abfd755bce91a4ac8",
+    "title": "Trump: The United States protects the Strait of Hormuz and plans to impose compensation fees on goods passing through it",
+    "title_original": "川普：美國守護荷莫茲海峽 擬對來往貨物徵收補償費",
+    "summary": "(Central News Agency, Washington, 13th Comprehensive Foreign News Report) U.S. President Trump vowed today to impose a fee on all cargo shipped through the Strait of Hormuz to compensate for the costs of keeping the strait open and to resume a blockade of Iranian ships.",
+    "link": "https://www.cna.com.tw/news/aopl/202607130346.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607130346.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-13T15:07:25+00:00"
+  },
+  {
+    "id": "ac13161d3fdd73c73a79a16e05125ff0f9867636",
+    "title": "No more free guardianship! Trump: Reinstates blockade of Iran and charges 20% Homez cargo fee",
+    "title_original": "不再做無償守護者！川普：恢復封鎖伊朗 收取20％荷姆茲貨物費",
+    "summary": "CNBC reported that as a new round of fighting broke out between the United States and Iran, casting a heavy shadow on the prospects of a peace agreement, U.S. President Trump accepted an exclusive interview with Fox News on the 13th and said that he plans to protect the Strait of Hormuz for a fee, and the United…",
+    "link": "https://news.ltn.com.tw/news/world/breakingnews/5504163",
+    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5504163",
+    "source": "Liberty Times - International",
+    "category": "press_zh",
+    "published": "2026-07-13T14:57:24+00:00"
+  },
+  {
+    "id": "cfde018dba7ff3b32126647ac6cb03f4148b5dfa",
+    "title": "News/Trump announced to \"restart the Iran blockade\"! The Strait of Hormuz charges 20% toll",
+    "title_original": "快訊／川普宣布「重啟伊朗封鎖」！荷莫茲海峽收20%過路費",
+    "summary": "U.S. President Trump announced on the 13th that the United States will \"reinstating\" the blockade against Iran, restricting the entry and exit of Iranian ships and their customers through the Strait of Hormuz, and will also impose a 20% toll on eligible goods passing through the strait to cover the costs of…",
+    "link": "https://www.ettoday.net/news/20260713/3200483.htm",
+    "link_key": "https://www.ettoday.net/news/20260713/3200483.htm",
+    "source": "ETtoday - International",
+    "category": "press_zh",
+    "published": "2026-07-13T14:46:00+00:00"
+  },
+  {
+    "id": "2983aff64b2fba6a89a546dc795d670f96e4bd09",
+    "title": "Premier orders Central Union oil tests completed within a week",
+    "title_original": null,
+    "summary": "Taipei, July 13 (CNA) Premier Cho Jung-tai on Monday ordered health authorities to complete within a week all testing of samples linked to tainted cooking oil produced by Central Union Oil Corp. and draft amendments to food safety regulations within the same timeframe as the scandal continued to widen.",
+    "link": "https://focustaiwan.tw/politics/202607130018",
+    "link_key": "https://focustaiwan.tw/politics/202607130018",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-07-13T13:28:07+00:00"
+  },
+  {
+    "id": "dbbe4645beeaea07e3ee9f93179ec0e04bc8189a",
+    "title": "Tsai Ing-wen reveals that Shimen Reservoir is the “biggest contributor” to siltation prevention! After 7 typhoons, dredging saved 500 million",
+    "title_original": "蔡英文曝石門水庫防淤「最大功臣」！ 歷經7次颱風清淤省5億",
+    "summary": "Former President Tsai Ing-wen recently posted on social media that Typhoon Bawi brought abundant rainfall and once again highlighted the importance of planning in advance in extreme weather. She pointed out that the Shimen Reservoir Amuping Anti-siltation Tunnel is a representative case of long-term public…",
+    "link": "https://www.ettoday.net/news/20260713/3200465.htm",
+    "link_key": "https://www.ettoday.net/news/20260713/3200465.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-13T13:09:00+00:00"
+  },
+  {
+    "id": "4e94b3743cdd820cc902461b81646faf46ff670b",
+    "title": "Akio Yaita’s attack, Japan’s cross-party Taiwan Strait Peace Research Association condemns the violence",
+    "title_original": "矢板明夫遇襲 日跨黨派台海和平研究會譴責暴力",
+    "summary": "(Central News Agency reporter Dai Yazhen, Tokyo, 13th) The \"Meeting of Members of Parliament Thinking about Peace and Stability in the Taiwan Strait\" composed of Japanese cross-party parliamentarians held its first meeting in Tokyo today. In response to the recent violent attack on the CEO of the Indo-Pacific…",
+    "link": "https://www.cna.com.tw/news/aopl/202607130320.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607130320.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-13T12:50:21+00:00"
+  },
+  {
+    "id": "1302584c79ed3463d6138a776c5db1a664ac065c",
+    "title": "Free Breaking News》Blue and White are at war with each other again! Street interview calls out \"these 4 people\" for causing misfortune in the year-end election",
+    "title_original": "自由爆新聞》藍白又互撕！街訪點名「這4人」害慘藍年底選情",
+    "summary": "",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5504065",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5504065",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-07-13T12:30:00+00:00"
+  },
+  {
+    "id": "44805c01568a1bb0b7811e9a78387aedf04a9d9b",
+    "title": "Cross-Strait Mid-Autumn Festival charter flights are spot on! Xu Shubo: Xi'an and Kunming routes were submitted to the Civil Aviation Administration for review one month ago",
+    "title_original": "兩岸中秋包機有譜！ 許舒博：西安、昆明航線1個月前送審民航局",
+    "summary": "Xu Shubo, chairman of the Taiwan Chamber of Commerce, revealed in an interview with the media at the Guizhou-Taiwan Association today (13th) that he has coordinated with the Mainland Affairs Council on the issue of cross-strait direct flights. Qiu Chuizheng, chairman of the Mainland Affairs Council, also hopes to…",
+    "link": "https://www.ettoday.net/news/20260713/3200454.htm",
+    "link_key": "https://www.ettoday.net/news/20260713/3200454.htm",
+    "source": "ETtoday - Cross-Strait",
+    "category": "press_zh",
+    "published": "2026-07-13T12:28:00+00:00"
+  },
+  {
+    "id": "010cb7f1f243763e98ae21bece8fcb916cc45119",
+    "title": "Continuing fighting between the United States and Iran shakes the Middle East, France and France: the most violent attack since the ceasefire",
+    "title_original": "美伊持續交火撼動中東 法新：停火以來最猛烈攻擊",
+    "summary": "(Central News Agency, Tehran, comprehensive foreign news report on the 13th) The United States and Iran launched separate attacks that shook the Middle East. The scale was the only one seen since the ceasefire in April. Iran also said that the US attack caused two deaths. This wave of fighting revolves around the…",
+    "link": "https://www.cna.com.tw/news/aopl/202607130305.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607130305.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-13T12:01:48+00:00"
+  },
+  {
+    "id": "9537af032303b8b846d5acd0709f0949cd1a5adc",
+    "title": "Ukrainian troops bombed Russian oil refining facilities 194 times! Estonian Foreign Minister: Putin may \"jump out of the window\" with his family",
+    "title_original": "烏軍194次猛炸俄煉油設施！愛沙尼亞外長：普丁恐攜家人「跳窗」",
+    "summary": "Ukraine continues to expand long-range attacks on Russian energy facilities, not only severely damaging refineries, oil depots and tankers, but also triggering Russia's most serious fuel crisis in decades. Estonian Foreign Minister Margus Tsahkna made a shocking statement in a recent interview with German media. As…",
+    "link": "https://www.ettoday.net/news/20260713/3200449.htm",
+    "link_key": "https://www.ettoday.net/news/20260713/3200449.htm",
+    "source": "ETtoday - International",
+    "category": "press_zh",
+    "published": "2026-07-13T11:46:00+00:00"
+  },
+  {
+    "id": "e99eaff87a87f7bfdc362b7fa15e5f1db7560430",
+    "title": "Ji Guangyang withdrew from KMT nomination. Taoyuan City Party Headquarters: No other candidate will be nominated",
+    "title_original": "佀廣洋退出國民黨提名 桃園市黨部：不另提人選",
+    "summary": "Since Kuomintang legislator Wan Meiling's son Teng Guangyang entered the Taoyuan City Council election, he has been exposed to scandals such as bullying, gambling, and failure to serve in the military. Today (13th), he announced his withdrawal from the KMT nomination, but \"will still work diligently at the grassroots…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5504018",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5504018",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-07-13T11:24:15+00:00"
+  },
+  {
+    "id": "5acfbb1879405d8c304b76033f81ef171c9583cd",
+    "title": "News 360》China’s assertion of Philippine sovereignty was slapped in the face! China's face is swollen when the great powers take over",
+    "title_original": "新聞360》中國槓上菲律賓主權說被打臉！ 大國接力出手中國臉腫了",
+    "summary": "",
+    "link": "https://news.ltn.com.tw/news/world/breakingnews/5503946",
+    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5503946",
+    "source": "Liberty Times - International",
+    "category": "press_zh",
+    "published": "2026-07-13T11:03:57+00:00"
+  },
+  {
     "id": "a779d6286d044ca572355b2ee10aa6b2f94b7181",
     "title": "Withdrawing a nomination does not mean withdrawing from the election! Ji Guangyang announced that he would give up the nomination of the Kuomintang and stated that he would \"still work diligently at the grassroots level.\"",
     "title_original": "退提名非退選！佀廣洋宣布放棄國民黨提名 表態「仍將勤走基層」",
@@ -22,6 +231,17 @@
     "published": "2026-07-13T10:28:34+00:00"
   },
   {
+    "id": "9d80356cf68648cc29d31e7ba36418600a38edf6",
+    "title": "News/Described as a heinous bad boy, Ji Guangyang announced that he would give up the KMT nomination",
+    "title_original": "快訊／被描述成十惡不赦壞孩子 佀廣洋宣布放棄國民黨提名",
+    "summary": "The son of Kuomintang legislator Wan Meiling and a candidate for Taoyuan City Council, Ji Guangyang has been embroiled in controversies such as bullying and online gambling, and has been repeatedly asked to withdraw from the race. In this regard, Ji Guangyang said today (13th) that since he announced his candidacy,…",
+    "link": "https://www.ettoday.net/news/20260713/3200428.htm",
+    "link_key": "https://www.ettoday.net/news/20260713/3200428.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-13T10:17:00+00:00"
+  },
+  {
     "id": "4f5cb92ad8537b8d250776fc3c6dd7f7be09faad",
     "title": "The sentence in the Tiankeng case was announced. Zheng Chaofang, the Democratic Progressive Party’s Candidate for Zhu County Mayor and the Mayor of Zhubei, responded this way",
     "title_original": "天坑案宣判 民進黨竹縣長參選人、竹北市長鄭朝方這麼回應",
@@ -31,6 +251,28 @@
     "source": "Liberty Times - Politics",
     "category": "press_zh",
     "published": "2026-07-13T10:12:38+00:00"
+  },
+  {
+    "id": "30b524e4592fbe9e21483d2336e17f7b3c6e24c1",
+    "title": "Vice President Xiao encourages students to become Beihai heroes and rely on science to solve difficult problems",
+    "title_original": "蕭副總統勉學員當北海小英雄 靠科學解決難題",
+    "summary": "(Central News Agency reporter Ye Suping, Taipei, 13th) Vice President Hsiao Meiqin said today that having force or a larger country does not necessarily mean it will have the upper hand. In the future, countries may be smaller but smarter and more flexible, and can integrate various emerging technologies to protect…",
+    "link": "https://www.cna.com.tw/news/aipl/202607130264.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202607130264.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-07-13T10:11:19+00:00"
+  },
+  {
+    "id": "152739f347c3694320ed064f411eb19f20711bb5",
+    "title": "Legislator accuses the school council of causing controversy. Zheng Yingyao: Abolition is the ultimate goal",
+    "title_original": "立委指校事會議惹議 鄭英耀：廢除是最終目標",
+    "summary": "(Central News Agency reporter Zeng Yining, Taipei, 13th) Kuomintang legislator Ke Zhien asked today that school affairs meetings continue to cause concerns among front-line teachers and believe that the method of dismissing unqualified teachers should be returned. Education Minister Cheng Ying Yiu said that if mutual…",
+    "link": "https://www.cna.com.tw/news/aipl/202607130232.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202607130232.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-07-13T09:27:11+00:00"
   },
   {
     "id": "b525a5b04da13e59e15c6bde0026034ade01a83e",
@@ -1802,137 +2044,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-11T21:30:00+00:00"
-  },
-  {
-    "id": "49fb25f262abe123ab19e4e727ade823534291b5",
-    "title": "The U.S. Treasury Department imposes new sanctions on Iran! Trump says ceasefire is over, Supreme Leader’s funder locked up",
-    "title_original": "美財部再祭伊朗新制裁！川普稱停火已結束 最高領袖金主遭鎖定",
-    "summary": "The U.S. Treasury Department announced that because Tehran launched another attack on commercial oil tankers in the Strait of Hormuz, Washington has introduced a new wave of sanctions against Iran, including Iran’s new Supreme Leader Mujtaba. An important financial backer of Ayatollah Mojtaba Khamenei and 13 other…",
-    "link": "https://www.ettoday.net/news/20260712/3199459.htm",
-    "link_key": "https://www.ettoday.net/news/20260712/3199459.htm",
-    "source": "ETtoday - International",
-    "category": "press_zh",
-    "published": "2026-07-11T17:42:00+00:00"
-  },
-  {
-    "id": "0c58e645f1177c139785de6d40bb73ecce51bbef",
-    "title": "Inspecting typhoon belt Shen Boyang, the Kuomintang choked: Zhuo Rongtai, don’t use the Executive Yuan as the campaign headquarters",
-    "title_original": "視察颱風帶沈伯洋 國民黨嗆：卓榮泰別把行政院當競選總部",
-    "summary": "Typhoon Bawei is approaching, and all parts of the country are preparing for it. The Kuomintang said that what Chief Executive Officer Zhuo Rongtai should do most is to coordinate the central ministries and committees, understand the disaster prevention needs of counties and cities, and ensure that disaster relief is…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5502262",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5502262",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-11T16:38:50+00:00"
-  },
-  {
-    "id": "08fbd40f024d45c798212dfe0ccefc3239420bae",
-    "title": "There was no wind and rain in Beijing yesterday but a typhoon holiday was issued. Zhang Jingsen worried: Objective standards will be replaced by political considerations.",
-    "title_original": "北市昨無風雨卻放颱風假 張景森憂：客觀的標準將被政治考量取代",
-    "summary": "Taipei City went on holiday early yesterday (10th) even though there was no wind or rain during the day, triggering positive and negative discussions. In this regard, former political commissar Zhang Jingsen said that if politicians deliberately cater to the majority of voters and create \"anti-Taiwan fakes\", any…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5502249",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5502249",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-11T15:34:30+00:00"
-  },
-  {
-    "id": "6417cd5c6956efbab65d2fe1c2f3d60ea1905b41",
-    "title": "The United States demands that Iran commit to ensuring the strait is open, mediators are rumored to arrange high-level negotiations",
-    "title_original": "美國要求伊朗承諾確保海峽開放 傳調解方安排高層協商",
-    "summary": "(Central News Agency, Dubai/Washington, Comprehensive Foreign News Report on the 11th) Iranian Foreign Minister Araqchi arrived in Oman today to discuss arrangements for the safe passage of ships through the Strait of Hormuz with local officials. The United States seeks Iran's public commitment to free and safe…",
-    "link": "https://www.cna.com.tw/news/aopl/202607110224.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607110224.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-11T15:06:27+00:00"
-  },
-  {
-    "id": "c96eb8f21efccd5505d184004d860f1c40abb333",
-    "title": "Pei Lunde: IPAC launch of Kinmen sea patrol trip will help understand the situation in the Taiwan Strait",
-    "title_original": "裴倫德：金門海巡行程IPAC發起 有助了解台海情勢",
-    "summary": "(Central News Agency reporter Wu Shuwei, Taipei, 11th) Pei Lunde, co-founder and executive director of the Inter-Parliamentary Alliance on China Policy (IPAC), said today that he has been hoping to arrange for politicians to go to Kinmen to understand the situation in the Taiwan Strait for many years. This overseas…",
-    "link": "https://www.cna.com.tw/news/aipl/202607110223.aspx",
-    "link_key": "https://www.cna.com.tw/news/aipl/202607110223.aspx",
-    "source": "CNA - Politics",
-    "category": "wire_zh",
-    "published": "2026-07-11T14:44:23+00:00"
-  },
-  {
-    "id": "78dfdcba6cb7b0104246f62f04b50d96470a0ada",
-    "title": "Ba Wei is leaving the stage! Beijing City worked hard to restore the city's appearance a few days ago. Jiang Wanan expressed condolences to his colleagues in the city government in the evening",
-    "title_original": "巴威離台！北市拼上班日前恢復市容 蔣萬安晚間慰問市府同仁",
-    "summary": "Typhoon Bavi is accelerating away from Taiwan. The Meteorological Administration predicts that Taiwan’s main island will have a chance to escape from the storm circle late tonight (11th) to early tomorrow morning, and the land typhoon warning will be lifted. Since today is the time when wind and rain have the…",
-    "link": "https://www.ettoday.net/news/20260711/3199440.htm",
-    "link_key": "https://www.ettoday.net/news/20260711/3199440.htm",
-    "source": "ETtoday - Politics",
-    "category": "press_zh",
-    "published": "2026-07-11T14:28:00+00:00"
-  },
-  {
-    "id": "f26643931826e737205cc24acd7aa77d08458155",
-    "title": "Chinese coast guard ship and Japanese warship pursue \"Penghu confrontation\" in the middle line of the Taiwan Strait. The murderer turned out to be Typhoon Bawei",
-    "title_original": "中國海警船、日艦台海中線追逐「澎湖對峙」 凶手竟是巴威颱風",
-    "summary": "When Typhoon Bawei hit, it was reported that two Chinese Coast Guard ships sailed straight into the middle line of the Strait. It turned out that the Japanese warships stayed in the waters west of Penghu to take shelter from the wind, and the Chinese Coast Guard ships came to pay attention. It is understood that when…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5502117",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5502117",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-11T14:27:49+00:00"
-  },
-  {
-    "id": "fd90513a27f8e1c28d65ae4b4401b2d1ba1d0521",
-    "title": "U.S. Treasury announces new wave of Iran sanctions, crackdown on Tehran leadership's financial networks",
-    "title_original": "美國財政部宣布新一波伊朗制裁 打擊德黑蘭領導層金融網絡",
-    "summary": "The U.S. Treasury Department announced a new wave of sanctions on Iran on the 10th, mainly targeting the country's new supreme leader Mujtaba's financial backers and financial network. Tehran accused the United States of violating the terms of the memorandum of understanding signed by the two countries. The U.S.…",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5502218",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5502218",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-11T14:16:38+00:00"
-  },
-  {
-    "id": "5f7648869f78d38bf78aec521e3177e490419a98",
-    "title": "Former legislator Wu Yuqin will return to her hometown to run for election to represent the head of Lucao Township, Pinjia County, Lvying",
-    "title_original": "前立委吳玉琴將返鄉參選 代表綠營拚嘉縣鹿草鄉長",
-    "summary": "In the local elections at the end of the year, Yan Peiyu, the current mayor of Lucao Township, Chiayi County, a member of the Democratic Progressive Party, has stated that she will not run for re-election. Today, it is reported that Wu Yuqin, a former DPP non-district legislator and chairman of the Taiwan Active…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5502203",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5502203",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-11T13:45:19+00:00"
-  },
-  {
-    "id": "391f85ceb6de33fa94ed1884faf6d4c3a3186c49",
-    "title": "The United States issued an ultimatum to Iran and publicly guaranteed the opening of the Strait of Hormuz and the safety of navigation no later than the 11th",
-    "title_original": "美國對伊朗下通牒 最晚11日公開保證荷姆茲海峽開放及航行安全",
-    "summary": "U.S. news network \"Axios\" reported that the U.S. government determined that Iran's attacks on commercial ships in and outside the Strait of Hormuz violated the memorandum of understanding signed by the two sides in mid-June. The United States has conveyed a message to Iran through the regional coordinating country…",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5502194",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5502194",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-11T13:38:34+00:00"
-  },
-  {
-    "id": "6d7e7cc95c953565a3c5df6af35cab086f0281cf",
-    "title": "Conflict between the United States and Iran resumes, mediators strive to save space for diplomatic negotiation",
-    "title_original": "美伊衝突再起 調解方努力挽救外交協商空間",
-    "summary": "(Central News Agency, Tehran, comprehensive foreign news report on the 11th) After US President Trump announced the end of the ceasefire, mediators are trying to save the diplomatic consultation process aimed at ending the war in the Middle East. At present, the Qatari delegation has visited Tehran, and Iranian…",
-    "link": "https://www.cna.com.tw/news/aopl/202607110183.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607110183.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-11T11:22:53+00:00"
-  },
-  {
-    "id": "54b8a3a374b112b513f4fec8766f5711a030bf7a",
-    "title": "Taipei City's typhoon holiday for two days in a row sparked controversy. Kuomintang lawmakers also called for unanticipated market closures to be avoided.",
-    "title_original": "台北市連放2天颱風假惹議 國民黨議員也呼籲：應避免非預期休市",
-    "summary": "As Typhoon Bavi approached Taiwan, work and classes were suspended for two days in a row. Taiwan's financial market was also closed for one day. However, as the Taiwan stock index futures rose in night trading on the 9th, closing at 46,281 points, and Asian stocks generally posted losses on the 10th, many investors…",
-    "link": "https://www.storm.mg/article/11148622?utm_source=rss",
-    "link_key": "https://www.storm.mg/article/11148622",
-    "source": "Storm Media - Politics",
-    "category": "press_zh",
-    "published": "2026-07-11T11:16:46+00:00"
   }
 ]
