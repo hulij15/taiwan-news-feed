@@ -44,6 +44,39 @@
     "published": "2026-07-15T00:00:00+00:00"
   },
   {
+    "id": "de3624099de02a12fddc28924bace5a766cdc672",
+    "title": "Trump withdraws Hormuz toll plan, says Gulf countries will invest heavily in the United States",
+    "title_original": "川普撤回荷莫茲收費計畫 稱波灣國家將大幅投資美國",
+    "summary": "U.S. President Trump announced yesterday that he would impose a 20% fee on all goods passing through the Strait of Hormuz, but today he said he would cancel the plan and replace it with a trade agreement with Persian Gulf allies. Trump said he received a call from the leaders of the Gulf countries expressing their…",
+    "link": "https://news.ltn.com.tw/news/world/breakingnews/5505485",
+    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5505485",
+    "source": "Liberty Times - International",
+    "category": "press_zh",
+    "published": "2026-07-14T20:12:03+00:00"
+  },
+  {
+    "id": "4168b757f2e069467e5b8b99a589ce1d6165048f",
+    "title": "United Nations: Another blockade of the Strait of Hormuz may impact human rights outside the region",
+    "title_original": "聯合國：荷莫茲海峽再遭封鎖 恐衝擊區域以外人權",
+    "summary": "(Central News Agency, Geneva, 14th, comprehensive foreign news report) The United Nations (UN) today condemned the renewed outbreak of hostilities in the Middle East and warned that the Strait of Hormuz (Strait of Hormuz) is once again blocked, which will have a major impact on human rights outside the Middle East.",
+    "link": "https://www.cna.com.tw/news/aopl/202607150005.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607150005.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-14T18:04:48+00:00"
+  },
+  {
+    "id": "8a30d528b565742011442f9fb4ab020fbd1252a2",
+    "title": "Trump withdraws plan to charge 20% on Hermuz cargo, pushes for trade deal instead",
+    "title_original": "川普撤回對荷莫茲貨物收費20%計畫 改推貿易協議",
+    "summary": "(Central News Agency, Washington, 14th Comprehensive Foreign News Report) US President Trump announced yesterday that he would impose a 20% fee on all goods passing through the Strait of Hormuz. Today he canceled the plan and replaced it with a trade agreement with Persian Gulf allies.",
+    "link": "https://www.cna.com.tw/news/aopl/202607150002.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607150002.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-14T16:26:40+00:00"
+  },
+  {
     "id": "ccccff0d81b12fa8f6e7482eb706f1fed70a58f1",
     "title": "Criticize Zhuo Rongtai as the \"Three Misses President\" KMT: No truth about carcinogenic oil, no apology, no resignation",
     "title_original": "批卓榮泰是「三沒院長」 國民黨：致癌油沒真相、沒道歉、沒下台",
@@ -77,6 +110,17 @@
     "published": "2026-07-14T15:25:18+00:00"
   },
   {
+    "id": "74d4825ae53ebf291e9f1bc570d1e8a4aeac3b75",
+    "title": "Lithuanian Parliament adopts policy agenda and Sinkevičius cabinet is sworn in",
+    "title_original": "立陶宛國會通過施政綱領 辛克維丘斯內閣宣誓就職",
+    "summary": "(Central News Agency reporter You Yaoju Vilnius special report on the 14th) The Lithuanian Parliament today adopted the policy agenda of the 21st government previously proposed by Prime Minister-designate Sinkevicius, and the new cabinet was subsequently sworn in and officially operational. However, the opposition…",
+    "link": "https://www.cna.com.tw/news/aopl/202607140344.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607140344.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-14T14:49:19+00:00"
+  },
+  {
     "id": "fb6c8b69c781a4cf3d3a33d649175d0ca6eb817a",
     "title": "China-Russia natural gas pipeline stuck, experts point out lack of incentives for Beijing",
     "title_original": "中俄天然氣管線卡關 專家指對北京缺少誘因",
@@ -86,6 +130,17 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-14T14:18:57+00:00"
+  },
+  {
+    "id": "6bfbd27d552c4d1629407c7870610b81ce942445",
+    "title": "Russian troops bomb Kiev for fifth time this month; Zelensky calls on allies to pass new sanctions",
+    "title_original": "俄軍本月第5度射彈轟基輔 澤倫斯基籲盟友通過新制裁",
+    "summary": "(Central News Agency, Kyiv, comprehensive foreign news report on the 14th) Russia has stepped up its air strikes in Ukraine and launched a large number of drones and ballistic missiles against the Ukrainian capital Kiev early this morning. This is the fifth time this month that the Russian military has launched such…",
+    "link": "https://www.cna.com.tw/news/aopl/202607140333.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607140333.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-14T13:51:54+00:00"
   },
   {
     "id": "2ff5f923bd3fdfa10e772493d70fa0eea5ff4452",
@@ -2814,16 +2869,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-12T21:30:00+00:00"
-  },
-  {
-    "id": "b0476d2abfbcaaa99f6aba67f9848665909fd116",
-    "title": "Food safety is national security! He revealed that the major shareholder behind Taishan Enterprises was actually \"this criminal\" from China...",
-    "title_original": "食安就是國安！他曝泰山企業背後大股東 竟是出身中國「這號罪犯」......",
-    "summary": "Zoomlion's soybean salad oil was found to have excessive levels of the first-level carcinogen \"benzopyrene (BaP)\", causing a food safety crisis. Zoomlion and 11 senior executives of Taishan, Fushou and Fumao Oil, the three oil giants that jointly invested in Zoomlion, have been named as defendants. Lai Lai, convener…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5503047",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5503047",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-12T17:07:15+00:00"
   }
 ]
