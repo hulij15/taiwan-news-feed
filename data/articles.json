@@ -44,6 +44,17 @@
     "published": "2026-07-16T00:00:00+00:00"
   },
   {
+    "id": "2d95eaaa8b106c02e86c8aa64d16ca6d0fdc86b1",
+    "title": "US Silicon Valley investors estimate \"cross-strait reunification within 20 years\" Taiwan Affairs Office of the State Council responds",
+    "title_original": "美國矽谷投資人估「20年內兩岸統一」 國台辦回應",
+    "summary": "The Taiwan Affairs Office of the State Council held a regular press conference on the 15th. In response to recent concerns from the Silicon Valley investment community in the United States about the situation in the Taiwan Strait, and some investors predicting that Taiwan will gradually unify with the mainland \"in…",
+    "link": "https://www.ettoday.net/news/20260716/3201927.htm",
+    "link_key": "https://www.ettoday.net/news/20260716/3201927.htm",
+    "source": "ETtoday - Cross-Strait",
+    "category": "press_zh",
+    "published": "2026-07-15T16:34:00+00:00"
+  },
+  {
     "id": "c76af96aceeb532394a91766686eacbccff852b0",
     "title": "\"The election command is handed over to the presidential candidate\" blocked Zhang Yazhong: Party chairman should not be afraid",
     "title_original": "「選戰指揮權交總統候選人」遭阻攔 張亞中：黨主席不該畏懼",
@@ -3166,27 +3177,5 @@
     "source": "CNA - International",
     "category": "wire_zh",
     "published": "2026-07-13T21:17:55+00:00"
-  },
-  {
-    "id": "6e2821d6cef5e0ab97342581f631d07c0edef1cd",
-    "title": "US resumes blockade of Iranian ports, military announces execution time",
-    "title_original": "美國恢復封鎖伊朗港口 軍方公布執行時間",
-    "summary": "(Central News Agency, Washington, 13th, comprehensive foreign news reports) The U.S. military said that the United States will resume its port blockade in Iran starting tomorrow.",
-    "link": "https://www.cna.com.tw/news/aopl/202607140006.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607140006.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-13T19:20:49+00:00"
-  },
-  {
-    "id": "4cd97a36e96d4c6e0c49c2e096a165efbe9836fb",
-    "title": "The Hungarian parliament passes a constitutional amendment requiring the president to sign it to end his term",
-    "title_original": "匈牙利國會通過修憲案 要求總統簽署結束任期",
-    "summary": "(Central News Agency, Budapest, Comprehensive Foreign Reports on the 13th) The Hungarian Parliament passed a constitutional amendment today with the goal of deposing President Tamas Sulyok. Current Prime Minister Peter Magyar called him a \"puppet\" of former Prime Minister Viktor Orban.",
-    "link": "https://www.cna.com.tw/news/aopl/202607140005.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607140005.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-13T19:12:47+00:00"
   }
 ]
