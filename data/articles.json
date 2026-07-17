@@ -1,5 +1,214 @@
 [
   {
+    "id": "162688c1379f1c3a7b61b7e602496ffac9ec26c3",
+    "title": "US’ Trump doubles down on election interference claims",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/07/18/2003860943",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/07/18/2003860943",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-18T00:00:00+00:00"
+  },
+  {
+    "id": "53483c0a748144515abb13b870b6664faf781ffc",
+    "title": "Premier apologizes, vows action on tainted oil cases",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860951",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860951",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-18T00:00:00+00:00"
+  },
+  {
+    "id": "37fd9ed315b9d88803166606084debcb95fd28a3",
+    "title": "Chiang rallies local governments, KMT over oil scare",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860952",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/18/2003860952",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-18T00:00:00+00:00"
+  },
+  {
+    "id": "41d878d04ce44e8f5e82c66bf82fdc3728f5b458",
+    "title": "Beijing remains spooked by books",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/07/18/2003860934",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/07/18/2003860934",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-18T00:00:00+00:00"
+  },
+  {
+    "id": "194d821d8bc2a766aa41aa46d9e6fc347601068e",
+    "title": "NATO’s Ankara summit was more than escape",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/07/18/2003860939",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/07/18/2003860939",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-18T00:00:00+00:00"
+  },
+  {
+    "id": "a9fb59c5d224cac2145af4c486b4766e5a34e2b8",
+    "title": "Donovan’s Deep Dives: The TPP’s first official delegation to China tells us little about their cross-strait policies",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/feat/archives/2026/07/18/2003860940",
+    "link_key": "https://www.taipeitimes.com/News/feat/archives/2026/07/18/2003860940",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-18T00:00:00+00:00"
+  },
+  {
+    "id": "5cdef4faaabe5605bbbb7f687d3f61c42e51eef7",
+    "title": "Lu Xiuyan pointed out that the central government exerted pressure not to inspect factories. The Executive Yuan said: Do not use food safety operations as political offense and defense.",
+    "title_original": "盧秀燕指中央施壓不要查廠 行政院轟：勿將食安操作為政治攻防",
+    "summary": "The China United Cancer Oil scandal has spread. Taichung Mayor Lu Hsiu-yen today (17th) criticized the Executive Yuan for repeatedly pressuring the local government not to inspect factories, not to announce the flow of the poisonous oil, not to remove the poisonous oil from the shelves, etc. In this regard, Executive…",
+    "link": "https://www.ettoday.net/news/20260717/3203243.htm",
+    "link_key": "https://www.ettoday.net/news/20260717/3203243.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-17T15:32:00+00:00"
+  },
+  {
+    "id": "d50d139a3db9577f6265fc8ac3d41901d2afdf24",
+    "title": "It is recommended that Ji Guangyang withdraw from the election! Taoyuan Blue Camp Chairman Cai Zhongcheng: I never said that",
+    "title_original": "建議佀廣洋退選！ 桃園藍營主委蔡忠誠：我從未這樣說",
+    "summary": "In response to some media reports, which alleged that Cai Zhongcheng, chairman of the KMT Taoyuan City Party Committee, \"has suggested through channels that Ji Guangyang withdraw from the election,\" the KMT Taoyuan City Party Headquarters issued a solemn statement on the 17th. Chairman Cai Zhongcheng said that during…",
+    "link": "https://www.ettoday.net/news/20260717/3203237.htm",
+    "link_key": "https://www.ettoday.net/news/20260717/3203237.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-17T15:28:00+00:00"
+  },
+  {
+    "id": "34ccca8d7cedf7d02984b8f6a1f50d7a1274ce7d",
+    "title": "Lu Xiuyan controls the central government and pressures local governments not to inspect factories. The Executive Yuan bombards: Food safety operations are politically offensive and defensive.",
+    "title_original": "盧秀燕控中央施壓地方不要查廠 行政院轟：食安操作政治攻防",
+    "summary": "Regarding Taichung Mayor Lu Xiuyan’s false accusations about China United Oil’s handling of the food safety incident, Executive Yuan spokesperson Lee Huizhi stressed today (17th) evening that everything will be handled in accordance with the law and scientific evidence. Major food safety incidents should be based on…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5509183",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5509183",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-07-17T15:09:20+00:00"
+  },
+  {
+    "id": "91d8fea07d3317f45e72160879a0062d8b297b9b",
+    "title": "Ukraine's replacement of defense minister sparks controversy; people in Kyiv rally for two days to support Fedorov",
+    "title_original": "烏撤換防長惹議 基輔民眾連2天集會聲援費多羅夫",
+    "summary": "(Central News Agency reporter Chen Yanting, Kyiv, 17th) The personnel changes in the Ukrainian government continue to cause controversy. Hundreds of people in Kiev took to the streets for the second consecutive day today to support the dismissed Defense Minister Fedorov and demand that President Zelensky withdraw the…",
+    "link": "https://www.cna.com.tw/news/aopl/202607170332.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607170332.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-17T14:20:38+00:00"
+  },
+  {
+    "id": "042fd6725d1638b1ff2c04f86d902b451ce33c1f",
+    "title": "Not only Ke Huang Shuangyang and Zheng Zhaoxin also came to give blessings, Chen Youcheng called the Kuomintang Party to bloom everywhere in 2026",
+    "title_original": "不只柯黃雙太陽、鄭照新也來加持 陳宥丞喊2026民眾黨遍地開花",
+    "summary": "Taipei City Councilor Chen Youcheng held a gratitude fund-raising dinner today (17th). In addition to the party's \"Two Suns\" former chairman Ko Wenzhe, current chairman Huang Guochang and other council members, Taichung City Vice Mayor Zheng Zhaoxin also showed up. Chen Youcheng said that he will continue the line of…",
+    "link": "https://www.ettoday.net/news/20260717/3203225.htm",
+    "link_key": "https://www.ettoday.net/news/20260717/3203225.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-17T13:55:00+00:00"
+  },
+  {
+    "id": "dd09c6641e7c13981299528aa9d4864462812f76",
+    "title": "Artificial Intelligence Conference sets up cross-strait exhibition areas, Taiwan-funded enterprises lay out AI applications",
+    "title_original": "人工智能大會設兩岸展區 台資企業布局AI應用",
+    "summary": "(Central News Agency reporter Liao Wenqi, Shanghai, 17th) The 2026 World Artificial Intelligence Conference (WAIC) opened in Shanghai, with cross-strait exhibition areas. Many Taiwan-funded companies participated in the exhibition to showcase AI application results, such as Inventec Xushi Yuanbang used AI to generate…",
+    "link": "https://www.cna.com.tw/news/acn/202607170324.aspx",
+    "link_key": "https://www.cna.com.tw/news/acn/202607170324.aspx",
+    "source": "CNA - Cross-Strait",
+    "category": "wire_zh",
+    "published": "2026-07-17T13:48:21+00:00"
+  },
+  {
+    "id": "7a3a5d6fc73bc3a4ab2d18dc8c68ace1225b5123",
+    "title": "Shen Boyang and Jiang Wanan have double standards. The Beijing Municipal Government strikes back: Legislators have not questioned food safety issues in 2 years.",
+    "title_original": "沈伯洋酸蔣萬安雙標 北市府回擊：立委2年0質詢食安議題",
+    "summary": "As the Zhonglian Grease crisis spreads, Social Democratic Party member Miao Boya broke the news that Taipei Mayor Chiang Wanan is also the convener of the Taipei City Food Safety Committee, but his absence rate is as high as 70%. Shen Boyang, the Democratic Progressive Party candidate for mayor of North China, is…",
+    "link": "https://www.ettoday.net/news/20260717/3203217.htm",
+    "link_key": "https://www.ettoday.net/news/20260717/3203217.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-17T13:31:00+00:00"
+  },
+  {
+    "id": "b508df87eea9a034bb8e3d568dec0b821ec1b6f6",
+    "title": "Talking about carcinogenic oil, Wu Zheng said, \"I'm not forcing you to eat it.\" Ke Wenzhe said: The DPP is arrogant",
+    "title_original": "談致癌油吳崢稱「沒逼你吃」 柯文哲酸：民進黨就是傲慢",
+    "summary": "The scandal over carcinogenic oils from China United Fat and Oil has spread. During a heated debate with media personality Huang Yangming on a political commentary program, Wu Zheng, spokesperson of the Democratic Progressive Party, said, \"I'm not forcing you to eat, so why are you shouting with me?\" which sparked…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5509105",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5509105",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-07-17T13:15:20+00:00"
+  },
+  {
+    "id": "b06cd13b4925c462eb9e5fc1eea031540c0c7b64",
+    "title": "Justice passes bill to exempt foreign cultural relics from seizure for loan and exhibition Lin Jialong: New achievements in deepening cultural diplomacy between Taiwan and Europe",
+    "title_original": "義通過法案外國文物借展免扣押 林佳龍：深化台歐文化外交新成果",
+    "summary": "Foreign Minister Lin Jialong said today (17th) that the Italian Congress has recently officially passed the \"Foreign Cultural Relics Exhibition Exhibition Exemption Act\" to provide better legal protection for foreign cultural relics to be exhibited in Italy. Lin Jialong said that in the future, the National Palace…",
+    "link": "https://news.ltn.com.tw/news/art/breakingnews/5509026",
+    "link_key": "https://news.ltn.com.tw/news/art/breakingnews/5509026",
+    "source": "Liberty Times - Arts & Culture",
+    "category": "press_zh",
+    "published": "2026-07-17T13:05:11+00:00"
+  },
+  {
+    "id": "24b95bca8c7e750d0307816f99428c4143871f40",
+    "title": "The U.S. terminates the executive order on Hong Kong-related sanctions and China expresses \"appreciation\": it hopes to resume normal economic and trade as soon as possible",
+    "title_original": "美終止涉港制裁行政令 中方表態「讚賞」：盼儘速恢復正常經貿",
+    "summary": "In response to the fact that the United States has not extended the national emergency related to Hong Kong in the \"Presidential Executive Order on the Normalization of Hong Kong\" (No. 13936), which expired on July 14, China announced the official termination of the executive order. China expressed its appreciation…",
+    "link": "https://www.ettoday.net/news/20260717/3203202.htm",
+    "link_key": "https://www.ettoday.net/news/20260717/3203202.htm",
+    "source": "ETtoday - Cross-Strait",
+    "category": "press_zh",
+    "published": "2026-07-17T12:51:00+00:00"
+  },
+  {
+    "id": "4ce5b9efd796fb43d9b60fde1ccde83a89df3325",
+    "title": "The threshold for immigrating to the United States may be significantly raised, and a deposit of US$100,000 will be required to apply for a green card.",
+    "title_original": "移民美國門檻恐大幅提高 申請綠卡擬徵10萬美元保證金",
+    "summary": "(Central News Agency, Washington, 17th, comprehensive foreign news reports) U.S. President Trump’s administration is considering imposing a security deposit of US$100,000 (approximately NT$3,236,782) on applicants seeking legal permanent residency (green cards).",
+    "link": "https://www.cna.com.tw/news/aopl/202607170308.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607170308.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-17T12:41:42+00:00"
+  },
+  {
+    "id": "5fe260977dd59cbac884cda9f2a515c416828b64",
+    "title": "Behind the Scenes/Poison Oil Case Wu Zheng revealed the attitude of the ruling party in one sentence. Jiang Wanan loudly called on the people to take to the streets.",
+    "title_original": "幕後／毒油案吳崢一句話道盡執政黨態度 蔣萬安高聲號召民眾上街",
+    "summary": "Taipei Mayor Chiang Wanan today (17th) asked people to take to the streets to express their anger against the poisonous oil storm, which caught everyone's expectations. However, he quickly integrated the opinions of the blue and white parties and decided to go to Kaidao on 725. It is understood that Chiang has…",
+    "link": "https://www.ettoday.net/news/20260717/3203195.htm",
+    "link_key": "https://www.ettoday.net/news/20260717/3203195.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-17T12:13:00+00:00"
+  },
+  {
+    "id": "ed51c62c05069a8a55ac0459821183bd077fdb3c",
+    "title": "Nominated for 22 seats! Is the DPP challenging the leadership of Changhua County Council? Xiao Jingtian spoke",
+    "title_original": "提名22席！民進黨挑戰彰化縣議會龍頭？ 蕭景田說話了",
+    "summary": "In the year-end election, 55 seats are up for election in the ten constituencies of the Changhua County Council in the next term, one more than this term. The majority of the seats in the next term will be 28. The Democratic Progressive Party nominated 22 seats, the Kuomintang nominated 32 seats, and the People's…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5509067",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5509067",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-07-17T12:08:22+00:00"
+  },
+  {
     "id": "cdf7b3b742de8f033384a02fb30a555ece68535e",
     "title": "County Councilor Shen Suzheng has switched to Nantou Mayor. The DPP’s 1st District will not be nominated",
     "title_original": "縣議員沈夙崢轉戰南投市長 民進黨第1選區將不補提名",
@@ -33,6 +242,61 @@
     "published": "2026-07-17T11:41:57+00:00"
   },
   {
+    "id": "b4b9966090286e694daf2068372a17af4ff7f49e",
+    "title": "The Shanghai WAIC Cross-Strait Exhibition Area gathers outstanding Taiwanese companies, and the \"Mazu\" weather warning system from China is unveiled at the conference.",
+    "title_original": "上海WAIC兩岸展區集結優秀台企 陸「媽祖」天氣預警系統亮相大會",
+    "summary": "The 2026 World Artificial Intelligence Conference and the High-Level Conference on Artificial Intelligence Global Governance opened grandly in Shanghai today (17th). The conference specially opened a \"Cross-Strait Exhibition Area\", attracting more than a dozen outstanding Taiwan-funded leading companies to present…",
+    "link": "https://www.ettoday.net/news/20260717/3203177.htm",
+    "link_key": "https://www.ettoday.net/news/20260717/3203177.htm",
+    "source": "ETtoday - Cross-Strait",
+    "category": "press_zh",
+    "published": "2026-07-17T11:28:00+00:00"
+  },
+  {
+    "id": "f62957d44607d3dbceacc8b4c6c7196be3a30b3f",
+    "title": "Support \"I am a bookstore clerk\" Ministry of Culture: Protect freedom of publication and freedom of expression",
+    "title_original": "聲援「我是書店店員」 文化部：守護出版及言論自由",
+    "summary": "(Central News Agency reporter Qiu Zuyin, Taipei, 17th) Hong Kong independent bookstores were recently raided by the police. People from all walks of life posted \"I am a bookstore clerk\" on social networking sites to express support. The Ministry of Culture also posted a statement on Facebook fans today to express…",
+    "link": "https://www.cna.com.tw/news/acul/202607170282.aspx",
+    "link_key": "https://www.cna.com.tw/news/acul/202607170282.aspx",
+    "source": "CNA - Culture",
+    "category": "wire_zh",
+    "published": "2026-07-17T11:05:45+00:00"
+  },
+  {
+    "id": "3f19e2a77d938a35a94e7acde44433e78f8aaa20",
+    "title": "Banquet with CEDAW International Examiner Jiang Qichen: The Legislative Yuan has long promoted gender equality",
+    "title_original": "宴CEDAW國際審查委員 江啟臣：立院長期推動性別平權",
+    "summary": "(Central News Agency reporter Wang Chengzhong, Taipei, 17th) Vice President of the Legislative Yuan Jiang Qichen hosted a banquet for the International Review Committee of the \"Convention on the Elimination of All Forms of Discrimination against Women (CEDAW)\" at noon today. Jiang Qichen said that the Legislative…",
+    "link": "https://www.cna.com.tw/news/aipl/202607170280.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202607170280.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-07-17T11:03:41+00:00"
+  },
+  {
+    "id": "194a06f4371b1fcd8a6b66329a373929ab8ceb3c",
+    "title": "Charis' kindergarten was violently abusing children! Parents submit a letter of support to the parliament Jiang Wanan: There is no limit to a thorough investigation",
+    "title_original": "夏莉絲幼兒園爆虐童！家長衝議會交陳情信 蔣萬安：徹查無上限",
+    "summary": "A branch of the private Charis International Kindergarten in Taipei City, located in Zhongzheng District, was recently exposed for cases of collective child abuse and improper treatment. After concluding the general policy inquiry today (17th), Mayor Chiang Wanan accepted a petition from the parents of the victims,…",
+    "link": "https://www.ettoday.net/news/20260717/3203187.htm",
+    "link_key": "https://www.ettoday.net/news/20260717/3203187.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-07-17T11:02:00+00:00"
+  },
+  {
+    "id": "99b57d296eb71f81f670ee841d3fb690173dbc16",
+    "title": "Spain's most beautiful 20-year-old princess went to the United States to watch the World Cup finals! Looking forward to recreating the super cute moment of holding the cup 16 years ago",
+    "title_original": "西班牙20歲最美公主赴美看世足決賽！ 盼重現16年前超萌捧盃時刻",
+    "summary": "The Spanish national football team defeated France 2-0 in the semi-finals of the 2026 World Cup, reaching the final again after 16 years, and the whole country rejoiced. The Spanish royal family simultaneously released heartwarming pictures of the whole family watching the game. King Felipe VI, Queen Letizia,…",
+    "link": "https://www.ettoday.net/news/20260717/3203024.htm",
+    "link_key": "https://www.ettoday.net/news/20260717/3203024.htm",
+    "source": "ETtoday - International",
+    "category": "press_zh",
+    "published": "2026-07-17T11:00:00+00:00"
+  },
+  {
     "id": "d59ceca608b2833496b0757fb3a84416030989c1",
     "title": "Is a new era of joint manufacturing between Taiwan and the United States coming? This \"White Paper\" reveals how Taiwan's supply chain should move eastward to the United States to avoid risks",
     "title_original": "台美共同製造新時代來臨？這份《白皮書》揭密台灣供應鏈應如何赴美「東進」避險",
@@ -53,6 +317,17 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-17T10:53:03+00:00"
+  },
+  {
+    "id": "c364906e18be66b01353c1368e0ede81ec7fc04b",
+    "title": "Weng Zhangliang holds a new book launch event, and Tsai Ing-wen attends to support",
+    "title_original": "翁章梁辦新書發表會 蔡英文到場力挺",
+    "summary": "(Central News Agency reporter Wang Yangyu, Taipei, 17th) Chiayi County Mayor Weng Zhangliang held a new book launch event today called \"Chiayi is Seen\" to share the transformation of Chiayi County. Former President Tsai Ing-wen came to the scene to support, and said that Taiwan's power does not only come from the…",
+    "link": "https://www.cna.com.tw/news/aipl/202607170276.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202607170276.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-07-17T10:47:32+00:00"
   },
   {
     "id": "758c4ac9bdf4a732ad8afd7ab8c4e4bacbd1f8c7",
@@ -97,6 +372,28 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-17T10:20:04+00:00"
+  },
+  {
+    "id": "56ba562ca5470217879e3c74cee843b7e546e6a3",
+    "title": "The Central Election Commission lowers the local election guarantee deposit for mayors directly under the central government to 1.2 million",
+    "title_original": "中選會調降地方選舉保證金 直轄市長降為120萬",
+    "summary": "(Central News Agency reporter Lai Yuzhen, Taipei, 17th) The nine-in-one election is approaching. The Central Election Commission today reviewed and approved a comprehensive reduction in local election deposits. The deposit for candidates in the municipal mayor election has been reduced from NT$1.5 million to NT$1.2…",
+    "link": "https://www.cna.com.tw/news/aipl/202607170267.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202607170267.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-07-17T10:12:13+00:00"
+  },
+  {
+    "id": "93bee916b821ab1ff1a5a268681dc3033df45fed",
+    "title": "China pressures to ban Myanmar mine human rights documentary, Thailand allows screening, attracting attention",
+    "title_original": "中國施壓禁播緬甸礦場人權紀錄片 泰國准映引關注",
+    "summary": "(Central News Agency reporter Li Zongxian, Bangkok, 17th) Myanmar’s independent media DVB reported today that the Chinese Embassy in Thailand recently asked Thailand to cancel the screening of a documentary exposing human rights issues in Myanmar’s copper mines, but the authorities refused to intervene and the event…",
+    "link": "https://www.cna.com.tw/news/aopl/202607170244.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607170244.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-17T09:55:22+00:00"
   },
   {
     "id": "10c2ac49470fa62f80a7856e950e29239073311e",
@@ -3166,159 +3463,5 @@
     "source": "Storm Media - Politics",
     "category": "press_zh",
     "published": "2026-07-15T21:30:00+00:00"
-  },
-  {
-    "id": "2d95eaaa8b106c02e86c8aa64d16ca6d0fdc86b1",
-    "title": "US Silicon Valley investors estimate \"cross-strait reunification within 20 years\" Taiwan Affairs Office of the State Council responds",
-    "title_original": "美國矽谷投資人估「20年內兩岸統一」 國台辦回應",
-    "summary": "The Taiwan Affairs Office of the State Council held a regular press conference on the 15th. In response to recent concerns from the Silicon Valley investment community in the United States about the situation in the Taiwan Strait, and some investors predicting that Taiwan will gradually unify with the mainland \"in…",
-    "link": "https://www.ettoday.net/news/20260716/3201927.htm",
-    "link_key": "https://www.ettoday.net/news/20260716/3201927.htm",
-    "source": "ETtoday - Cross-Strait",
-    "category": "press_zh",
-    "published": "2026-07-15T16:34:00+00:00"
-  },
-  {
-    "id": "c76af96aceeb532394a91766686eacbccff852b0",
-    "title": "\"The election command is handed over to the presidential candidate\" blocked Zhang Yazhong: Party chairman should not be afraid",
-    "title_original": "「選戰指揮權交總統候選人」遭阻攔 張亞中：黨主席不該畏懼",
-    "summary": "The Kuomintang will hold its National Party Congress (National Congress) on the 25th. Some party representatives plan to propose a \"one-yuan command system for the election campaign\". After the presidential candidate is elected, the party chairman will hand over the election command power, which has caused…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5506731",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5506731",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-15T16:24:13+00:00"
-  },
-  {
-    "id": "77c0af66777faa148cf5d5a9c744aa9d36fecc12",
-    "title": "China hosted a Taiwanese teacher for 4,000 yuan to visit Xinjiang. Akio Yaita revealed the \"price\": becoming an accomplice in the persecution of human rights",
-    "title_original": "中國招待台師4000元玩新疆 矢板明夫揭「代價」：成為迫害人權幫凶",
-    "summary": "China's Taiwan Affairs Office organized an 8-day and 7-night \"Cross-Strait Young Teachers Tour to Northern Xinjiang\" through local collaborators in Taiwan, providing free on-site hospitality with food and accommodation, allowing scholars to point out that the CCP's united front is targeting Taiwanese teachers. In…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5506695",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5506695",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-15T16:15:32+00:00"
-  },
-  {
-    "id": "62622d7c6dc3ff6a26d06da2ea774415e8b8f759",
-    "title": "What happened in the Taiwan Strait reveals the British opinion! Think tank: Semiconductors affect European security, public opinion surges in support of Taiwan",
-    "title_original": "台海有事英國人看法曝！智庫：半導體牽動歐洲安全 挺台民意會狂飆",
-    "summary": "The British think tank \"British Foreign Policy Group\" (BFPG) released the results of its annual foreign policy opinion poll on the 15th, which showed that when the Taiwan Strait is facing a crisis, the British public has a deadlock on whether the government should provide military and financial support to Taiwan...",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5506733",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5506733",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-15T16:14:07+00:00"
-  },
-  {
-    "id": "6194c24b028dbc8ea71a60dcefc0d54400fbc428",
-    "title": "Malaysia's Negeri Sembilan state assembly election heats up, with Pakatan Harapan and National Front facing off",
-    "title_original": "馬來西亞森美蘭州議員選舉升溫 希盟國陣全面交鋒",
-    "summary": "(Central News Agency reporter Huang Ziqiang, Kuala Lumpur, 15th) The Johor state parliamentary election in Malaysia has just concluded, and the Negeri Sembilan state election continues. As the two major camps of the unity government, the Alliance of Hope and the National Front, respectively announced their candidate…",
-    "link": "https://www.cna.com.tw/news/aopl/202607150372.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607150372.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-15T15:08:14+00:00"
-  },
-  {
-    "id": "e33956e9a3b7dc6089053a00b1dd9ee769b42e1c",
-    "title": "Expert: British public opinion supporting military aid to Taiwan may soar once Beijing uses force",
-    "title_original": "專家：一旦北京動武 英國支持軍援台灣民意可能飆升",
-    "summary": "(Central News Agency reporter Chen Yunyu, London, 15th) An annual British foreign policy poll released today shows that the proportion of British people who support and do not support providing military and financial support to Taiwan in times of crisis is about the same, but more people have ambiguous positions. In…",
-    "link": "https://www.cna.com.tw/news/aopl/202607150370.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607150370.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-15T14:56:09+00:00"
-  },
-  {
-    "id": "98709ce7ebaadc3e408ab0b6b2635c73f12ffa33",
-    "title": "The United States supports civil society groups with similar ideas and promotes the extension of the MAGA route to Europe",
-    "title_original": "美國扶植理念相近民間團體 推動MAGA路線延伸歐洲",
-    "summary": "The British Daily Telegraph reported on the 15th that the U.S. State Department announced on the 13th that it would provide subsidies totaling up to five million U.S. dollars to support European civil society groups that agree with U.S. ideas, covering issues such as national sovereignty, immigration, freedom of…",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5506666",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5506666",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-15T14:33:33+00:00"
-  },
-  {
-    "id": "5b13e26838b98c1ea0c1ffac134143ac14c70a56",
-    "title": "To prevent the Lee Jung-soo controversy from recurring, the Central Election Commission: You must submit proof of loss of Chinese origin for 10 years before you can run for election",
-    "title_original": "防李貞秀爭議重演 中選會：繳附喪失中國原籍證明滿10年才能參選",
-    "summary": "The nine-in-one general election will be held on November 28. In view of the controversy caused by former People's Party legislator and central supporter Li Zhenxiu over the issue of Chinese household registration, the Central Election Commission stated that if people from mainland China register as candidates, each…",
-    "link": "https://www.ettoday.net/news/20260715/3201905.htm",
-    "link_key": "https://www.ettoday.net/news/20260715/3201905.htm",
-    "source": "ETtoday - Politics",
-    "category": "press_zh",
-    "published": "2026-07-15T14:26:00+00:00"
-  },
-  {
-    "id": "bee76881e028f5ae1b22a0250953f9c3d04bc502",
-    "title": "Zeng Jiyan, the second generation of the KMT government, is involved in corruption cases, adding variables to his re-election journey",
-    "title_original": "國民黨政二代曾紀嚴涉弊案 連任之途添變數",
-    "summary": "Inspection and investigation of the Keelung City Government’s project fraud case, in which Renai District Councilor Zeng Jiyan of the Kuomintang was also involved. Zeng Jiyan is the son of former deputy speaker Zeng Shuiyuan. In addition to taking over the political career of the city councilor, he is also the…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5506648",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5506648",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-15T13:59:28+00:00"
-  },
-  {
-    "id": "9e42b7611adb0ba6ece27809f64d748bcabe8a2b",
-    "title": "Prevent Lee Jung Soo 2.0! Selection Committee: Only those who have submitted the \"Certificate of Loss of Chinese Nationality\" for 10 years can participate in the election",
-    "title_original": "防李貞秀2.0！中選會：繳附「喪失中國籍證明」滿10年才能參選",
-    "summary": "The nine-in-one general election is approaching at the end of the year. In view of the fact that former People's Party central legislator Lee Jung-soo previously caused controversy because she did not give up her Chinese citizenship. The Election Committee said that if people from the original mainland area apply to…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5506633",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5506633",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-15T13:40:31+00:00"
-  },
-  {
-    "id": "c39533d58bbb9405ee4493992c657773f50bff79",
-    "title": "Thai Foreign Minister: Myanmar President Min Aung Hlaing will visit Thailand in August",
-    "title_original": "泰國外長：緬甸總統敏昂萊8月將訪泰",
-    "summary": "(Central News Agency, Bangkok, comprehensive foreign news report on the 15th) Thai Foreign Minister Sihasak told AFP today that Myanmar President Min Aung Hlaing will visit Thailand in August. This will be his first official visit to Thailand after stepping down as the leader of the military junta and becoming a…",
-    "link": "https://www.cna.com.tw/news/aopl/202607150334.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607150334.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-15T12:41:45+00:00"
-  },
-  {
-    "id": "17b2aa89b5964f5c3d50c2bf7fa8437aacb7de29",
-    "title": "The United States launched a comprehensive counterattack against the International Criminal Court, accidentally affecting the Duterte case",
-    "title_original": "美國全面反制國際刑事法院 意外牽動杜特蒂案",
-    "summary": "(Central News Agency reporter Lin Xingjian, Manila, 15th) The United States recently announced that it will comprehensively counterattack the International Criminal Court (ICC) and warned that countries that continue to support the ICC may face stricter scrutiny. Since the Philippine government cooperated with the…",
-    "link": "https://www.cna.com.tw/news/aopl/202607150331.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607150331.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-15T12:22:38+00:00"
-  },
-  {
-    "id": "c15bcedd02d1b69f3d1d35a5f33cac4b66513e0c",
-    "title": "Young people from both sides of the Taiwan Strait gathered in Jiangsu Culture Month. Song Tao: Stand firm on national stance and resolutely resist cultural Taiwan independence",
-    "title_original": "兩岸青年齊聚江蘇文化月 宋濤：站穩民族立場、堅決抵制文化台獨",
-    "summary": "The \"6th Cross-Strait Youth Culture Month\" grandly opened today (15th) in Suzhou, Jiangsu. The diverse activities are expected to attract more than 3,500 Taiwanese youths to participate. Song Tao, director of the Taiwan Affairs Office of the State Council, personally attended the interactive exchange with Taiwanese…",
-    "link": "https://www.ettoday.net/news/20260715/3201871.htm",
-    "link_key": "https://www.ettoday.net/news/20260715/3201871.htm",
-    "source": "ETtoday - Cross-Strait",
-    "category": "press_zh",
-    "published": "2026-07-15T12:20:00+00:00"
-  },
-  {
-    "id": "7a0234aecb7c0d98c0fdf78d430c254b83f0cc44",
-    "title": "Biden to publish memoir about decision to give up running for re-election as president",
-    "title_original": "拜登將出版回憶錄 講述放棄競選連任總統等決定",
-    "summary": "(Central News Agency, New York, Comprehensive Foreign News Report on the 15th) Publisher Little, Brown and Company told the Associated Press that former US Democratic President Joe Biden will publish his memoirs in November this year, just two weeks after the midterm elections.",
-    "link": "https://www.cna.com.tw/news/aopl/202607150329.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607150329.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-15T12:10:34+00:00"
   }
 ]
