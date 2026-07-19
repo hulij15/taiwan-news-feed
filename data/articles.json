@@ -1,5 +1,82 @@
 [
   {
+    "id": "3d0574bf9db7e0e8dcd5a2c999fce5c5eb2fb84d",
+    "title": "Foreign minister reveals Germany trip",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/07/20/2003861036",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/07/20/2003861036",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-20T00:00:00+00:00"
+  },
+  {
+    "id": "c78798bf4a8e1a241fbf676f9664317d50e79dc6",
+    "title": "US senator warns about economic blockade",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/20/2003861047",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/20/2003861047",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-20T00:00:00+00:00"
+  },
+  {
+    "id": "5c83fc13fc68e56eb6071d9cb897b87313d8b199",
+    "title": "KMT lawmaker proposes gutting culture budget",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/20/2003861052",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/20/2003861052",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-20T00:00:00+00:00"
+  },
+  {
+    "id": "5308db7b30ad484334b25ec9ea8283c51c87b17f",
+    "title": "Police remove man in indigenous dress",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/20/2003861055",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/20/2003861055",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-20T00:00:00+00:00"
+  },
+  {
+    "id": "13b506fddffecff15261a17ffba19f3c654bf255",
+    "title": "Notes from Central Taiwan: Euthanasia should not be settled by referendum",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/feat/archives/2026/07/20/2003861035",
+    "link_key": "https://www.taipeitimes.com/News/feat/archives/2026/07/20/2003861035",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-20T00:00:00+00:00"
+  },
+  {
+    "id": "035427d1ce3ecc002ef1210ac79d59c782c5e37e",
+    "title": "The Kuomintang League's \"Food Safety Law\" amendments to the \"Food Safety Law\" 10 reforms will be submitted to the public, with a maximum fine of 1 billion for major incidents",
+    "title_original": "國民黨團「食安法」修法10項改革明送案 重大事件最高罰10億",
+    "summary": "The China United Oils and Fats case has attracted attention. Executive President Zhuo Rongtai said today that he will propose amendments to the food safety law to clarify the central and local authorities, and will make a clear report to the public tomorrow. Fu Kunqi, the general convenor of the Kuomintang League,…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5510804",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5510804",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-07-19T15:00:08+00:00"
+  },
+  {
+    "id": "bcbe48ddd6503971363a7de28483a48800d31246",
+    "title": "The Green Congress conferred the flag! Taoyuan Huang Shijie takes up the challenge: Combining the \"Beitai Life Circle\" to win the election",
+    "title_original": "綠全代會授旗！桃園黃世杰接戰旗：結合「北台生活圈」拚勝選",
+    "summary": "DPP Taoyuan mayor candidate Huang Shijie attended the DPP National Congress today (19th), and together with 18 other county and city chief candidates across Taiwan, received the flag from Party Chairman Lai Ching-te, symbolizing that the party's election horn was officially blown, showing unity to face the battle and…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5510795",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5510795",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-07-19T14:55:58+00:00"
+  },
+  {
     "id": "0b8029c1cebe91f5efe5181bd60e1321ea777761",
     "title": "Support Graham’s last wish! Trump: Iran should be included in Russia sanctions bill",
     "title_original": "力挺葛蘭姆遺願！川普：應將伊朗納入俄羅斯制裁法案",
@@ -2121,38 +2198,5 @@
     "source": "CNA - International",
     "category": "wire_zh",
     "published": "2026-07-17T20:24:17+00:00"
-  },
-  {
-    "id": "5cdef4faaabe5605bbbb7f687d3f61c42e51eef7",
-    "title": "Lu Xiuyan pointed out that the central government exerted pressure not to inspect factories. The Executive Yuan said: Do not use food safety operations as political offense and defense.",
-    "title_original": "盧秀燕指中央施壓不要查廠 行政院轟：勿將食安操作為政治攻防",
-    "summary": "The China United Cancer Oil scandal has spread. Taichung Mayor Lu Hsiu-yen today (17th) criticized the Executive Yuan for repeatedly pressuring the local government not to inspect factories, not to announce the flow of the poisonous oil, not to remove the poisonous oil from the shelves, etc. In this regard, Executive…",
-    "link": "https://www.ettoday.net/news/20260717/3203243.htm",
-    "link_key": "https://www.ettoday.net/news/20260717/3203243.htm",
-    "source": "ETtoday - Politics",
-    "category": "press_zh",
-    "published": "2026-07-17T15:32:00+00:00"
-  },
-  {
-    "id": "d50d139a3db9577f6265fc8ac3d41901d2afdf24",
-    "title": "It is recommended that Ji Guangyang withdraw from the election! Taoyuan Blue Camp Chairman Cai Zhongcheng: I never said that",
-    "title_original": "建議佀廣洋退選！ 桃園藍營主委蔡忠誠：我從未這樣說",
-    "summary": "In response to some media reports, which alleged that Cai Zhongcheng, chairman of the KMT Taoyuan City Party Committee, \"has suggested through channels that Ji Guangyang withdraw from the election,\" the KMT Taoyuan City Party Headquarters issued a solemn statement on the 17th. Chairman Cai Zhongcheng said that during…",
-    "link": "https://www.ettoday.net/news/20260717/3203237.htm",
-    "link_key": "https://www.ettoday.net/news/20260717/3203237.htm",
-    "source": "ETtoday - Politics",
-    "category": "press_zh",
-    "published": "2026-07-17T15:28:00+00:00"
-  },
-  {
-    "id": "34ccca8d7cedf7d02984b8f6a1f50d7a1274ce7d",
-    "title": "Lu Xiuyan controls the central government and pressures local governments not to inspect factories. The Executive Yuan bombards: Food safety operations are politically offensive and defensive.",
-    "title_original": "盧秀燕控中央施壓地方不要查廠 行政院轟：食安操作政治攻防",
-    "summary": "Regarding Taichung Mayor Lu Xiuyan’s false accusations about China United Oil’s handling of the food safety incident, Executive Yuan spokesperson Lee Huizhi stressed today (17th) evening that everything will be handled in accordance with the law and scientific evidence. Major food safety incidents should be based on…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5509183",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5509183",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-17T15:09:20+00:00"
   }
 ]
