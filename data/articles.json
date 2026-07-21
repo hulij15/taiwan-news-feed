@@ -1,5 +1,82 @@
 [
   {
+    "id": "20ea8cf29ddef8b7077245404b8fc75ab3f58f1b",
+    "title": "KMT submits motion to suspend drone funding",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/22/2003861167",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/22/2003861167",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-22T00:00:00+00:00"
+  },
+  {
+    "id": "704c5c3131568808594a12ec7e4abb0e5a550fad",
+    "title": "KMT lawmaker calls for freeze of premier’s salary",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/22/2003861168",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/22/2003861168",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-22T00:00:00+00:00"
+  },
+  {
+    "id": "b1daa0a2000783a2f33b0e9de6f67c87e9da3bd9",
+    "title": "HSBC Refreshes Premier Proposition in Taiwan",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/biz/archives/2026/07/22/2003861139",
+    "link_key": "https://www.taipeitimes.com/News/biz/archives/2026/07/22/2003861139",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-22T00:00:00+00:00"
+  },
+  {
+    "id": "074c544a786605ed95d16a2dfd80ca529178c6ee",
+    "title": "Nicaragua’s Ortega says no more elections",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/07/22/2003861181",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/07/22/2003861181",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-22T00:00:00+00:00"
+  },
+  {
+    "id": "897ea1123570984e79469517df50225a5d848642",
+    "title": "Accusing China of stealing AI models, Bessant: US plans to investigate and possibly impose sanctions",
+    "title_original": "控中國竊取AI模型 貝森特：美擬調查且可能制裁",
+    "summary": "(Central News Agency, Washington, 21st Comprehensive Foreign News Report) U.S. Treasury Secretary Scott Bessent said today that the Trump administration will investigate whether China’s artificial intelligence (AI) was distilled from American models, and emphasized that the government does not support “intellectual…",
+    "link": "https://www.cna.com.tw/news/aopl/202607220007.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607220007.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-21T19:12:42+00:00"
+  },
+  {
+    "id": "a014eb9d97e91a2fccf8bf8b382fdc2a408062d7",
+    "title": "Section 301 Investigation Tariff Crisis Resurfaces, U.S. Trade Representative Says Action Will Be Taken Soon",
+    "title_original": "301調查關稅風波再起 美貿易代表指很快有行動",
+    "summary": "(Central News Agency reporter Liao Hanyuan, Washington, 21st) After the Supreme Court ruled that it had no authority to impose global tariffs, the Trump administration cited Article 122 of the Trade Law to impose a 10% import tax and launched an investigation into the forced labor issue under Article 301. Trade…",
+    "link": "https://www.cna.com.tw/news/aopl/202607220006.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607220006.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-21T17:57:39+00:00"
+  },
+  {
+    "id": "4d2cb2a93386593607765e16fe20e5b050939219",
+    "title": "The United States introduces new tariffs, Canadian Prime Minister: Evaluating various response methods",
+    "title_original": "美國祭出新關稅 加拿大總理：正評估各項應對方式",
+    "summary": "(Central News Agency, Montreal, Comprehensive Foreign News Report on the 21st) After U.S. President Donald Trump plans to impose 50% new tariffs on a number of Canadian goods exported to the United States within 30 days, Canadian Prime Minister Mark Carney said today that he is \"evaluating various response options.\"",
+    "link": "https://www.cna.com.tw/news/aopl/202607220004.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607220004.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-21T17:29:34+00:00"
+  },
+  {
     "id": "8d17353c2fb0920b860c30d7d36ea554d2dc0ae6",
     "title": "Worse than Akio Yaita! Jie Lijian was beaten to death by suspected Chinese spies in the United States, and Jie Lijian was seriously injured and fell into a coma",
     "title_original": "比矢板明夫慘！在美疑遭中國特務往死裡打 界立建重傷陷昏迷",
@@ -2858,16 +2935,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-19T22:12:04+00:00"
-  },
-  {
-    "id": "d95f64de41a7853e68587d38ffab8b7afcc83e3c",
-    "title": "DPP veteran Zhang Junhong’s home was foreclosed on. Lawyer suggested 2 ways to resolve the crisis",
-    "title_original": "民進黨元老張俊宏住家遭法拍 律師提2方法解危",
-    "summary": "This magazine recently reported that the girlfriend surnamed Huang, the founder of the Democratic Progressive Party Zhang Junhong, suddenly suffered a stroke and became paralyzed last year. Since Zhang and Huang were not married, Zhang could not dispose of the assets in Huang's name, resulting in increasing debts and…",
-    "link": "https://www.ettoday.net/news/20260720/3204075.htm",
-    "link_key": "https://www.ettoday.net/news/20260720/3204075.htm",
-    "source": "ETtoday - Politics",
-    "category": "press_zh",
-    "published": "2026-07-19T18:19:00+00:00"
   }
 ]
