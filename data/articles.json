@@ -1,5 +1,104 @@
 [
   {
+    "id": "ab6bed63c7a588ebbbba460191ac7f7dc9987048",
+    "title": "Minister asserts Taiwan’s claims in South China Sea",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/23/2003861229",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/23/2003861229",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-23T00:00:00+00:00"
+  },
+  {
+    "id": "e154bf08b658343f4eaba979d6b65cfcfe98b03d",
+    "title": "KMT motions for NT$295m Control Yuan budget cut",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/23/2003861232",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/23/2003861232",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-23T00:00:00+00:00"
+  },
+  {
+    "id": "ee91c6edfd7dfa13fd574a2f89bce51891786615",
+    "title": "KMT drone cuts would deal a blow to industry: MOEA",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/biz/archives/2026/07/23/2003861203",
+    "link_key": "https://www.taipeitimes.com/News/biz/archives/2026/07/23/2003861203",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-23T00:00:00+00:00"
+  },
+  {
+    "id": "278776fe20ef15be08aaae9e2c9b0b42f87bf991",
+    "title": "EDITORIAL: Defending Taiwanese identity",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/07/23/2003861207",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/07/23/2003861207",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-23T00:00:00+00:00"
+  },
+  {
+    "id": "2750aef01f563ad2f5d77c710a4f667089951ad2",
+    "title": "Donovan’s Deep Dives: The factional politics behind the DPP’s apparent unity",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/feat/archives/2026/07/23/2003861215",
+    "link_key": "https://www.taipeitimes.com/News/feat/archives/2026/07/23/2003861215",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-23T00:00:00+00:00"
+  },
+  {
+    "id": "eef806f8e65d50f998d872aa137da54dc99dc73d",
+    "title": "US FCC passes new rules banning sales of key Chinese-made hardware related to national security risks",
+    "title_original": "美FCC通過新規 禁售涉國安風險中國製關鍵硬體",
+    "summary": "The Federal Communications Commission (FCC) voted today to adopt new rules to ban the sale in the United States of critical hardware devices from Chinese companies that are deemed to pose national security risks. Reuters reported that the U.S. Federal Communications Commission has a list of companies, including…",
+    "link": "https://news.ltn.com.tw/news/world/breakingnews/5514508",
+    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5514508",
+    "source": "Liberty Times - International",
+    "category": "press_zh",
+    "published": "2026-07-22T19:36:03+00:00"
+  },
+  {
+    "id": "b08747cf9f061bfa077ad150223c3131c374dc99",
+    "title": "The US, Japan, Australia and India foreign ministers’ meeting discussed strengthening support for ASEAN to balance China",
+    "title_original": "美日澳印外長會議 研議加強支援東協制衡中國",
+    "summary": "(Central News Agency, Manila, comprehensive foreign news report on the 22nd) The \"Quad\" foreign ministers' meeting of the United States, Japan, Australia and India was held in Manila, the capital of the Philippines, today to exchange views on issues such as the South China Sea, the Indo-Pacific region and the…",
+    "link": "https://www.cna.com.tw/news/aopl/202607230009.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607230009.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-22T18:51:28+00:00"
+  },
+  {
+    "id": "a21ced2d5ee36e2d015b013fc34b07014ecf0ab2",
+    "title": "The Taiwan Film Festival in Bangkok came under pressure from China to withdraw the title of Taiwan’s Ministry of Culture, but the Thai organizer refused in a domineering manner.",
+    "title_original": "曼谷台灣影展遭中國施壓要求撤台灣文化部名銜 泰主辦方霸氣拒絕",
+    "summary": "At the \"Taiwan Documentary & Film Festival in Bangkok\" held in Bangkok, Thailand, the Thai director accused diplomats of the Chinese Embassy in Thailand...",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5514488",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5514488",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-07-22T17:34:46+00:00"
+  },
+  {
+    "id": "1faefefa0598de83f60813d01bab01a0a64a68f8",
+    "title": "ASEAN side meeting Wang Yi protested to the Philippine Foreign Minister about the conflict in Renai Shoal",
+    "title_original": "東協場邊會 王毅向菲外長抗議仁愛暗沙衝突",
+    "summary": "(Central News Agency, Taipei, 22nd) Xinhua News Agency reported that Chinese Foreign Minister Wang Yi told Philippine Foreign Minister Lazaro today that he \"strongly protested against the brutal behavior of Philippine personnel ramming Chinese law enforcement vessels at Second Thomas Shoal (Ren Ai Shoal)\".",
+    "link": "https://www.cna.com.tw/news/aopl/202607220373.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607220373.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-22T15:29:01+00:00"
+  },
+  {
     "id": "a0d6cf236bdd0728710ff8ddfcd934346734c1db",
     "title": "The United States and Saudi Arabia plan to sign a nuclear agreement! Israel is waiting, and the opposition criticizes Netanyahu for being marginalized",
     "title_original": "美沙擬簽署核協議！以色列剉咧等 在野痛批納坦雅胡被邊緣化",
@@ -3386,16 +3485,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-20T21:30:00+00:00"
-  },
-  {
-    "id": "dbbfce56f9de89c478d05839d2d25c3fda38ee54",
-    "title": "Reduce dependence on the United States! Canada spends $46.2 billion to purchase 190 more armored vehicles and provides 35 additional vehicles to Ukraine",
-    "title_original": "降低對美依賴！加拿大砸462億增購190輛裝甲車 另出資援烏35輛",
-    "summary": "Canada is actively expanding its military armored fleet and plans to spend nearly 2 billion Canadian dollars (approximately NT$46.2 billion) in the next four years to purchase 190 new \"Armored Combat Support Vehicles\" (ACSV). This major contract has been awarded to an Ontario-based...",
-    "link": "https://news.ltn.com.tw/news/def/breakingnews/5511864",
-    "link_key": "https://news.ltn.com.tw/news/def/breakingnews/5511864",
-    "source": "Liberty Times - Military & Defense",
-    "category": "press_zh",
-    "published": "2026-07-20T16:41:42+00:00"
   }
 ]
