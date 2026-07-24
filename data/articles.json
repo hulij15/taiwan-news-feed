@@ -1,5 +1,60 @@
 [
   {
+    "id": "fc9fd8b0d31f0cf3dbb3620546b2e77b821b9f06",
+    "title": "USTR notices a 10% tariff on Taiwan under Section 301",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/07/25/2003861341",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/07/25/2003861341",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-25T00:00:00+00:00"
+  },
+  {
+    "id": "81bba70f2066d58c2fdbf530891cbce76d7eb515",
+    "title": "US tariff hikes dismay and anger trading partners",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/07/25/2003861342",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/07/25/2003861342",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-25T00:00:00+00:00"
+  },
+  {
+    "id": "181a31447cee76c87b771141c17287286edb5c1d",
+    "title": "KMT wins ‘ill-gotten’ estate lawsuit against CIPAS",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/25/2003861357",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/25/2003861357",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-25T00:00:00+00:00"
+  },
+  {
+    "id": "7e7ae50d313ddfdffcb87085f4a2f2665049a3dd",
+    "title": "Merz reshuffles Cabinet ahead of state elections",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/07/25/2003861370",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/07/25/2003861370",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-25T00:00:00+00:00"
+  },
+  {
+    "id": "cde8998dd60808ba83a657f37d5a3b19dfd0b115",
+    "title": "South Korean official: Samsung SK Hynix will announce a major chip order during Lee Jae-myung’s visit to the United States",
+    "title_original": "韓官員：李在明訪美期間 三星SK海力士將宣布晶片大單",
+    "summary": "(Central News Agency, Seoul, comprehensive foreign news report on the 24th) Kim Yong-beom, director of the Policy Office of the South Korean Presidential Office, revealed that during President Lee Jae-myung’s visit to San Francisco in the United States this weekend, South Korea’s two major semiconductor manufacturers…",
+    "link": "https://www.cna.com.tw/news/aopl/202607240371.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607240371.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-24T15:27:08+00:00"
+  },
+  {
     "id": "08d3fb0fbc2d09e6e81fc5d7d29d8f2c33502ef8",
     "title": "The Beijing Municipal Government builds AI to deal with the challenge of requesting funds. Zhao Shilong unveiled CiviClaw’s two-stage implementation blueprint and information security red lines.",
     "title_original": "北市府打造AI應對索資挑戰 趙式隆揭CiviClaw兩階段落地藍圖與資安紅線",
@@ -20,6 +75,17 @@
     "source": "CNA - International",
     "category": "wire_zh",
     "published": "2026-07-24T14:15:54+00:00"
+  },
+  {
+    "id": "655b57c74fa78882540b328f2cbae309d2b76ece",
+    "title": "U.S. 301 tariff exempts 2,231 Taiwanese products, including phalaenopsis and flamingos",
+    "title_original": "美國301關稅豁免台灣2231項產品 蝴蝶蘭火鶴花等入列",
+    "summary": "(Central News Agency reporter Lai Yuzhen, Taipei, 24th) The U.S. Trade Representative’s Office imposed additional tariffs on 60 economies under Section 301. Taiwan received 10% without superposition of most-favored-nation (MFN) tariffs, and enjoyed an exemption list. The Executive Yuan's Taiwan-U.S. Economic and…",
+    "link": "https://www.cna.com.tw/news/aipl/202607240363.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202607240363.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-07-24T14:05:47+00:00"
   },
   {
     "id": "5290b80bd88af2d1657b6aaca93773638b0d8fc4",
@@ -108,6 +174,17 @@
     "source": "Storm Media - Politics",
     "category": "press_zh",
     "published": "2026-07-24T13:07:18+00:00"
+  },
+  {
+    "id": "4868344123daf35c085cdbc733afd9d7b933b7dc",
+    "title": "Looking for new stars in cross-strait music circles! The 3rd Hokkien Young Singers Competition starts today with gold medal judges sitting in",
+    "title_original": "尋找兩岸歌壇新星！第3屆閩南語青年歌手賽今起跑 金牌評委坐鎮",
+    "summary": "This year's \"The 3rd World Hokkien Young Singer Competition\" is in preparation and is expected to debut in the second half of the year. The Taiwan competition area will fully open online registration from today (24th). This competition specially invites heavyweight musicians such as Chinese music godmother Ding…",
+    "link": "https://www.ettoday.net/news/20260724/3207271.htm",
+    "link_key": "https://www.ettoday.net/news/20260724/3207271.htm",
+    "source": "ETtoday - Cross-Strait",
+    "category": "press_zh",
+    "published": "2026-07-24T13:04:00+00:00"
   },
   {
     "id": "7a1484dd59473222a04abcd325b15688cca917c8",
@@ -2891,60 +2968,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-22T21:30:00+00:00"
-  },
-  {
-    "id": "eef806f8e65d50f998d872aa137da54dc99dc73d",
-    "title": "US FCC passes new rules banning sales of key Chinese-made hardware related to national security risks",
-    "title_original": "美FCC通過新規 禁售涉國安風險中國製關鍵硬體",
-    "summary": "The Federal Communications Commission (FCC) voted today to adopt new rules to ban the sale in the United States of critical hardware devices from Chinese companies that are deemed to pose national security risks. Reuters reported that the U.S. Federal Communications Commission has a list of companies, including…",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5514508",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5514508",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-22T19:36:03+00:00"
-  },
-  {
-    "id": "b08747cf9f061bfa077ad150223c3131c374dc99",
-    "title": "The US, Japan, Australia and India foreign ministers’ meeting discussed strengthening support for ASEAN to balance China",
-    "title_original": "美日澳印外長會議 研議加強支援東協制衡中國",
-    "summary": "(Central News Agency, Manila, comprehensive foreign news report on the 22nd) The \"Quad\" foreign ministers' meeting of the United States, Japan, Australia and India was held in Manila, the capital of the Philippines, today to exchange views on issues such as the South China Sea, the Indo-Pacific region and the…",
-    "link": "https://www.cna.com.tw/news/aopl/202607230009.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607230009.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-22T18:51:28+00:00"
-  },
-  {
-    "id": "a21ced2d5ee36e2d015b013fc34b07014ecf0ab2",
-    "title": "The Taiwan Film Festival in Bangkok came under pressure from China to withdraw the title of Taiwan’s Ministry of Culture, but the Thai organizer refused in a domineering manner.",
-    "title_original": "曼谷台灣影展遭中國施壓要求撤台灣文化部名銜 泰主辦方霸氣拒絕",
-    "summary": "At the \"Taiwan Documentary & Film Festival in Bangkok\" held in Bangkok, Thailand, the Thai director accused diplomats of the Chinese Embassy in Thailand...",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5514488",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5514488",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-22T17:34:46+00:00"
-  },
-  {
-    "id": "1faefefa0598de83f60813d01bab01a0a64a68f8",
-    "title": "ASEAN side meeting Wang Yi protested to the Philippine Foreign Minister about the conflict in Renai Shoal",
-    "title_original": "東協場邊會 王毅向菲外長抗議仁愛暗沙衝突",
-    "summary": "(Central News Agency, Taipei, 22nd) Xinhua News Agency reported that Chinese Foreign Minister Wang Yi told Philippine Foreign Minister Lazaro today that he \"strongly protested against the brutal behavior of Philippine personnel ramming Chinese law enforcement vessels at Second Thomas Shoal (Ren Ai Shoal)\".",
-    "link": "https://www.cna.com.tw/news/aopl/202607220373.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202607220373.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-07-22T15:29:01+00:00"
-  },
-  {
-    "id": "a0d6cf236bdd0728710ff8ddfcd934346734c1db",
-    "title": "The United States and Saudi Arabia plan to sign a nuclear agreement! Israel is waiting, and the opposition criticizes Netanyahu for being marginalized",
-    "title_original": "美沙擬簽署核協議！以色列剉咧等 在野痛批納坦雅胡被邊緣化",
-    "summary": "The United States is expected to reach an agreement with Saudi Arabia to develop a civilian nuclear program, which seems to completely bypass Israel, causing concern in Israel and an even stronger backlash from the opposition camp, believing that this move may set off a nuclear energy development race in the Middle…",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5514463",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5514463",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-22T15:25:23+00:00"
   }
 ]
