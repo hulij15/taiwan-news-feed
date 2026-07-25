@@ -1,5 +1,71 @@
 [
   {
+    "id": "b1ad1f54415fdbab8b1a7fdfe7869e6fc78fc514",
+    "title": "KMT holds national congress",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/26/2003861396",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/26/2003861396",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-26T00:00:00+00:00"
+  },
+  {
+    "id": "3ce97a974d95e2304c10ff6c19443ae45a68437b",
+    "title": "KMT stages rally following tainted cooking oil scandal",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/26/2003861398",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/26/2003861398",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-26T00:00:00+00:00"
+  },
+  {
+    "id": "e1c9fedf454c7d748d9306b5c3bed8e1a78d1788",
+    "title": "DPP lawmakers speak on war resilience in US",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/26/2003861399",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/26/2003861399",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-26T00:00:00+00:00"
+  },
+  {
+    "id": "5af1b1dd4017409bbe823677e648d6211b005158",
+    "title": "DPP lawmaker to throw first pitch at Dodgers versus Mets game in New York",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/26/2003861401",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/26/2003861401",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-26T00:00:00+00:00"
+  },
+  {
+    "id": "b0fc59e347b936fcbca2585fe5e5725ac66434e4",
+    "title": "UNESCO adds more sites to its World Heritage List",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/07/26/2003861414",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/07/26/2003861414",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-26T00:00:00+00:00"
+  },
+  {
+    "id": "b64464da3583464552550d51ded30a9366a736d9",
+    "title": "Reuters: U.S. officials want to question the integrity of Brazil’s election, visa application rejected",
+    "title_original": "路透：美官員欲質疑巴西大選公正性 簽證申請遭拒",
+    "summary": "(Central News Agency, Brasilia, Comprehensive Foreign Reports on the 25th) Brazil has rejected the visa applications of two officials from the U.S. President Donald Trump’s administration, two Brazilian officials with knowledge of the situation told Reuters today. The two US officials originally planned to travel to…",
+    "link": "https://www.cna.com.tw/news/aopl/202607260004.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607260004.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-25T18:50:06+00:00"
+  },
+  {
     "id": "21f80591e142ca3ee931b320ce5fb55403830d50",
     "title": "Fu Kunqi called on 1 million people to come to Kaidao. Chen Peiyu said: The KMT’s political farce will continue to be staged.",
     "title_original": "傅崐萁喊100萬人上凱道 陳培瑜轟：國民黨的政治鬧劇會持續上演",
@@ -2671,27 +2737,5 @@
     "source": "CNA - Politics",
     "category": "wire_zh",
     "published": "2026-07-23T20:23:50+00:00"
-  },
-  {
-    "id": "f194e793c4d0422dbe02eefcaf9beb031e94509f",
-    "title": "Trump: Xi Jinping will visit the United States on September 24 and will discuss AI issues with him",
-    "title_original": "川普：習近平9/24訪美 將與他討論AI議題",
-    "summary": "U.S. President Donald Trump said today that he will discuss artificial intelligence (AI)-related issues with Chinese President Xi Jinping when he visits the United States on September 24. Reuters reported that the two met earlier this year during Trump's visit to China. Trump in North...",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5515780",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5515780",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-23T19:30:04+00:00"
-  },
-  {
-    "id": "e011029269be20c7af3bf3c6a0d26e1cafabcf41",
-    "title": "Worried about causing serious misjudgment, Australia’s foreign minister once again criticized China for testing submarine-launched nuclear missiles and expanding its nuclear arsenal",
-    "title_original": "憂引發嚴重誤判 澳洲外長再批中國試射潛射核飛彈、擴張核武庫",
-    "summary": "Australian Foreign Minister Penny Wong reiterated her public criticism of China's ballistic missile test earlier this month on the 23rd, describing it as \"provocative and destabilizing\" and singled out Beijing for its rapid expansion of its nuclear arsenal. ...",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5515749",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5515749",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-23T15:50:43+00:00"
   }
 ]
