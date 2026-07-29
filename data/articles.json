@@ -1,5 +1,71 @@
 [
   {
+    "id": "597d849e0efe4e87c2bc912f06658e6af71fe9a6",
+    "title": "Drones critical for national security: Lai",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/30/2003861631",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/30/2003861631",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-30T00:00:00+00:00"
+  },
+  {
+    "id": "8aa3ce434b7a1435a48ab68eeb8bf8d3a6024a96",
+    "title": "MOFA to protest South African ETA system designation",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/30/2003861634",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/30/2003861634",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-30T00:00:00+00:00"
+  },
+  {
+    "id": "106c6a9865cfc6ce8caa6c2713e7171d10f99737",
+    "title": "Protecting indigenous culture in a democracy",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/07/30/2003861611",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/07/30/2003861611",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-30T00:00:00+00:00"
+  },
+  {
+    "id": "aed073f7aea545f40cf50827325b51131b15c9ff",
+    "title": "Russia sanctions clear 1st Senate hurdle",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/07/30/2003861646",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/07/30/2003861646",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-07-30T00:00:00+00:00"
+  },
+  {
+    "id": "7244a5865c49858e6a1f53bce5e7b8c6a89bd962",
+    "title": "The war between the United States and Iran pushes up oil prices, the Fed continues to wait and see and freezes interest rates for 5 consecutive years",
+    "title_original": "美伊戰火推升油價 聯準會續觀望利率連5凍",
+    "summary": "(Central News Agency, Washington, 29th, comprehensive foreign news reports) The U.S. Federal Reserve (Fed) once again kept interest rates unchanged at its policy meeting today. This is the fifth consecutive time that the Federal Reserve has kept interest rates unchanged.",
+    "link": "https://www.cna.com.tw/news/aopl/202607300006.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202607300006.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-07-29T18:09:40+00:00"
+  },
+  {
+    "id": "a12da6a69e311e5cde9f5f6ac87a33144d8ebeaa",
+    "title": "Cut off Tehran’s oil-carrying golden veins! The United States imposes heavy sanctions on Chinese and Hong Kong shipping companies and cracks down on Iran’s shadow fleet",
+    "title_original": "斬斷德黑蘭運油金脈！美重手制裁中港航運商 嚴打伊朗影子艦隊",
+    "summary": "The U.S. government announced sanctions on a group of Chinese and Hong Kong shipping companies on the 29th, accusing the ships operated by these companies of transporting Iranian oil to China, thereby combining Washington's economic pressure on Tehran with its maritime blockade. Hong Kong's \"South China Morning Post\"…",
+    "link": "https://news.ltn.com.tw/news/world/breakingnews/5522356",
+    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5522356",
+    "source": "Liberty Times - International",
+    "category": "press_zh",
+    "published": "2026-07-29T17:19:51+00:00"
+  },
+  {
     "id": "42cebd85e0c6a5c413f70ddafd9e1a3aa9202bff",
     "title": "China's gray zone coercion against Taiwan intensifies. Scholar: The United States should adopt \"structural ambiguity\" instead.",
     "title_original": "中國對台灰色地帶脅迫加劇 學者：美應改採「結構性模糊」",
@@ -53,6 +119,17 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-29T13:11:57+00:00"
+  },
+  {
+    "id": "b2e77faaed53b8ede5df9a60aa7a8dc1b694d0c7",
+    "title": "The Supervisory Committee pointed out that there are loopholes in the management of students going to the Mainland. Mainland Affairs Council: Help to increase the awareness of the CCP’s united front",
+    "title_original": "監委指學生赴陸管理有漏洞 陸委會：協助增進對中共統戰的心防",
+    "summary": "The investigation report of Supervisory Committee members Lin Wencheng and Tian Qiujin pointed out that the Mainland Affairs Council and the Ministry of Education were urged to review and improve in view of imbalances in cross-strait educational exchanges, schools' failure to report information about students going…",
+    "link": "https://www.ettoday.net/news/20260729/3209971.htm",
+    "link_key": "https://www.ettoday.net/news/20260729/3209971.htm",
+    "source": "ETtoday - Cross-Strait",
+    "category": "press_zh",
+    "published": "2026-07-29T13:01:00+00:00"
   },
   {
     "id": "eec7c2ce35300adea1ef5ab358e44a9c310e15ce",
@@ -2946,38 +3023,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-27T21:12:03+00:00"
-  },
-  {
-    "id": "ba18cc44eb2ef7ba1a724f3019bfce3868144ce4",
-    "title": "Not Lai Qingde... Members of the blue camp are worried about this big shot taking power: they will not spare the Kuomintang!",
-    "title_original": "不是賴清德...... 藍營議員擔憂這位大咖掌權：不會饒過國民黨！",
-    "summary": "The nine-in-one general election is getting closer and closer, and the blue-white alliance is obvious. However, there are still many voices within the Kuomintang that believe that we should not look to the People's Party. One of the representatives is the current Taipei City Councilor Zhong Xiaoping. When he recently…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5519688",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5519688",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-27T16:34:32+00:00"
-  },
-  {
-    "id": "5701150bd141ccffb94d6d4efed93b9af75884f2",
-    "title": "Wu Zheng wrote a slanderous article about Jiang Wanan, \"How difficult is it to go to work well?\" North City Government: It should be sent to the Central Government of the Democratic Progressive Party",
-    "title_original": "吳崢發文酸蔣萬安「好好上班到底有多難」 北市府：應送給民進黨中央政府",
-    "summary": "DPP spokesperson Wu Zheng posted on Facebook, \"Our mayor of the capital, what is Jiang Wanan busy with these days?\" Jiang Wanan, who is not at work due to acid reflux and frequently engaged in political struggles, is busy fighting for status within the KMT and tearing society apart. In this regard, Taipei City…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5519731",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5519731",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-07-27T16:25:03+00:00"
-  },
-  {
-    "id": "304ef2767c92cde3ad031439f600236294a8c2a8",
-    "title": "Philippine President’s State of the Union Address implicitly criticized China and vowed to defend the South China Sea arbitration and “will never give in”",
-    "title_original": "菲總統國情咨文暗批中國 誓言捍衛南海仲裁 「絕不屈服」",
-    "summary": "Philippine President Ferdinand Marcos Jr. delivered his annual State of the Union address on the 27th, implicitly criticizing China without naming him, vowing that the Philippine government will defend the 2016 arbitration result that denied Beijing’s South China Sea sovereignty claims, and emphasized...",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5519725",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5519725",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-27T16:13:55+00:00"
   }
 ]
