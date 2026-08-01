@@ -1,5 +1,71 @@
 [
   {
+    "id": "5d97c46579025c45bdcc6117cae1850dedf5ca1d",
+    "title": "Cabinet to unveil budget this month",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/08/02/2003861783",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/08/02/2003861783",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-02T00:00:00+00:00"
+  },
+  {
+    "id": "e115a0765298e3a770bc21a8637eac9a9f9db18d",
+    "title": "Premier calls for speedy approval of nominees",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/02/2003861795",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/02/2003861795",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-02T00:00:00+00:00"
+  },
+  {
+    "id": "c7eac38bb023111c7ceb2887bc7bfcbc98b048ea",
+    "title": "Washington Open defined by upset matches",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/sport/archives/2026/08/02/2003861790",
+    "link_key": "https://www.taipeitimes.com/News/sport/archives/2026/08/02/2003861790",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-02T00:00:00+00:00"
+  },
+  {
+    "id": "1cda173ece99550662f874d603e39620b76b1f6f",
+    "title": "Warsaw, Kyiv exhume Volyn massacre victims at center of diplomatic quarrel",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/08/02/2003861814",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/08/02/2003861814",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-02T00:00:00+00:00"
+  },
+  {
+    "id": "49f8f47713dbe37d3d65a6c08881e9a9a4cc51a0",
+    "title": "Youzhu County's primary election \"bets on bad votes\" Zheng Liwen: Chen Jianxian was seriously injured and integration is still working hard",
+    "title_original": "憂竹縣初選「賭爛票」 鄭麗文：陳見賢受傷很重 整合還在努力",
+    "summary": "KMT Chairman Zheng Liwen recently stated that the KMT is in relatively good shape for elections at the end of the year in four counties and cities including Hsinchu County, Yilan County, Changhua County and Chiayi City. The Kuomintang will go to Hsinchu County next week to hold a regular meeting in action to gather…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5525671",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5525671",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-08-01T16:27:46+00:00"
+  },
+  {
+    "id": "063f55fc2b175e1a2b314cd7d07b3e2abdd88cfc",
+    "title": "Chen Qimai said that Li Yang should be spanked for punishing standing committee members. The Kuomintang: The one who deserves the most spanking is Chen Peiyu.",
+    "title_original": "陳其邁稱李洋罰站立委該打屁股 國民黨：最該打的是陳培瑜",
+    "summary": "Some media alleged that Sports Minister Li Yang was \"punished to stand\" in the Legislative Yuan. Chen Yixin, chairman of the KMT's Cultural Communication Committee, said that this was simply the DPP's \"acting a thief and shouting to catch a thief.\" It was clear that KMT convenor Luo Tingwei asked Li Yang to sit down…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5525667",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5525667",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-08-01T16:05:53+00:00"
+  },
+  {
     "id": "e0f71831f2f94a86b97ecf90f80dffdc6da8a568",
     "title": "Is running a big country like managing a \"gangster\"? Scholar in the United States: Trump’s “transactional” diplomacy is like a gang and full of practical considerations",
     "title_original": "治大國有如管「黑幫」？旅美學者：川普的「交易式」外交有如幫派、而且充滿現實考慮",
@@ -768,6 +834,17 @@
     "source": "ETtoday - Politics",
     "category": "press_zh",
     "published": "2026-08-01T02:38:00+00:00"
+  },
+  {
+    "id": "9d0a81ed22fc0f7ea0200eeefd5e346c9250e85f",
+    "title": "Philippines sets territorial sea baseline on Democracy Reef, counterattacks by PLA naval and air drills",
+    "title_original": "菲律賓劃設民主礁領海基線 共軍海空演訓反制",
+    "summary": "(Central News Agency reporter Li Yawen, Taipei, 1st) The Philippines announced the establishment of a territorial sea baseline on Minzhu Reef (called Huangyan Island in China). The Southern Theater Command of the Communist Party of China announced today that it will organize joint sea and air exercises in the…",
+    "link": "https://www.cna.com.tw/news/acn/202608010031.aspx",
+    "link_key": "https://www.cna.com.tw/news/acn/202608010031.aspx",
+    "source": "CNA - Cross-Strait",
+    "category": "wire_zh",
+    "published": "2026-08-01T02:23:07+00:00"
   },
   {
     "id": "a8c417c3c5e52e374b67e1892633f8a641a16b52",
@@ -2000,71 +2077,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-07-30T21:30:00+00:00"
-  },
-  {
-    "id": "5d4a8c2f03b17ae2c86ab7f83dbf264d17a96505",
-    "title": "The PRC Launches a Diplomatic Campaign Against Japan and The Philippines – and Steps Up Naval Activity East of Taiwan",
-    "title_original": null,
-    "summary": "The app “Amap” has recently sparked a cybersecurity controversy in Taiwan. Amap, fully owned by China's Alibaba Group, is an online map that features traffic light countdown and lane-level guidance. A government security review found nine out of fifteen indicators about the app that flagged as high-risk—including…",
-    "link": "https://globaltaiwan.org/2026/07/the-prc-launches-diplomatic-campaign-japan-the-philippines/",
-    "link_key": "https://globaltaiwan.org/2026/07/the-prc-launches-diplomatic-campaign-japan-the-philippines/",
-    "source": "Global Taiwan Brief (Global Taiwan Institute)",
-    "category": "analysis",
-    "published": "2026-07-30T17:53:04+00:00"
-  },
-  {
-    "id": "34b6e2ef3899c3d7fc0f90d3f22b4d2a36d1441e",
-    "title": "Are Japan Weapons Exports to Taiwan Conceivable in a Future Strait War?",
-    "title_original": null,
-    "summary": "On April 21 this year, the cabinet of Prime Minister Sanae Takaichi approved a significant revision to Japan's Three Principles on Transfer of Defense Equipment and Technology, a set of self-imposed guidelines for the government’s arms sales to other countries. The revision cleared the way for Japan to export lethal…",
-    "link": "https://globaltaiwan.org/2026/07/are-japan-weapons-exports-to-taiwan-conceivable-in-a-future-strait-war/",
-    "link_key": "https://globaltaiwan.org/2026/07/are-japan-weapons-exports-to-taiwan-conceivable-in-a-future-strait-war/",
-    "source": "Global Taiwan Brief (Global Taiwan Institute)",
-    "category": "analysis",
-    "published": "2026-07-30T17:52:24+00:00"
-  },
-  {
-    "id": "fa6150f271b2d0b33a8625eb6139766939f5404a",
-    "title": "From Amap to the Foodpanda Acquisition: Taiwan Urgently Needs a Geospatial Data Governance Framework",
-    "title_original": null,
-    "summary": "The app “Amap” has recently sparked a cybersecurity controversy in Taiwan. Amap, fully owned by China's Alibaba Group, is an online map that features traffic light countdown and lane-level guidance. A government security review found nine out of fifteen indicators about the app that flagged as high-risk—including…",
-    "link": "https://globaltaiwan.org/2026/07/from-amap-to-the-foodpanda-acquisition/",
-    "link_key": "https://globaltaiwan.org/2026/07/from-amap-to-the-foodpanda-acquisition/",
-    "source": "Global Taiwan Brief (Global Taiwan Institute)",
-    "category": "analysis",
-    "published": "2026-07-30T17:51:40+00:00"
-  },
-  {
-    "id": "dcc7648bbd8b3f0213b93b8c88a4c292241b62d1",
-    "title": "Four Years Later: The Legacy of the Nancy Pelosi Visit on Taiwan’s Security",
-    "title_original": null,
-    "summary": "In early August 2022, then-U.S. House Speaker Nancy Pelosi visited Taipei to meet with then-Taiwan President Tsai Ing-wen. The visit, originally scheduled for the spring but delayed due to Pelosi contracting COVID-19, marked the culmination of Pelosi’s foreign policy career as a leader in the Democratic Party. Before…",
-    "link": "https://globaltaiwan.org/2026/07/four-years-later/",
-    "link_key": "https://globaltaiwan.org/2026/07/four-years-later/",
-    "source": "Global Taiwan Brief (Global Taiwan Institute)",
-    "category": "analysis",
-    "published": "2026-07-30T17:50:33+00:00"
-  },
-  {
-    "id": "6b90566c18aab75ba8209d17baf032a31231ee7f",
-    "title": "Beyond False Comparisons: Why Taiwan and the Malvinas Are Not the Same",
-    "title_original": null,
-    "summary": "In April 2024, Minister of Foreign Affairs of the People’s Republic of China (PRC) Wang Yi held a public meeting with his Argentine counterpart, Diana Mondino, in response to months of speculation that Argentina and Taiwan might conduct a rapprochement. Prior to the meeting, reports had suggested that representatives…",
-    "link": "https://globaltaiwan.org/2026/07/beyond-false-comparisons-why-taiwan-and-the-malvinas-are-not-the-same/",
-    "link_key": "https://globaltaiwan.org/2026/07/beyond-false-comparisons-why-taiwan-and-the-malvinas-are-not-the-same/",
-    "source": "Global Taiwan Brief (Global Taiwan Institute)",
-    "category": "analysis",
-    "published": "2026-07-30T17:49:51+00:00"
-  },
-  {
-    "id": "da9506397377c022400507335f4f72f196806824",
-    "title": "Is the United Nations’ first female Secretary-General? Selection process starts",
-    "title_original": "聯合國出現首任女祕書長？遴選程序啟動",
-    "summary": "The United Nations Security Council started the process of selecting the next United Nations Secretary-General on the 30th. The seven candidates on the table held the first round of closed-door, anonymous and informal \"straw poll\" to understand the support of the candidates. Among the seven candidates, there were…",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5523665",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5523665",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-07-30T16:13:24+00:00"
   }
 ]
