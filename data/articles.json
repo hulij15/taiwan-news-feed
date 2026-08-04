@@ -1,5 +1,60 @@
 [
   {
+    "id": "0c174d6852175997fcf4e6b321f83d6f737f2ba6",
+    "title": "Military aid should pass: US lawmaker",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/08/05/2003861954",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/08/05/2003861954",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-05T00:00:00+00:00"
+  },
+  {
+    "id": "a51b82cb10d9bac46075668533e70cd89c73c9df",
+    "title": "Tariff triumph for agriculture goods",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/08/05/2003861946",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/08/05/2003861946",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-05T00:00:00+00:00"
+  },
+  {
+    "id": "1a346270c735531b37295ee5aa757f552f733283",
+    "title": "The ‘peaceful reunification’ trap",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/08/05/2003861947",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/08/05/2003861947",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-05T00:00:00+00:00"
+  },
+  {
+    "id": "40f27a8b37f100ef8c2269a83f46a5791a9fac2b",
+    "title": "One arrested for Washington wildfires",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/08/05/2003861977",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/08/05/2003861977",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-05T00:00:00+00:00"
+  },
+  {
+    "id": "bea568f60a0e044797a3bb130d3c2b2ebb1edbd3",
+    "title": "Rubio: The United States and Iran and Oman have made progress in discussing the Strait of Hormuz issue",
+    "title_original": "盧比歐：美和伊朗阿曼商討荷莫茲海峽議題 已有進展",
+    "summary": "Qatar said that the mediators have made progress in pushing the United States and Iran to end the war. U.S. Secretary of State Rubio also said today that the United States is participating in dialogue and negotiations between Oman and Iran to discuss how to allow more ships to safely pass through the Strait of Hormuz…",
+    "link": "https://news.ltn.com.tw/news/world/breakingnews/5528774",
+    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5528774",
+    "source": "Liberty Times - International",
+    "category": "press_zh",
+    "published": "2026-08-04T20:12:03+00:00"
+  },
+  {
     "id": "076014854c1a937d33428ce0da70a355d52f9eca",
     "title": "Hong Kong toy dealers shout \"Support the one-China principle\" Netizens: Do you need to read the National Security Law to play with toys?",
     "title_original": "香港玩具商喊「支持一個中國原則」 網酸：玩玩具還要讀國安法？",
@@ -42,6 +97,17 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-08-04T14:26:45+00:00"
+  },
+  {
+    "id": "ec51b9bee1536cf5f37d919c2acffb4e600693cf",
+    "title": "The total budget for next year will hit 3.6 trillion. Lai Ching-te reveals the \"10 key points\" to promote salary increases and expand tax cuts.",
+    "title_original": "明年總預算衝上3.6兆 賴清德曝「10大重點」推動加薪、擴大減稅",
+    "summary": "After listening to the Executive Yuan's \"116 Central Government General Budget\" today (4th), President Lai Ching-te said that last year, Taiwan's economic growth rate reached 8.76%, and in the first quarter of this year, it reached 14.55%. This is the result of the joint efforts of the entire people. He also shared…",
+    "link": "https://www.ettoday.net/news/20260804/3213432.htm",
+    "link_key": "https://www.ettoday.net/news/20260804/3213432.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-08-04T14:14:00+00:00"
   },
   {
     "id": "4c94b3a9e44819b9972e4a1826d5042e667e5872",
@@ -1769,16 +1835,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-08-02T21:30:00+00:00"
-  },
-  {
-    "id": "9890c7c7a181b31c04dbbbc74f74066bc7d8cf46",
-    "title": "United Front \"Starts from Baby\"! Exchanges between elementary and middle schools in China surge. He revealed that the CCP is targeting children!",
-    "title_original": "統戰「從娃娃抓起」！國中小赴中交流暴增 他曝中共看準兒童這1點！",
-    "summary": "The CCP has been packaging political propaganda in the name of cultural visits, educational exchanges, etc. for many years, and strengthened its united front work against Taiwan Youth. The Supervisory Yuan recently released an investigation report stating that in China, in the past four years (2022 to 2025), the…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5526436",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5526436",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-08-02T16:53:56+00:00"
   }
 ]
