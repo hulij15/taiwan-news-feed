@@ -1,5 +1,49 @@
 [
   {
+    "id": "410590a50632c65070845fc7ca7adb009823b6e6",
+    "title": "KMT heavyweight praises cross-strait civic summit",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/08/2003862141",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/08/2003862141",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-08T00:00:00+00:00"
+  },
+  {
+    "id": "f0e9cac530f950677e3eb4729aad5ed7906c6ce8",
+    "title": "KMT criticizes the Cabinet after power outage at building",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/08/2003862144",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/08/2003862144",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-08T00:00:00+00:00"
+  },
+  {
+    "id": "9eb9cc7828b251ff793563a0088c0f0c1b4fa490",
+    "title": "The future of Taiwan-ASEAN ties",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/08/08/2003862126",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/08/08/2003862126",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-08T00:00:00+00:00"
+  },
+  {
+    "id": "0992751792d4e8c6ce54dce1930ef854ef237d03",
+    "title": "Sour King Huimei doesn’t support Wei Pingzheng? Zheng Liwen: She is concentrating on county politics and has not yet started the secondary election.",
+    "title_original": "酸王惠美不挺魏平政？鄭麗文：她專心縣政 還沒開始輔選",
+    "summary": "KMT Chairman Cheng Lai-man accepted an exclusive interview with media personality Huang Guangqin. When talking about the local elections at the end of the year, she admitted that this year's \"election situation is cold\", but she can feel that people's support can be used. Regarding the difficult constituency, she…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5532562",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5532562",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-08-07T16:16:49+00:00"
+  },
+  {
     "id": "b78b01302601a1238539bb8e7241ffec5e399cdf",
     "title": "KMT AI spokesperson Zheng Xiaowen made his first appearance, criticizing poisonous oil but even mistyped \"Jiang Zhigang\"",
     "title_original": "國民黨AI發言人鄭小文初登場 批毒油卻連「姜至剛」都打錯",
@@ -20,6 +64,17 @@
     "source": "Storm Media - Politics",
     "category": "press_zh",
     "published": "2026-08-07T14:56:53+00:00"
+  },
+  {
+    "id": "5b95208cf563dda1a67e67fa036f18b645a6f601",
+    "title": "Mainland China announces traffic control of ships in the Taiwan Strait. Mainland Affairs Council: Don’t worry about the CCP!",
+    "title_original": "陸宣布交管台海船舶 陸委會：不勞中共費心！",
+    "summary": "As Typhoon \"White Dolphin\" approaches, the Guangdong Maritime Safety Administration of mainland China announced on the 5th that from 18:00 on the 6th, it will implement traffic control on ships passing northward through the south entrance of the Taiwan Strait. The Mainland Affairs Council issued a press release on…",
+    "link": "https://www.ettoday.net/news/20260807/3215436.htm",
+    "link_key": "https://www.ettoday.net/news/20260807/3215436.htm",
+    "source": "ETtoday - Cross-Strait",
+    "category": "press_zh",
+    "published": "2026-08-07T14:42:00+00:00"
   },
   {
     "id": "afd1f29b33e91ca8f0974e216c6de76123586f3b",
@@ -2319,49 +2374,5 @@
     "source": "ETtoday - Cross-Strait",
     "category": "press_zh",
     "published": "2026-08-05T19:10:00+00:00"
-  },
-  {
-    "id": "304832fb5343b48b92ab60416a0ac8b830f25c87",
-    "title": "It’s not the fault of China United Oil, but it bombarded Taiwan Sugar. The lawyer god is a metaphor for people to understand what the KMT has become!",
-    "title_original": "不怪中聯油卻砲轟台糖 律師神比喻讓人看懂國民黨「變啥魍」！",
-    "summary": "The scandal about Zoomlion's carcinogenic oil continues to spread. The Kuomintang does not condemn Zoomlion Oil and Fat, which produces the problematic oil, and its downstream companies Taishan, Fushou and Fumao. Instead, it targets Taiwan Sugar, which buys crude oil as raw material, and scolds the central escort…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5529996",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5529996",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-08-05T16:44:24+00:00"
-  },
-  {
-    "id": "2781a310ec8c5cbe3d4170253edd59b5a8e08259",
-    "title": "Is the election campaign getting easier? Progressives of the US Democratic Party advance in swing states. Trump: Great news",
-    "title_original": "選戰變好打？美民主黨進步派在搖擺州出線 川普：大好消息",
-    "summary": "The results of the Democratic U.S. Senate primary in Michigan were released on the 5th. Progressive candidate and former public health official Abdul El-Sayed defeated the current U.S. Congresswoman Haley Stevens (Haley St...",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5530044",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5530044",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-08-05T16:34:35+00:00"
-  },
-  {
-    "id": "c5093fde630f441ddc40e8debff55043d5e08ff0",
-    "title": "AI fakes identity to trick real person into executing malicious code. After being discovered, he still wants to \"substitute someone and try again\"",
-    "title_original": "AI造假身分誘真人執行惡意碼 被識破還想「換人再試」",
-    "summary": "Tests by the British Information Security Agency found that Anthropic's advanced artificial intelligence (AI) model Mythos had created a fake identity in a test environment and contacted real people in an attempt to induce the other party to approve malicious code for execution in an open source project...",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5530033",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5530033",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-08-05T15:50:56+00:00"
-  },
-  {
-    "id": "b833bb8ea573048f63e807708afc3f69c6f763ac",
-    "title": "US FBI cooperates with China and Russia to combat transnational crime, triggering national security controversy",
-    "title_original": "美聯邦調查局與中俄合作打擊跨國犯罪 引發國安爭議",
-    "summary": "美國聯邦調查局（FBI）局長巴特爾（Kash Patel）透露，FBI已與美國長期戰略競爭對手中國與俄羅斯，建立全新的執法合作夥伴關係，期望藉由「非傳統夥伴」（non-tra...…",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5530034",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5530034",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-08-05T15:40:57+00:00"
   }
 ]
