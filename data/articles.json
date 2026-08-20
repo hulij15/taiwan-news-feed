@@ -1,5 +1,27 @@
 [
   {
+    "id": "a58e48937c90c7d8defaf391cdb987dd111942db",
+    "title": "Cabinet approves record NT$1.1225tn defense budget for next year",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/08/21/2003862862",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/08/21/2003862862",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-21T00:00:00+00:00"
+  },
+  {
+    "id": "1eb8e49102d94ce6464f18ff3ee7f5635436d2b5",
+    "title": "Cabinet budgets for pension increase",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/21/2003862874",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/21/2003862874",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-21T00:00:00+00:00"
+  },
+  {
     "id": "6563fe2856c0e53a6bc601aad2088addb78e33d2",
     "title": "After USS Lincoln's long-term deployment was criticized, USS Washington arrived in the Middle East",
     "title_original": "美林肯號航艦長期部署遭批後 華盛頓號航艦抵中東",
@@ -3430,16 +3452,5 @@
     "source": "Liberty Times - Politics",
     "category": "press_zh",
     "published": "2026-08-18T21:30:00+00:00"
-  },
-  {
-    "id": "d5fad3a37a74ce6e59c67b21ce1de93581fb11dc",
-    "title": "Rely on Qingde and don’t fail to be virtuous! Kuomintang: Since 10,000 yuan is not enough to buy groceries, 20,000 yuan will be distributed universally",
-    "title_original": "要賴清德別為德不卒！國民黨：既然1萬買菜不夠就普發2萬",
-    "summary": "Chen Yixin, chairman of the Kuomintang Cultural Communication Committee, said that President Lai Qingde's announcement of a universal cash deposit of 10,000 yuan next year, which will be included in the central government's general budget next year, is tantamount to a formal recognition of two things. First, the…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5544498",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5544498",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-08-18T16:32:12+00:00"
   }
 ]
