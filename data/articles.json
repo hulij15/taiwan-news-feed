@@ -1,5 +1,49 @@
 [
   {
+    "id": "3ceaa6fd3f1e2c13946b1310d3bea318168cc2df",
+    "title": "President Lai once proposed moving the capital to Taichung. Jiang Qichen: Affirmed the original intention of advocating to build a \"flagship city\"",
+    "title_original": "賴總統曾提遷都台中 江啟臣：肯定主張打造「旗艦城」初衷",
+    "summary": "When President Lai Ching-te attended the handover ceremony of the Lions Club President in Taichung last night, he mentioned that he had proposed the idea of ​​moving the Legislative Yuan and the Executive Yuan to Taichung to form a one-day living circle. Jiang Qichen, Vice President of the Legislative Yuan and…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5549435",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5549435",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-08-23T06:57:37+00:00"
+  },
+  {
+    "id": "2d4a279b23158ca9689222a0f9b7275f8d1d6ed7",
+    "title": "Cross-district joint defense in Matsu and New Taipei strengthens anti-election propaganda among Matsu folks",
+    "title_original": "馬祖新北跨區聯防 強化馬祖鄉親反賄選宣導",
+    "summary": "The Lianjiang District Prosecutor's Office has established a cross-jurisdictional joint cooperation mechanism with the New Taipei District Prosecutor's Office (referred to as the New Taipei District Prosecutor's Office) for the prevention of bribery and bribery across regions. Prosecutor General Liu Junjie of the…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5549429",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5549429",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-08-23T06:51:08+00:00"
+  },
+  {
+    "id": "eb9e8c507c2c727bf61eee4fd88ff089fb9b8578",
+    "title": "The 68th Anniversary of the August 23 Battle Cheng Lai-wen: President Lai recognizes the 1992 Consensus and the two sides can have dialogue",
+    "title_original": "八二三戰役68週年 鄭麗文：賴總統承認九二共識兩岸就能對話",
+    "summary": "(Central News Agency reporter Wu Wenrong, Kinmen, 23rd) Today is the 68th anniversary of the August 23rd Battle. KMT Chairman Cheng Lai-wen said that if we want to create peace, as long as President Lai Qingde is willing to recognize the 1992 Consensus on the basis of the Constitution of the Republic of China, the…",
+    "link": "https://www.cna.com.tw/news/aipl/202608230094.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202608230094.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-08-23T06:26:22+00:00"
+  },
+  {
+    "id": "a62da738f75c3b3c31eb74d0f7727a90a8655f51",
+    "title": "823 Choking Lai Qingde to challenge the bottom line of democracy Zhu Lilun: We must admit defeat in the election and cannot overturn the table",
+    "title_original": "八二三嗆賴清德挑戰民主底線 朱立倫：選輸要認、不能翻桌",
+    "summary": "Today (23rd) coincides with the anniversary of the August 23rd Artillery Battle, and is also the first anniversary of the successful anti-evil strike of August 23rd last year. Former Kuomintang Chairman Zhu Lilun said that the August 23rd Artillery Battle protected Taiwan and democracy. Last year, the Taiwanese…",
+    "link": "https://www.ettoday.net/news/20260823/3224235.htm",
+    "link_key": "https://www.ettoday.net/news/20260823/3224235.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-08-23T06:04:00+00:00"
+  },
+  {
     "id": "efde19352f4e4522abbae61f37887556f37dc52a",
     "title": "The child did nothing wrong! He Xinchun appeals to the KMT: sheltered factories should not become political victims",
     "title_original": "孩子沒有做錯事！何欣純籲國民黨：庇護工場不應成為政治犧牲品",
@@ -31,6 +75,17 @@
     "source": "Liberty Times - Politics",
     "category": "press_zh",
     "published": "2026-08-23T05:30:24+00:00"
+  },
+  {
+    "id": "db524851539f00dcb3b1df782f6aa2004fb92a89",
+    "title": "Application for 2 million yuan to visit Germany was rejected by the Kuomintang? Weng Xiaoling shouts slander: I dismiss it",
+    "title_original": "申請200萬訪德遭國民黨拒絕？ 翁曉玲喊汙衊：我不屑一顧",
+    "summary": "Kuomintang Chairman Cheng Lai-wen led a delegation to visit China and the United States this year to apply for party subsidies from the Democracy Foundation, sparking discussions. It was reported that Blue Committee member Weng Xiaoling was originally scheduled to adjourn the session and take six legislators to…",
+    "link": "https://www.ettoday.net/news/20260823/3224207.htm",
+    "link_key": "https://www.ettoday.net/news/20260823/3224207.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-08-23T05:30:00+00:00"
   },
   {
     "id": "89b692b1465c4e7e94dcce2465ca5768ce69478a",
@@ -1945,38 +2000,5 @@
     "source": "Liberty Times - Politics",
     "category": "press_zh",
     "published": "2026-08-21T07:17:10+00:00"
-  },
-  {
-    "id": "5ed313e9f64377e7bd7d0006003c5c8baecc7670",
-    "title": "Taiwan-Beijing Education Exchange 299 Belize students study in Taiwan",
-    "title_original": "台貝教育交流 299名貝里斯學生在台就學",
-    "summary": "Educational exchanges between Taiwan and friendly Belize countries continue to deepen. Currently, there are 299 Belize students studying in Taiwan, of which 231 are studying for degrees and 68 are studying Chinese. Liu Guowei, deputy director of the Ministry of Education, met today (21st) with Belize Civil Service…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5547592",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5547592",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-08-21T06:50:51+00:00"
-  },
-  {
-    "id": "fe5ed098b11255a9af092d495532aefa74870656",
-    "title": "Ate an honest bean paste bun? Luo Zhiqiang shouted \"KMT, please shut up\". Netizens laughed: I support you this time",
-    "title_original": "吃了誠實豆沙包？羅智強大喊「國民黨請閉嘴」 網笑翻：這次挺你",
-    "summary": "The Legislative Yuan held the 23rd meeting of the 5th session of the 11th term today. When KMT legislator Luo Zhiqiang took the stage to speak, he criticized President Lai Ching-te and Chief Executive Officer Zhuo Rongtai for paralyzing Congress. He also said that Lai Ching-te's recent announcement of a universal…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5547441",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5547441",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-08-21T06:37:20+00:00"
-  },
-  {
-    "id": "2796ab3646f5741a4f975d0d59c31985c82f660b",
-    "title": "Japanese Prime Minister Kaoichi plans to reshuffle the cabinet in September, and the personnel arrangements of the four presidential candidates are attracting attention",
-    "title_original": "日相高市擬9月改組內閣 4名總裁選對手人事安排受矚",
-    "summary": "(Central News Agency, Tokyo, 21st Comprehensive Foreign News Report) Japanese media revealed that Japanese Prime Minister Takaichi Sanae plans to carry out cabinet reshuffles and party cadre personnel adjustments in mid-to-late September. By then, how the four opponents who competed with her in last year’s…",
-    "link": "https://www.cna.com.tw/news/aopl/202608210140.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202608210140.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-08-21T06:34:17+00:00"
   }
 ]
