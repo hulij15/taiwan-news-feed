@@ -1,5 +1,27 @@
 [
   {
+    "id": "6a9b2dae4730be6c5e7659cbceff74cb0f59644c",
+    "title": "Is the United States still reliable as an ally? Trump took the initiative to make concessions for the Trump-Kim meeting. Why are Japan and South Korea privately worried?",
+    "title_original": "美國作為盟友還靠得住嗎？川普為「川金會」主動讓步，日韓為何私下憂心忡忡",
+    "summary": "As U.S. President Donald Trump announced plans to meet with North Korean leader Kim Jong Un, North Korea's response sent a signal that it wants maximum concessions if it wants to hold talks with the United States. North Korea launched a ballistic missile on Thursday in response to U.S. President Donald Trump's…",
+    "link": "https://www.storm.mg/article/11158587?utm_source=rss",
+    "link_key": "https://www.storm.mg/article/11158587",
+    "source": "Storm Media - International",
+    "category": "press_zh",
+    "published": "2026-08-23T01:20:25+00:00"
+  },
+  {
+    "id": "684fadfb324d12ced99d0c0d0964d8db353ecac5",
+    "title": "Prime Minister Merz asked the cabinet to accelerate reforms in the hope of boosting the German economy",
+    "title_original": "總理梅爾茨要求內閣加速改革 盼提振德國經濟",
+    "summary": "(Central News Agency Berlin, Comprehensive Foreign News Report on the 23rd) Germany's \"Bild am Sonntag\" reported today that Chancellor Friedrich Merz will ask the cabinet next week to accelerate reforms to reduce the burden on businesses and boost economic growth.",
+    "link": "https://www.cna.com.tw/news/aopl/202608230023.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202608230023.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-08-23T01:16:45+00:00"
+  },
+  {
     "id": "4197b5a5714d21bc2fc79c97bc354df2823cefe7",
     "title": "Behind the Scenes\" Zheng Liwen's interview with Xi Jinping's backstage businessmen regarded it as a life-saving straw! Why is the Kuomintang helpless in the Yiguandao case?",
     "title_original": "幕後》鄭麗文見習近平後台商視為救命稻草！一貫道案件國民黨為何束手無策？",
@@ -9,6 +31,17 @@
     "source": "Storm Media - Politics",
     "category": "press_zh",
     "published": "2026-08-23T00:20:00+00:00"
+  },
+  {
+    "id": "f86aac861bdaee369c26b03ba8fb8daa8c92ee3c",
+    "title": "Taiwan breaks official restrictions: Research: Sub-national diplomacy becomes a new way to expand into Europe",
+    "title_original": "台灣突破官方限制 研究：次國家外交成拓歐新途徑",
+    "summary": "(Central News Agency reporter Liu Yuting, Prague, 22nd) The China-European Institute of Asian Studies pointed out that under the circumstances of Taiwan's official diplomatic space being limited, \"paradiplomacy\" relations with European cities and regional governments are growing rapidly. Through the establishment of…",
+    "link": "https://www.cna.com.tw/news/aipl/202608230014.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202608230014.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-08-23T00:03:24+00:00"
   },
   {
     "id": "a9f467701e3bdbd071ca2bb25fb8ca268b12e9b5",
@@ -31,6 +64,28 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-08-23T00:00:00+00:00"
+  },
+  {
+    "id": "605bb960c28a307bcb8e88299014bb0d69212166",
+    "title": "Changfamei Park’s interview was sweet to netizens! Identity found",
+    "title_original": "長髮妹公園受訪甜翻網友！ 身份被搜出",
+    "summary": "A strange phenomenon has recently occurred in Inokashira Onshi Park, a famous tourist attraction in Tokyo, Japan. The originally clear Inokashira Pond has gradually turned green like a \"matcha latte\" since June this year. It is believed to be related to the massive proliferation of plant-based plankton. However, when…",
+    "link": "https://www.ettoday.net/news/20260823/3224035.htm",
+    "link_key": "https://www.ettoday.net/news/20260823/3224035.htm",
+    "source": "ETtoday - International",
+    "category": "press_zh",
+    "published": "2026-08-22T23:39:00+00:00"
+  },
+  {
+    "id": "673f173cdb82cb8ef6843af9e8100414474121b3",
+    "title": "Xu Jianhong’s Column: The 50th Anniversary of the National Air and Space Museum of the United States─Looking at the three major ideological battles in the world from the new exhibition area of ​​World War II",
+    "title_original": "許劍虹專欄：美國國家航太博物館創館50周年─從二戰新展區看全球三大意識形態之爭",
+    "summary": "This year is not only the 250th anniversary of the founding of the United States, but also the 50th anniversary of the founding of the Smithsonian National Air and Space Museum in Washington, D.C., which was established in 1976 to celebrate the 200th anniversary of the founding of the United States. The National…",
+    "link": "https://www.storm.mg/article/11153986?utm_source=rss",
+    "link_key": "https://www.storm.mg/article/11153986",
+    "source": "Storm Media - Politics",
+    "category": "press_zh",
+    "published": "2026-08-22T23:10:00+00:00"
   },
   {
     "id": "636f12d9ce1e2f031ec2adc7c6345b497f8223b4",
@@ -2132,115 +2187,5 @@
     "source": "ETtoday - Politics",
     "category": "press_zh",
     "published": "2026-08-21T02:24:00+00:00"
-  },
-  {
-    "id": "762d31c59992c95500b002cf0b507627dedd6e59",
-    "title": "Beijing Observer》The fates of Xu Jiayin and Wei Jianjun are very different? Analysis of the survival battle of Chinese private enterprises in the gap between \"Guojiaolou\" and the judiciary",
-    "title_original": "北京觀察》許家印、魏建軍命運大不同？解析中國民營企業在「保交樓」與司法夾縫中的生存戰",
-    "summary": "Xu Jiayin, who once stood at the top of China's real estate industry, was eventually sentenced to life imprisonment, bringing a legal end to the years-long collapse of the Evergrande empire. On the morning of August 20, the Intermediate People’s Court of Shenzhen City, Guangdong Province publicly announced the…",
-    "link": "https://www.storm.mg/article/11158155?utm_source=rss",
-    "link_key": "https://www.storm.mg/article/11158155",
-    "source": "Storm Media - Cross-Strait",
-    "category": "press_zh",
-    "published": "2026-08-21T02:10:00+00:00"
-  },
-  {
-    "id": "f1b16d47549e75b62577aeee829012a5f07207f8",
-    "title": "Taiwan Strait Decoding》Is East Asia likely to become a nuclear war zone? The situation in Malacca and the Taiwan Strait heats up. Japanese military experts: Taiwan and Japan should build a new line of defense for \"maritime security\"",
-    "title_original": "台海解碼》東亞恐淪核武連鎖戰區？麻六甲、台海局勢升溫 日本軍事專家：台日應建構「海洋安保」新防線",
-    "summary": "Yoshihiko Yamada, a senator from Japan's National Democratic Party who has long studied maritime policy, recently stated at the Taiwan Ocean International Forum held by the Executive Yuan Ocean Committee that in 2017, during Prime Minister Abe's term, the Japan Coast Guard and the Taiwan Coast Guard signed a maritime…",
-    "link": "https://www.storm.mg/article/11158236?utm_source=rss",
-    "link_key": "https://www.storm.mg/article/11158236",
-    "source": "Storm Media - International",
-    "category": "press_zh",
-    "published": "2026-08-21T02:00:00+00:00"
-  },
-  {
-    "id": "755f9870ed6a471ec2a62a1262043f15dc052986",
-    "title": "Kuomintang: Zhuo Rongtai uses non-subscription as a weapon to destroy the constitution and disrupt the government and becomes an enemy of the constitution",
-    "title_original": "國民黨：卓榮泰把不副署當武器 毀憲亂政成憲法敵人",
-    "summary": "Executive President Zhuo Rongtai recently \"not countersigned\" the third reading of the bill, and opened fire with Legislative Yuan Han Guoyu from a distance. Zhuo Rongtai said that the Executive Yuan must have the courage, responsibility and obligation not to countersign the unconstitutional bill proposed by the…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5547160",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5547160",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-08-21T01:49:13+00:00"
-  },
-  {
-    "id": "83928752770ea98780fba85efb0faf9f33b6e4b5",
-    "title": "The Ministry of Economic Affairs seized Zhang Xue's motorcycles. Zhang Xue: If you check one, you will get one for free... until you get it to Unification.",
-    "title_original": "經濟部查扣張雪機車 張雪：查一台送一台...送到統一為止",
-    "summary": "A Taiwanese heavy machinery manufacturer dismantled the mainland's \"Zhang Xue Motorcycle\" into component parts, shipped them to Taiwan in batches, and assembled them into vehicles. The Ministry of Economic Affairs seized the motorcycles, which once again caused cross-strait disputes. In response to this, Zhang Xue,…",
-    "link": "https://www.ettoday.net/news/20260821/3223057.htm",
-    "link_key": "https://www.ettoday.net/news/20260821/3223057.htm",
-    "source": "ETtoday - Cross-Strait",
-    "category": "press_zh",
-    "published": "2026-08-21T01:48:00+00:00"
-  },
-  {
-    "id": "51654ad25e4307c62889dbd718f39da49660359c",
-    "title": "Do you support \"one country, two systems\" across the Taiwan Strait? Latest Mainland Affairs Council poll: 80% of Taiwanese express one-sided stance, shocking results revealed",
-    "title_original": "支不支持兩岸「一國兩制」？陸委會最新民調：8成台灣人一面倒表態，驚人結果曝",
-    "summary": "The Mainland Affairs Council announced the latest current affairs poll results. The survey data shows that the majority of the people express clear opposition to the Chinese Communist Party’s political propositions and gray area methods against Taiwan. In terms of views on the core political system, as many as 81.2%…",
-    "link": "https://www.storm.mg/article/11158144?utm_source=rss",
-    "link_key": "https://www.storm.mg/article/11158144",
-    "source": "Storm Media - Politics",
-    "category": "press_zh",
-    "published": "2026-08-21T01:30:00+00:00"
-  },
-  {
-    "id": "111bbff40b0ba5752655adf068d078d3fce607de",
-    "title": "Foreign media revealed the key to \"the United States cannot lose Taiwan\" Experts: The Communist Army will rush straight into the Pacific",
-    "title_original": "外媒曝「美國不能失去台灣」關鍵 專家：共軍將直衝太平洋",
-    "summary": "During a recent debate, U.S. Senator Darline Graham of South Carolina was unable to answer the question about U.S. national security interests in Taiwan and the South China Sea, and even blurted out that national security was \"not my strong point,\" triggering fierce criticism from the outside world. In fact, the…",
-    "link": "https://www.ettoday.net/news/20260821/3223033.htm",
-    "link_key": "https://www.ettoday.net/news/20260821/3223033.htm",
-    "source": "ETtoday - International",
-    "category": "press_zh",
-    "published": "2026-08-21T01:25:00+00:00"
-  },
-  {
-    "id": "dcefb639cf198e1d74053eb1fcdfcd306c58247e",
-    "title": "U.S. imposes new sanctions on Hezbollah, saying it is controlled by Iran's Revolutionary Guards",
-    "title_original": "美國再出手制裁真主黨 指其受伊朗革命衛隊控制",
-    "summary": "(Central News Agency, Washington, 20th, Comprehensive Foreign News Report) The US authorities today announced a new round of sanctions against networks suspected of financing Hezbollah, while emphasizing the close relationship between the Lebanese armed group and Iran's Revolutionary Guards.",
-    "link": "https://www.cna.com.tw/news/aopl/202608210033.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202608210033.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-08-21T01:22:23+00:00"
-  },
-  {
-    "id": "c781f6700d4d431823e472732cf34f428fc44285",
-    "title": "Taiwan's defense budget breaks 1 trillion, hitting record high! Foreign media: Show determination to the United States and warn Beijing",
-    "title_original": "台灣破兆國防預算創新高！外媒：向美展現決心、警告北京",
-    "summary": "The Executive Yuan meeting yesterday decided on the central government's general budget for next year, with defense funding totaling 1.1225 billion yuan, accounting for approximately 3.93% of GDP. Foreign media reports pointed out that this shows to Washington that Taiwan is investing in self-defense and is ready to…",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5547128",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5547128",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-08-21T01:11:15+00:00"
-  },
-  {
-    "id": "85f4240e7e78d2e220593e101421ca03e74adae2",
-    "title": "Quick Comment 》Zhang Jun is found not guilty, Hualien County Magistrate elects \"Three-legged Supervisor\", the election situation falls into chaos",
-    "title_original": "快評 》張峻無罪確定 花蓮縣長選舉「三腳督」 選情陷入混沌",
-    "summary": "Reporter You Tailang/Special Article Zhang Jun, the non-party speaker who intends to run for Hualien County Magistrate, was not guilty of the LED procurement fraud case that had been litigated for 13 years. Not only was his supporters greatly encouraged, but he also became more motivated to compete for the county…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5547149",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5547149",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-08-21T01:08:08+00:00"
-  },
-  {
-    "id": "81925847a38516cab58737ff49c2514d281c2c3c",
-    "title": "BBC asks: Why is Taiwan proposing a \"referendum on whipping\" now?",
-    "title_original": "BBC大哉問：台灣為何此刻提出「鞭刑公投」？",
-    "summary": "Taiwan's Legislative Yuan recently passed a referendum proposal asking the public whether they agree to add a \"caning\" system to the Criminal Code, which would apply to cases of sexual assault, child abuse and major fraud. Taiwan has never had \"corporal punishment\" as a punishment before. The referendum was highly…",
-    "link": "https://www.storm.mg/article/11158264?utm_source=rss",
-    "link_key": "https://www.storm.mg/article/11158264",
-    "source": "Storm Media - Politics",
-    "category": "press_zh",
-    "published": "2026-08-21T01:04:58+00:00"
   }
 ]
