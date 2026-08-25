@@ -1,5 +1,27 @@
 [
   {
+    "id": "9cb5e6a7d14ec617e92717a065c7ad73ea2f7755",
+    "title": "Tehran vows to retaliate after US widens sanctions",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/08/26/2003863142",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/08/26/2003863142",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-26T00:00:00+00:00"
+  },
+  {
+    "id": "581c74d93b2394a49d80635768decaeefb3559a2",
+    "title": "‘Youth diplomacy’ goes forward",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/26/2003863149",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/26/2003863149",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-26T00:00:00+00:00"
+  },
+  {
     "id": "817e8bf98496ef2fbc542ca6739ef18feb067c44",
     "title": "The United States puts full pressure on Iran's economy, experts say success or failure depends on China",
     "title_original": "美國全面施壓伊朗經濟 專家指成敗取決中國",
@@ -9,6 +31,17 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-08-25T14:19:17+00:00"
+  },
+  {
+    "id": "3b4fd374bc7e6e76e453bb41d840f9f83135135c",
+    "title": "Star Media: As the United States puts pressure on Iran, it is trying to avoid a wider economic and diplomatic conflict with China.",
+    "title_original": "星媒：美施壓伊朗之際 試圖避免與中國爆發更廣泛經濟外交衝突",
+    "summary": "（中央社台北25日電）美國對伊朗發動新一輪制裁，其中涉及數十家中國大陸和香港企業，但是未制裁被指協助伊朗石油貿易的中國大型金融機構。星媒稱，這顯示華盛頓施壓德黑蘭之際，仍試圖避免與北京爆發更廣泛的經濟和外交衝突。",
+    "link": "https://www.cna.com.tw/news/acn/202608250363.aspx",
+    "link_key": "https://www.cna.com.tw/news/acn/202608250363.aspx",
+    "source": "CNA - Cross-Strait",
+    "category": "wire_zh",
+    "published": "2026-08-25T14:18:12+00:00"
   },
   {
     "id": "12d5d6ab4ebb9e45c576ab361bfd39c672e71e24",
@@ -31,6 +64,17 @@
     "source": "CNA - Cross-Strait",
     "category": "wire_zh",
     "published": "2026-08-25T12:34:24+00:00"
+  },
+  {
+    "id": "a1626b372bd9d9d7944fcd918da29264ce1ba6bf",
+    "title": "Zhang Ronggong: The two sessions have broken down and people-to-people dialogue is more important. Cross-strait youth exchanges are the main force for peace.",
+    "title_original": "張榮恭：兩會協商斷裂民間更要對話 兩岸青年交流是和平主力軍",
+    "summary": "The first \"Working Together\" \"Cross-Strait Youth Exchange Event Shanghai Station\" was grandly launched in Shanghai today (25th). In his speech, Vice Chairman of the Kuomintang Zhang Ronggong emphasized that under the current background of disconnected negotiations between the cross-Strait Small and Two Sessions,…",
+    "link": "https://www.ettoday.net/news/20260825/3225656.htm",
+    "link_key": "https://www.ettoday.net/news/20260825/3225656.htm",
+    "source": "ETtoday - Cross-Strait",
+    "category": "press_zh",
+    "published": "2026-08-25T10:55:00+00:00"
   },
   {
     "id": "508faa22eb5d1085d82a2e48208a4ec1e6a1edd2",
