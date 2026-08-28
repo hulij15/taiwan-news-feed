@@ -1,5 +1,82 @@
 [
   {
+    "id": "f5b9ead43290a3be4deb6ff5834447125c6754c1",
+    "title": "CEC approves nuclear referendum, rejects other two",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/08/29/2003863317",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/08/29/2003863317",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-29T00:00:00+00:00"
+  },
+  {
+    "id": "13dd8571dbd4f111ab9c7815a86ca13ab5c5b237",
+    "title": "German parliament launches Taiwan friendship group",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/29/2003863328",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/29/2003863328",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-29T00:00:00+00:00"
+  },
+  {
+    "id": "55aca758d8365b2995cf6ed70fe1595a0c435a28",
+    "title": "TPP-KMT ties strained by Jhubei mayoral contest",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/29/2003863330",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/29/2003863330",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-29T00:00:00+00:00"
+  },
+  {
+    "id": "79f50fdc82661ac9ca997b396227aa8e63fd4243",
+    "title": "DPP China Affairs warns of election interference",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/29/2003863331",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/29/2003863331",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-29T00:00:00+00:00"
+  },
+  {
+    "id": "4ef4013e10f033706d586b745efe4672ae1e7bc6",
+    "title": "The KMT’s failed ‘Taiwanization’",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/08/29/2003863311",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/08/29/2003863311",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-29T00:00:00+00:00"
+  },
+  {
+    "id": "42b7102da8f04d68ba96cbe9e544fee3fe2ed9f7",
+    "title": "A 10-year-old child was sexually assaulted. Tsai Ing-wen: Not rushing to accuse does not mean that there is no need to review",
+    "title_original": "10歲童遭性傷害 蔡英文：不急著指責不代表不需檢討",
+    "summary": "（中央社記者葉素萍台北28日電）前總統蔡英文今天關切10歲兒童遭受性傷害事件表示，事件仍有許多細節待釐清，她不希望簡化第一線工作者的努力，更不希望孩子的遭遇最後只剩政治上的相互指責；但「不急著指責，不代表我們不需要檢討」，應重新檢視兒少保護安全網是否真正以孩子為中心。",
+    "link": "https://www.cna.com.tw/news/aipl/202608280336.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202608280336.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-08-28T15:00:44+00:00"
+  },
+  {
+    "id": "ae7f867acd95104594339e5935c0716c15c47c0a",
+    "title": "CEC approves nuclear policy referendum, rejects caning, traffic fine proposals",
+    "title_original": null,
+    "summary": "Taipei, Aug. 28 (CNA) Taiwan's Central Election Commission (CEC) on Friday approved a referendum on abolishing the government's nuclear-free energy policy for a vote alongside November's local elections, while rejecting proposals on judicial caning and the use of traffic fine revenue.",
+    "link": "https://focustaiwan.tw/politics/202608280025",
+    "link_key": "https://focustaiwan.tw/politics/202608280025",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-08-28T13:01:56+00:00"
+  },
+  {
     "id": "a41a5a1d86c3aa9b422cd4cc835f9b8f073e0b7c",
     "title": "The truth is that the Ministry of Culture has never subsidized \"glass testicles\"! Li Yuan responded to teenagers’ questions and told them all",
     "title_original": "真相是文化部從未補助「玻璃睪丸」！ 李遠回應青少年提問全說了",
@@ -42,6 +119,17 @@
     "source": "Liberty Times - Arts & Culture",
     "category": "press_zh",
     "published": "2026-08-28T12:14:04+00:00"
+  },
+  {
+    "id": "e39d99e60f85d81ee150a1fa8c103b3312edbc9a",
+    "title": "Sichuan-Xi meeting Nan Zao: The trade truce is almost certain to be extended, Chinese business leaders may visit the United States as part of a delegation",
+    "title_original": "川習會 南早：貿易休戰幾近肯定會延長 中企領袖可能隨團訪美",
+    "summary": "（中央社台北28日電）中國國家主席習近平預期將於9月24日訪美並與美國總統川普會面。香港南華早報報導，美中貿易戰休戰協議「幾近肯定」會延長，而雙方正商討中國企業領袖會否隨團訪美。",
+    "link": "https://www.cna.com.tw/news/acn/202608280303.aspx",
+    "link_key": "https://www.cna.com.tw/news/acn/202608280303.aspx",
+    "source": "CNA - Cross-Strait",
+    "category": "wire_zh",
+    "published": "2026-08-28T12:05:25+00:00"
   },
   {
     "id": "b35e2c373c768b85594fdccf38123d1cabf6b293",
