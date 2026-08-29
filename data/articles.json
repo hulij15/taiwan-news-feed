@@ -1,5 +1,93 @@
 [
   {
+    "id": "3c80bb2f30d7c06c8eabbdc874038aecb26ea9d3",
+    "title": "Cabinet to support drone bill: source",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/08/30/2003863358",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/08/30/2003863358",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-30T00:00:00+00:00"
+  },
+  {
+    "id": "956dfa36e63e46b0a617cfa824ee5ced0230953b",
+    "title": "Foreign minister attends Prosperity Exhibit in Palau",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/30/2003863371",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/30/2003863371",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-30T00:00:00+00:00"
+  },
+  {
+    "id": "4102ca4b3ab7151942b1064d5a8192e52b26529e",
+    "title": "Cabinet outlines demography strategy",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/30/2003863372",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/30/2003863372",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-30T00:00:00+00:00"
+  },
+  {
+    "id": "fb447dd281c8a709c0b5c222850699ded580de58",
+    "title": "KMT lawmaker says birthrate measures have failed",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/30/2003863373",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/30/2003863373",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-30T00:00:00+00:00"
+  },
+  {
+    "id": "1104da8bd3493097914c4a6711af52ab714f3894",
+    "title": "The Panama Canal’s real challenge is water, not geopolitics",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/08/30/2003863356",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/08/30/2003863356",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-08-30T00:00:00+00:00"
+  },
+  {
+    "id": "12c83325930859314c272c6a668c2c1663c5a637",
+    "title": "Floods in Nepal kill 682, foreign minister warns of growing threat from climate change",
+    "title_original": "尼泊爾洪災釀682死 外長警告氣候變遷威脅加劇",
+    "summary": "(Central News Agency, Kathmandu, comprehensive foreign news report on the 29th) As deadly floods occurred on the border between Nepal and China's Tibet on the 26th, killing 682 people and leaving nearly 3,000 missing, Nepal's foreign minister warned today that climate change is an increasing threat to the Himalayas.",
+    "link": "https://www.cna.com.tw/news/aopl/202608300002.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202608300002.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-08-29T17:16:01+00:00"
+  },
+  {
+    "id": "c2f3c1c942022fe81107f76769a873e7a98fa120",
+    "title": "Registration for the year-end election starts on 8/31. Kaohsiung MP districts 2 and 6 may have the same quota",
+    "title_original": "年底選舉8/31起登記 高雄議員第2、6選區可能同額",
+    "summary": "年底選舉8月31日到9月4日登記，高雄11個議員一般選區中，二選區與六選區至今沒出現明確挑戰者、同額選舉機會高。 二選區範圍涵蓋路竹、阿蓮、田寮、湖內、茄萣等5區...…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5556794",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5556794",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-08-29T16:18:56+00:00"
+  },
+  {
+    "id": "b651cbd28c02c3cc65f6d9c2a87070b654adf108",
+    "title": "Registration for the nine-in-one election starts on 8/31. On the first day, the three groups of green, blue and white people in Taichung jointly registered.",
+    "title_original": "九合一選舉8/31起登記 首日台中綠藍白3組人馬聯合登記",
+    "summary": "九合一選舉倒數3個月，台中市長及市議員選舉候選人訂8月31日起至9月4日，在台中市豐樂公園辦理登記作業，下週一8月31日登記首日，已有3黨3組人馬選定辦理聯合登記，包括民進黨英...…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5556690",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5556690",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-08-29T12:20:07+00:00"
+  },
+  {
     "id": "ff48e80f3587fd123cfe6392866b02a0ed63ed34",
     "title": "Is there a scuffle in Changhua County? The fourth candidate emerges, the Kuomintang Party favors Qiu Jianfu’s friend and Lai Yinzhu as the “hen”",
     "title_original": "彰化縣長大混戰？第4人選出現 民眾黨拱邱建富好友、賴銀柱當「母雞」",
@@ -911,16 +999,5 @@
     "source": "Liberty Times - Politics",
     "category": "press_zh",
     "published": "2026-08-27T21:30:00+00:00"
-  },
-  {
-    "id": "8885ebfe64244cdf440d86ff35d3cd0b84f1cbfa",
-    "title": "The Zhubei blue-white alliance collapses. Li Zhenxiu is sour: the Kuomintang sees no hope of Huang Guochang.",
-    "title_original": "竹北藍白合談崩 李貞秀酸：國民黨看黃國昌沒有啦",
-    "summary": "The nine-in-one election at the end of the year is getting closer. Wang Qianqiu, a senior media person, broke the news that the KMT and the People's Party have \"collapsed\" in the Zhubei integration talks. Qiu Chenyuan, the People's Party's Zhubei mayoral candidate, has confirmed that chairman Huang Guochang will hold…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5554797",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5554797",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-08-27T16:14:48+00:00"
   }
 ]
