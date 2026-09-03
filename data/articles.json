@@ -1,5 +1,16 @@
 [
   {
+    "id": "e28d44b149ff1aa90deea26035cdf21eb3b9f7aa",
+    "title": "Two pieces of clumsy fake news were believed by many people! Shen Rongqin: Taiwan’s elections may face a greater crisis of information manipulation",
+    "title_original": "2則拙劣假新聞竟多人相信！沈榮欽：台灣選舉恐面臨更大資訊操弄危機",
+    "summary": "民進黨台北市長參選人沈伯洋近日遭到藍營粉專「政客爽」造謠「洋流席捲台北 五十萬人歡呼沈伯洋過馬路」。對此，加拿大約克大學副教授沈榮欽表示，最近突然流行起來的兩則假新聞，暗示台灣...…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5561368",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5561368",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-09-03T00:42:08+00:00"
+  },
+  {
     "id": "5d32d81bddcc1e29e43be8805f37697ed0ef1991",
     "title": "US-Taiwan Palau projects announced",
     "title_original": null,
@@ -31,6 +42,39 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-09-03T00:00:00+00:00"
+  },
+  {
+    "id": "42c0a31fd363f5cb873b4f1ba4f8ff420c936e18",
+    "title": "Brazilian justice implicated in financial scandal, President Lula's election campaign affected",
+    "title_original": "巴西大法官涉金融醜聞 總統魯拉選情受衝擊",
+    "summary": "(Central News Agency reporter Tang Yaling, São Paulo, October 2) With only one month left before the Brazilian presidential election in October, the communication records between Brazilian Supreme Court Justice Maurice and former Master Bank head Voccaro, who was arrested for financial fraud, were recently…",
+    "link": "https://www.cna.com.tw/news/aopl/202609030015.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202609030015.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-09-02T23:46:48+00:00"
+  },
+  {
+    "id": "c5d5f9544a687dbef13e9c7c87fe1406f6df20d8",
+    "title": "Chinese student in Canada arrested by US on suspicion of espionage",
+    "title_original": "加拿大中國留學生疑從事間諜行為 遭美方拘捕",
+    "summary": "(Central News Agency reporter Cheng Aifen in Vancouver on the 2nd) A Chinese student studying at the University of Waterloo in Canada was suspected of engaging in espionage activities and took photos of aircraft and related facilities at the Toronto and Chicago airports. He was arrested in Michigan when he entered…",
+    "link": "https://www.cna.com.tw/news/aopl/202609030014.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202609030014.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-09-02T23:38:45+00:00"
+  },
+  {
+    "id": "8337cc8e026fcb1d6e8e6a094fc9c8d3a6995765",
+    "title": "The couple served as mayors of Fenyuan Township in Changhua for 5 terms for nearly 21 years. This time, their daughter Hong Qianyun will run for the election.",
+    "title_original": "夫妻當了5屆近21年彰化芬園鄉長 這次換女兒洪千芸參選挑戰",
+    "summary": "彰化縣芬園鄉最強的政治世家今年由女兒洪千芸參選芬園鄉長，洪千芸獲得國民黨徵召，將挑戰民進黨提名的鄉代會副主席郭哲榮。洪千芸的父母曾當了5屆鄉長，哥哥是芬園鄉農會總幹事黃翊愷，洪...…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5561326",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5561326",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-09-02T22:14:25+00:00"
   },
   {
     "id": "a64f5deec8f18f2ae88e707c277fd755e6247c84",
@@ -2077,115 +2121,5 @@
     "source": "CNA - Politics",
     "category": "wire_zh",
     "published": "2026-09-01T01:28:36+00:00"
-  },
-  {
-    "id": "e9f8e6902cf45b1637281afd5f19a90b5334885b",
-    "title": "Foreign minister presents e-buses while in Palau",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/01/2003863479",
-    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/01/2003863479",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-09-01T00:00:00+00:00"
-  },
-  {
-    "id": "5ff5097a35395c58e6249fd9ddeb99b6950ed4e5",
-    "title": "Ex-health ministry worker indicted in espionage case",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/01/2003863484",
-    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/01/2003863484",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-09-01T00:00:00+00:00"
-  },
-  {
-    "id": "40c43f809c7f0fe216e3c72deded1e7de183e5d2",
-    "title": "Silicon photonics expected to dominate AI growth, TSMC vice president says",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/biz/archives/2026/09/01/2003863454",
-    "link_key": "https://www.taipeitimes.com/News/biz/archives/2026/09/01/2003863454",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-09-01T00:00:00+00:00"
-  },
-  {
-    "id": "30814c6032125abbead57d6ae3a3ddec1d572328",
-    "title": "EDITORIAL: Beijing’s corporate tax crackdown",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/01/2003863457",
-    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/01/2003863457",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-09-01T00:00:00+00:00"
-  },
-  {
-    "id": "227426af04b8eed956da8135971e82eaa60f66e2",
-    "title": "Indigenous energy justice a need",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/01/2003863458",
-    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/01/2003863458",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-09-01T00:00:00+00:00"
-  },
-  {
-    "id": "6ec8e92bcd639bd83f45aed12948c16e52c810cb",
-    "title": "At least five leaders skip Pacific Islands summit",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/world/archives/2026/09/01/2003863494",
-    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/09/01/2003863494",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-09-01T00:00:00+00:00"
-  },
-  {
-    "id": "8162bd2ce0840e156307ef358f027986068fb53c",
-    "title": "Unification Church leader gets two years in prison",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/world/archives/2026/09/01/2003863496",
-    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/09/01/2003863496",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-09-01T00:00:00+00:00"
-  },
-  {
-    "id": "4baeb6252a52618fa22a74e02fe34ff64cf10485",
-    "title": "Donovan’s Deep Dives: 823 and two visions of Taiwan’s sovereignty",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/feat/archives/2026/09/01/2003863466",
-    "link_key": "https://www.taipeitimes.com/News/feat/archives/2026/09/01/2003863466",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-09-01T00:00:00+00:00"
-  },
-  {
-    "id": "29068ba5351f97040f4c6f1923d29e11f8b6cf73",
-    "title": "From the 5th term councilman to the mayoral by-election, Wu Yizheng switched to fighting as a bus driver and called him \"super healing\"",
-    "title_original": "從5屆議員到市長補選 吳益政斜槓轉戰公車司機直呼「超療癒」",
-    "summary": "\"Driving a big car is basically very therapeutic\"! Wu Yizheng, who holds the steering wheel and served as a Kaohsiung City Councilor for five terms (2002 to 2022), and participated in the Kaohsiung mayoral by-election on behalf of the People’s Party in 2020, gradually faded out of politics after losing his…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5558732",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5558732",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-08-31T23:24:55+00:00"
-  },
-  {
-    "id": "7479401cce82c61db8fa2889f52bd6d71b94dac9",
-    "title": "The People's Party forces the Kuomintang to convict! Two-handed strategy exposed",
-    "title_original": "民眾黨逼宮國民黨！ 兩手策略曝光",
-    "summary": "The nine-in-one election campaign has gradually become more intense. The Blue and White camps, which only made a high-profile announcement at the beginning of this year to sign a party cooperation agreement and jointly fight for the election, are now gradually facing conflicts. In addition to the Blue camp, Mayor…",
-    "link": "https://www.ettoday.net/news/20260901/3229145.htm",
-    "link_key": "https://www.ettoday.net/news/20260901/3229145.htm",
-    "source": "ETtoday - Politics",
-    "category": "press_zh",
-    "published": "2026-08-31T22:53:00+00:00"
   }
 ]
