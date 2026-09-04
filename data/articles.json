@@ -1,5 +1,38 @@
 [
   {
+    "id": "e2a44888658926d348d92816eac22f6fe22ad59c",
+    "title": "Minister blasts China’s ‘wolf warrior’ diplomacy at PIF",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/09/05/2003863714",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/09/05/2003863714",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-05T00:00:00+00:00"
+  },
+  {
+    "id": "2a000b20a10caa8a5b31a82899d380f198f377bd",
+    "title": "Power site work on schedule: premier",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/05/2003863729",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/05/2003863729",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-05T00:00:00+00:00"
+  },
+  {
+    "id": "a1a1055715c02d76f9f1967c5a9a9fbeb5e35590",
+    "title": "Registration ends for nine-in-one election, 2 candidates for Taoyuan mayor candidacy",
+    "title_original": "九合一選舉登記截止 桃園市長2人參選",
+    "summary": "(Central News Agency reporter Ye Zhen, Taoyuan, 4th) The nine-in-one election registration has ended. A total of 2 people have completed the registration for the Taoyuan mayoral election, including Zhang Shanzheng, a candidate from the Chinese Kuomintang who is seeking re-election, and Huang Shijie, a candidate from…",
+    "link": "https://www.cna.com.tw/news/aipl/202609040322.aspx",
+    "link_key": "https://www.cna.com.tw/news/aipl/202609040322.aspx",
+    "source": "CNA - Politics",
+    "category": "wire_zh",
+    "published": "2026-09-04T13:28:29+00:00"
+  },
+  {
     "id": "c62eb31c2cdece591a1420437ef3b7260a657457",
     "title": "Chen Mingqi: China weaponized the Aircraft Information Region in an attempt to block Taiwan’s diplomatic space",
     "title_original": "陳明祺：中國將飛航情報區武器化 企圖封鎖台外交空間",
@@ -2693,60 +2726,5 @@
     "source": "CNA - International",
     "category": "wire_zh",
     "published": "2026-09-02T17:49:18+00:00"
-  },
-  {
-    "id": "dbd38f0f68bdd3e45b176a7a40739967d77fbb25",
-    "title": "Hong Shenhan will go to mainland China to attend the APEC Ministerial Meeting. Mainland Affairs Council: There is no \"one-China principle\" premise",
-    "title_original": "洪申翰將赴陸出席APEC部長會議 陸委會：不存在「一中原則」前提",
-    "summary": "Minister of Labor Hong Shenhan will go to mainland China to attend the APEC Ministerial Meeting. The Taiwan Affairs Office of the State Council stated on the 2nd that it will handle the matter in accordance with the \"one-China principle\" and the provisions and practices of the relevant APEC memorandum of…",
-    "link": "https://www.ettoday.net/news/20260902/3230577.htm",
-    "link_key": "https://www.ettoday.net/news/20260902/3230577.htm",
-    "source": "ETtoday - Cross-Strait",
-    "category": "press_zh",
-    "published": "2026-09-02T15:52:00+00:00"
-  },
-  {
-    "id": "3f2169b8af8acb0bfc472b0c7afcb503d321725a",
-    "title": "Israeli Defense Minister Says U.S. Will Move Palestinians out of Gaza",
-    "title_original": "以色列防長稱美國若放行 將把巴勒斯坦人移出加薩",
-    "summary": "(Central News Agency, Jerusalem, Comprehensive Foreign News Report on the 2nd) Israeli Defense Minister Israel Katz said today that Israel is ready to implement the plan to move Palestinians out of the Gaza Strip and is currently waiting for the United States to determine the resettlement location.",
-    "link": "https://www.cna.com.tw/news/aopl/202609020364.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202609020364.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-09-02T14:09:39+00:00"
-  },
-  {
-    "id": "1426f293aee1362108ad3759ad11f30e6b6951fc",
-    "title": "Involving sovereignty and interests, Vanuatu and France appeal to the International Court of Justice over two small islands",
-    "title_original": "涉主權與利益 萬那杜與法國爭兩小島訴諸國際法院",
-    "summary": "(Central News Agency reporter Zeng Yixuan's special report from Paris on the 2nd) Two uninhabited islands in the South Pacific involve issues of sovereignty, colonial history and huge maritime interests between France and Vanuatu. Vanuatu claims sovereignty over two nearby French islands and lodges a complaint with…",
-    "link": "https://www.cna.com.tw/news/aopl/202609020363.aspx",
-    "link_key": "https://www.cna.com.tw/news/aopl/202609020363.aspx",
-    "source": "CNA - International",
-    "category": "wire_zh",
-    "published": "2026-09-02T14:06:36+00:00"
-  },
-  {
-    "id": "826db21e7ff6d79147fd08c576aec9b2352b99ef",
-    "title": "Forcing major chip manufacturers to set up factories in the United States! Lutnick revealed that semiconductor tariffs are coming soon to help reduce the pressure on the U.S. deficit",
-    "title_original": "逼晶片大廠赴美設廠！盧特尼克透露半導體關稅即將登場，幫美國減輕赤字壓力",
-    "summary": "As the global bond market has launched a sell-off and the U.S. 10-year Treasury yield has climbed to a nearly three-year high, Commerce Secretary Howard Lutnick claimed in an exclusive interview with CNBC that the Trump administration’s renewed tariff policy will usher in a wave of economic benefits, including…",
-    "link": "https://www.storm.mg/article/11161415?utm_source=rss",
-    "link_key": "https://www.storm.mg/article/11161415",
-    "source": "Storm Media - International",
-    "category": "press_zh",
-    "published": "2026-09-02T13:55:00+00:00"
-  },
-  {
-    "id": "bfab0026a7859fa01b80e83952d20999295b495b",
-    "title": "Talking about semiconductors, the Vice President: Taiwan’s current status is not taken for granted",
-    "title_original": "談半導體 副總統：台灣現有地位非理所當然",
-    "summary": "(Central News Agency reporter Ye Suping, Taipei, 2nd) Vice President Hsiao Meiqin attended the \"2026 Technology Elite Leaders Dinner\" jointly organized by SEMI International Semiconductor Industry Association and TSIA Taiwan Semiconductor Industry Association today. She said that Taiwan should be proud of the…",
-    "link": "https://www.cna.com.tw/news/aipl/202609020361.aspx",
-    "link_key": "https://www.cna.com.tw/news/aipl/202609020361.aspx",
-    "source": "CNA - Politics",
-    "category": "wire_zh",
-    "published": "2026-09-02T13:53:32+00:00"
   }
 ]
