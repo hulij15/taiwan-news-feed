@@ -1,5 +1,38 @@
 [
   {
+    "id": "13061dcee076aea207ee5ba4115e54a0c350ca6e",
+    "title": "Diamond treaty",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/06/2003863779",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/06/2003863779",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-06T00:00:00+00:00"
+  },
+  {
+    "id": "720891d4d284b3a9731e01abb68a42e2a7426040",
+    "title": "Shanghai summit exposes cracks",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/06/2003863750",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/06/2003863750",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-06T00:00:00+00:00"
+  },
+  {
+    "id": "5b43c723eb244ca3ac88e03824d30fe7aa6cd347",
+    "title": "40 years since the founding of the Democratic Progressive Party, Qiu Chuizhen recalls the songs that \"sung the democratic years\"",
+    "title_original": "民進黨創黨40年 邱垂貞回憶「唱出民主歲月」的那些歌曲",
+    "summary": "民進黨桃園市黨部6日於平鎮區新勢公園，舉行40週年黨慶活動，透過全民健走及黨慶造勢活動，凝聚黨員與支持者向心力。民進黨創黨黨員、曾任立法委員的邱垂貞，也在臉書分享創黨時期幾首重要歌曲背後的故事，回顧40年前臺灣民主化歷程，以及歌曲如何成為那個年代的共同記憶。 《詳全文...》",
+    "link": "https://www.ettoday.net/news/20260906/3232240.htm",
+    "link_key": "https://www.ettoday.net/news/20260906/3232240.htm",
+    "source": "ETtoday - Politics",
+    "category": "press_zh",
+    "published": "2026-09-05T16:05:00+00:00"
+  },
+  {
     "id": "0547b28add13215a1f7a49dbeb768e7749e942b0",
     "title": "Is the Kuomintang letting another family go? Kaohsiung Association explodes \"Ask for 300 boxes but no response\", Lai Ruilong took care of everything",
     "title_original": "國民黨放鳥又一家？高雄協會爆「問300盒沒下文」 賴瑞隆全包了",
@@ -1417,27 +1450,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-09-03T19:13:45+00:00"
-  },
-  {
-    "id": "e6473e1ccb84ebefa408fb659f894d771e519b9a",
-    "title": "Blue and White froze the budget of 500 million but forgot to specify the subjects. The Executive Yuan's \"one-step solution\" convinced netizens",
-    "title_original": "藍白凍結5億預算卻忘指定科目 行政院「1招神解」讓網友服了",
-    "summary": "The Executive Yuan's total budget of 500 million yuan last year was frozen by the Legislative Yuan, which has a blue-white majority. Recently, it was reported that the Executive Yuan \"expended\" this 500 million yuan without authorization, which made the opposition angry. It turns out that Blue and White froze the 500…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5562527",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5562527",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-09-03T16:55:50+00:00"
-  },
-  {
-    "id": "f49d1d8e9b1529c1e481d411ed42e8738e42f7b3",
-    "title": "Bluebird double standard? When Lai Ching-te was the mayor, his son received a scholarship. Huang Zhixian defeated the Blue Nets with one sentence.",
-    "title_original": "青鳥雙標？賴清德當市長時兒子領獎學金 黃智賢1句話打趴藍網軍",
-    "summary": "The controversy over the selection of the eldest son of Taipei Mayor Chiang Wanan, Chiang Deli, as a publicly funded exchange student in Taipei City spreads. In order to protect the protection, the Kuomintang also involves President Lai Ching-te, alleging that Lai Ching-te's eldest son, Lai Tingyu, also received a…",
-    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5562459",
-    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5562459",
-    "source": "Liberty Times - Politics",
-    "category": "press_zh",
-    "published": "2026-09-03T16:34:56+00:00"
   }
 ]
