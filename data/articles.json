@@ -1,5 +1,93 @@
 [
   {
+    "id": "862b2f5cfce4dc1c2a5889d0cbf2f7f36bbc3af5",
+    "title": "Election interference activities revealed",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/09/09/2003863929",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/09/09/2003863929",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-09T00:00:00+00:00"
+  },
+  {
+    "id": "bbb5f5908b9c133f9a0f2b1394c343bf8a68f09a",
+    "title": "Three Taiwanese face fraud charges in Myanmar: MOFA",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/09/2003863942",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/09/2003863942",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-09T00:00:00+00:00"
+  },
+  {
+    "id": "e4e8db065a41c259459cd97b416af9f43b2e21bd",
+    "title": "Badminton ambassador",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/09/2003863954",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/09/2003863954",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-09T00:00:00+00:00"
+  },
+  {
+    "id": "e22fa2c86de2606ef4b6a2d6b473c37c5a5d7d88",
+    "title": "Saxony-Anhalt election delivers a blow to Merz",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/09/2003863925",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/09/2003863925",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-09T00:00:00+00:00"
+  },
+  {
+    "id": "e7eb240b33ba3574cb9769f440b47230528c0a05",
+    "title": "Decoding Bayeux Tapestry diplomacy between UK and France",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/09/2003863926",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/09/2003863926",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-09T00:00:00+00:00"
+  },
+  {
+    "id": "ee20eae359ffee70a21625b5eed35856b298c18d",
+    "title": "China took advantage of the Philippine Defense Secretary’s speech to pass a note questioning the South China Sea arbitration. It made people laugh and feel ashamed.",
+    "title_original": "中方趁菲防長演說遞紙條質疑南海仲裁 遭嗆知恥一點",
+    "summary": "(Central News Agency, Manila, Comprehensive Foreign Reports on the 8th) When Philippine Defense Secretary Teodoro attended the Seoul Security Dialogue in South Korea today, he received a note from a Chinese representative on the stage, which questioned the award of the 2016 South China Sea arbitration case. Teodoro…",
+    "link": "https://www.cna.com.tw/news/aopl/202609090002.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202609090002.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-09-08T16:32:54+00:00"
+  },
+  {
+    "id": "065f62e390ed00f2ecde8da323c419b1b39cd151",
+    "title": "Violence among Israeli settlers increases, 12 countries impose sanctions on trade in settlements in the West Bank",
+    "title_original": "以色列屯民暴力日增 12國制裁約旦河西岸屯墾區貿易",
+    "summary": "(Central News Agency, Paris, August 8, Comprehensive Foreign News Report) Due to the increasing attacks by Israeli settlers on Palestinian villages in the occupied West Bank, 12 countries, including the United Kingdom, Canada and France, announced today the imposition of sanctions on trade with Israeli settlements in…",
+    "link": "https://www.cna.com.tw/news/aopl/202609080340.aspx",
+    "link_key": "https://www.cna.com.tw/news/aopl/202609080340.aspx",
+    "source": "CNA - International",
+    "category": "wire_zh",
+    "published": "2026-09-08T14:18:30+00:00"
+  },
+  {
+    "id": "01a28ab7929b16a6ef2a9b76bec5310594f32110",
+    "title": "The election is cold! 101 people registered for the Kaohsiung City Council election, setting a record for the lowest number after the merger of counties and cities",
+    "title_original": "選情冷！高雄市議員選舉101人登記 創縣市合併後最少紀錄",
+    "summary": "A total of 101 people have registered for the next high city council election, setting a record since the merger of counties and cities. Local people comment that the political environment in the south still favors the long-term blue and green, with little space for small parties and a weak atmosphere for reform. The…",
+    "link": "https://news.ltn.com.tw/news/politics/breakingnews/5567502",
+    "link_key": "https://news.ltn.com.tw/news/politics/breakingnews/5567502",
+    "source": "Liberty Times - Politics",
+    "category": "press_zh",
+    "published": "2026-09-08T13:55:47+00:00"
+  },
+  {
     "id": "a24f6fea1220080f060c69f1b5715b499f48e0b4",
     "title": "Argentina to sanction oil companies drilling in Falklands British officials: sovereignty unquestionable",
     "title_original": "阿根廷將制裁在福克蘭鑽探石油公司 英國官員：主權無庸置疑",
@@ -130,6 +218,17 @@
     "source": "CNA - Culture",
     "category": "wire_zh",
     "published": "2026-09-08T11:30:54+00:00"
+  },
+  {
+    "id": "24da311a1582a336025077d2ee1f17f38e2f544b",
+    "title": "Japan-Taiwan ties key to regional stability: Visiting lawmakers",
+    "title_original": null,
+    "summary": "Taipei, Sept. 8 (CNA) A senior member of the Japan Innovation Party (JIP) on Tuesday called for closer Tokyo-Taipei cooperation, including on drone and space-based technologies, to meet modern defense needs and promote regional peace and stability.",
+    "link": "https://focustaiwan.tw/politics/202609080027",
+    "link_key": "https://focustaiwan.tw/politics/202609080027",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-09-08T11:25:32+00:00"
   },
   {
     "id": "7da33eaaa753799a44d94acbdd13d7d39feeb8a8",
@@ -2132,27 +2231,5 @@
     "source": "Liberty Times - International",
     "category": "press_zh",
     "published": "2026-09-06T18:36:48+00:00"
-  },
-  {
-    "id": "306500475014cdcededca8be841ffca589be2525",
-    "title": "The United States was once angered by its nuclear-armed supercomputer! China National University of Defense Technology reveals AI courses to be fully integrated into actual combat scenarios",
-    "title_original": "曾因核武超級電腦惹怒美國！中國國防科大曝AI課程 全面融入實戰場景",
-    "summary": "隨著全球各國軍隊積極探索人工智慧（AI）在戰略規劃、部隊訓練與前線作戰中的應用，軍事人員需要具備的技能也隨之改變。為了讓未來的軍事將領與軍官能更妥善地應對智能化戰爭，中國軍方...…",
-    "link": "https://news.ltn.com.tw/news/world/breakingnews/5565270",
-    "link_key": "https://news.ltn.com.tw/news/world/breakingnews/5565270",
-    "source": "Liberty Times - International",
-    "category": "press_zh",
-    "published": "2026-09-06T16:27:19+00:00"
-  },
-  {
-    "id": "b461169d73b63a20fcc00b102e10cf82931aa81d",
-    "title": "DPP celebrates 40th anniversary in Taoyuan, Xiao Meiqin calls on citizens to support Huang Shijie and turn Taoyuan around",
-    "title_original": "民進黨桃園慶40週年黨慶 蕭美琴籲市民挺黃世杰翻轉桃園",
-    "summary": "The Taoyuan City Party Headquarters of the Democratic Progressive Party celebrated the 40th anniversary of the party. On the 6th, the \"Walk Together, Celebrating 40\" Party Celebration Walk was held at Xinzhi Park at the junction of Zhongli and Pingzhen, attracting more than 2,000 people. Vice President Xiao Meiqin…",
-    "link": "https://www.ettoday.net/news/20260906/3232634.htm",
-    "link_key": "https://www.ettoday.net/news/20260906/3232634.htm",
-    "source": "ETtoday - Politics",
-    "category": "press_zh",
-    "published": "2026-09-06T15:39:00+00:00"
   }
 ]
