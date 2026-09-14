@@ -1,5 +1,71 @@
 [
   {
+    "id": "521d2644d4adcdccdff35c8d46c405f93fda7b2c",
+    "title": "Japanese PM Sanae Takaichi’s ally wins election in Okinawa",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/09/15/2003864280",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/09/15/2003864280",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-15T00:00:00+00:00"
+  },
+  {
+    "id": "6fa35cd600eca44c10234277a2d4fcb9279306e3",
+    "title": "Trump ‘not worried’ about Xi calling off summit",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/09/15/2003864281",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/09/15/2003864281",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-15T00:00:00+00:00"
+  },
+  {
+    "id": "e3323931764916aa94ea048f7f94a0772e7d6c1a",
+    "title": "Hsiao’s trip creates new diplomatic model: official",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/15/2003864291",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/15/2003864291",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-15T00:00:00+00:00"
+  },
+  {
+    "id": "c582c00820dca3ffc9949a10f151855fd8df6bc4",
+    "title": "Summit sheds light on global south",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/15/2003864270",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/15/2003864270",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-15T00:00:00+00:00"
+  },
+  {
+    "id": "6d6b0c97657fae433aa0fa9690754c4838519445",
+    "title": "Eagles start season with win over Washington",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/sport/archives/2026/09/15/2003864284",
+    "link_key": "https://www.taipeitimes.com/News/sport/archives/2026/09/15/2003864284",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-15T00:00:00+00:00"
+  },
+  {
+    "id": "596c7e5ad8d1a642952de2eeede30adc80d27e6b",
+    "title": "Sweden’s election too close to call",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/09/15/2003864302",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/09/15/2003864302",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-09-15T00:00:00+00:00"
+  },
+  {
     "id": "73126b5710f3f706a319d24d00926ef9df915375",
     "title": "KMT lawmakers meet San Francisco officials on U.S. trip",
     "title_original": null,
@@ -339,16 +405,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-09-13T00:00:00+00:00"
-  },
-  {
-    "id": "ceb49ef891ca9cc48e3137f317944ebe7be2b82e",
-    "title": "China protests Xiao Meiqin's visit. Foreign Minister Yi: He has not contacted Beijing and insists on maintaining the status quo.",
-    "title_original": "中國抗議蕭美琴訪問 義外長：未聯繫北京、挺維持現狀",
-    "summary": "（中央社記者黃雅詩羅馬12日專電）副總統蕭美琴應邀到義大利發表演說，中國外交部揚言向義國與歐盟提出嚴重抗議。義國外長塔加尼今天表示，針對此事，和北京政府「沒有任何聯繫」，義大利雖遵行一中政策，但也同時支持維持區域現狀。",
-    "link": "https://www.cna.com.tw/news/aipl/202609130003.aspx",
-    "link_key": "https://www.cna.com.tw/news/aipl/202609130003.aspx",
-    "source": "CNA - Politics",
-    "category": "wire_zh",
-    "published": "2026-09-12T16:32:32+00:00"
   }
 ]
