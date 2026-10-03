@@ -1,5 +1,16 @@
 [
   {
+    "id": "5a6c9bf56a7fd47a54178d69a013fe078921c6b2",
+    "title": "Local election campaigns heat up across Taiwan",
+    "title_original": null,
+    "summary": "Taipei, Oct. 3 (CNA) Candidates in Taiwan's Nov. 28 nine-in-one local elections squared off in Kaohsiung, New Taipei and Taichung on Saturday as their campaigns began to pick up steam.",
+    "link": "https://focustaiwan.tw/politics/202610030016",
+    "link_key": "https://focustaiwan.tw/politics/202610030016",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-10-03T10:56:21+00:00"
+  },
+  {
     "id": "d0513675ebadffb6141198869d0fa1a3871c16a1",
     "title": "Defense ministry releases images of jets escorting new F-16Vs",
     "title_original": null,
@@ -86,27 +97,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-10-02T00:00:00+00:00"
-  },
-  {
-    "id": "31ad80958cf07c15649c2a1c2617c83e18be3d5a",
-    "title": "Cabinet proposes extending bond, bond ETF tax exemption for 10 years",
-    "title_original": null,
-    "summary": "Taipei, Oct. 1 (CNA) The Cabinet on Thursday approved a draft amendment to the Securities Transaction Tax Act that would extend a tax exemption on corporate bonds, financial bonds and passive bond exchange-traded funds (ETFs) for another 10 years, through Dec. 31, 2036, while expanding the exemption to actively…",
-    "link": "https://focustaiwan.tw/politics/202610010019",
-    "link_key": "https://focustaiwan.tw/politics/202610010019",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-10-01T11:56:58+00:00"
-  },
-  {
-    "id": "09d294388516cfc1f0b9ca92a9c3103b5da190a0",
-    "title": "DPP, KMT candidates for Kaohsiung mayor ramp up campaigns",
-    "title_original": null,
-    "summary": "Kaohsiung, Oct. 1 (CNA) Democratic Progressive Party (DPP) Kaohsiung mayoral candidate Lai Jui-lung (賴瑞隆) on Thursday released his first campaign video, while his Kuomintang (KMT) opponent Ko Chih-en (柯志恩) visited traditional markets in the southern port city.",
-    "link": "https://focustaiwan.tw/politics/202610010017",
-    "link_key": "https://focustaiwan.tw/politics/202610010017",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-10-01T10:59:53+00:00"
   }
 ]
