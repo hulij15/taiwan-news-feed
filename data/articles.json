@@ -1,5 +1,27 @@
 [
   {
+    "id": "1b97156acc5c5178ee9e3b7f539bb85689a5580a",
+    "title": "Major party leaders rally across Taiwan in support of local election candidates",
+    "title_original": null,
+    "summary": "Taipei, Oct. 4 (CNA) Leaders of Taiwan's major political parties fanned out across the country on Sunday to campaign for their mayoral and city council candidates ahead of the Nov. 28 local elections, with events held in special municipalities including Taipei, Taichung and Kaohsiung.",
+    "link": "https://focustaiwan.tw/politics/202610040012",
+    "link_key": "https://focustaiwan.tw/politics/202610040012",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-10-04T11:17:14+00:00"
+  },
+  {
+    "id": "88a46ca5feca11382ff72ba9a9cf45427df1ed4b",
+    "title": "Foreign Minister Lin arrives in Arizona for representative office opening",
+    "title_original": null,
+    "summary": "Taipei, Oct. 4 (CNA) Foreign Minister Lin Chia-lung (林佳龍) arrived in Phoenix, Arizona, late Saturday (local time) to begin a three-day visit, including the opening of Taiwan's new representative office in the city, the Ministry of Foreign Affairs (MOFA) announced Sunday.",
+    "link": "https://focustaiwan.tw/politics/202610040008",
+    "link_key": "https://focustaiwan.tw/politics/202610040008",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-10-04T08:56:03+00:00"
+  },
+  {
     "id": "5e508c4997e9266f2ddda043c3cc1357098e0005",
     "title": "Foreign minister to attend Phoenix office opening",
     "title_original": null,
@@ -86,27 +108,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-10-03T00:00:00+00:00"
-  },
-  {
-    "id": "cc23238f4a19e5d012032256859d742bd08a9f1b",
-    "title": "Lithuania’s Taiwan Balancing Act Tests Europe’s Resolve",
-    "title_original": null,
-    "summary": "Written by Jozef Huljak. This article discusses how Lithuania is resuming economic cooperation talks with Taiwan despite internal political pressure to reset relations with Beijing. This strategy aims to shift the relationship from symbolic solidarity to durable economic interest, testing Europe's resolve against…",
-    "link": "https://taiwaninsight.org/2026/10/02/lithuanias-taiwan-balancing-act-tests-europes-resolve/",
-    "link_key": "https://taiwaninsight.org/2026/10/02/lithuanias-taiwan-balancing-act-tests-europes-resolve/",
-    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
-    "category": "analysis",
-    "published": "2026-10-02T08:00:00+00:00"
-  },
-  {
-    "id": "481b952e5ae0f6388da6ab31d1f845a512bf2415",
-    "title": "Ex-President Tsai Ing-wen to visit U.S., deliver speech at Stanford",
-    "title_original": null,
-    "summary": "Taipei, Oct. 2 (CNA) Former President Tsai Ing-wen (蔡英文) will visit the United States next week to deliver a keynote speech at Stanford University, her office confirmed Friday.",
-    "link": "https://focustaiwan.tw/politics/202610020015",
-    "link_key": "https://focustaiwan.tw/politics/202610020015",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-10-02T07:54:00+00:00"
   }
 ]
