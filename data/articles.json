@@ -1,5 +1,38 @@
 [
   {
+    "id": "c5519014291857c7d9b8ab590a44f9b42a91e92b",
+    "title": "President Lai delivers 2026 National Day Address",
+    "title_original": null,
+    "summary": "President Lai Ching-te on the morning of October 10 attended the ROC’s 115th Double Tenth National D...",
+    "link": "https://english.president.gov.tw/NEWS/7226",
+    "link_key": "https://english.president.gov.tw/NEWS/7226",
+    "source": "Office of the President - News",
+    "category": "government",
+    "published": "2026-10-10T04:35:52+00:00"
+  },
+  {
+    "id": "b4879aab58433402057774cd34b225d41125ee1d",
+    "title": "President Lai receives congratulations from foreign guests attending 2026 National Day celebration",
+    "title_original": null,
+    "summary": "On the morning of October 10 at the Presidential Office Building, President Lai Ching-te and the Fir...",
+    "link": "https://english.president.gov.tw/NEWS/7225",
+    "link_key": "https://english.president.gov.tw/NEWS/7225",
+    "source": "Office of the President - News",
+    "category": "government",
+    "published": "2026-10-10T04:29:50+00:00"
+  },
+  {
+    "id": "8bf17cca08ae4d8b09195c01d7e2b94a3e0f12b9",
+    "title": "Full text of President Lai Ching-te's National Day address",
+    "title_original": null,
+    "summary": "Taipei, Oct. 10 (CNA) President Lai Ching-te (賴清德), in his National Day address on Saturday, pledged to improve people's well-being, safeguard regional peace and stability, and sustain Taiwan's economic competitiveness.",
+    "link": "https://focustaiwan.tw/politics/202610100003",
+    "link_key": "https://focustaiwan.tw/politics/202610100003",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-10-10T03:10:34+00:00"
+  },
+  {
     "id": "b9efff3f49f63c93c1cea42a9816e3cc242d3b66",
     "title": "Taiwan offers much more than tech, Tsai Ing-wen says",
     "title_original": null,
@@ -152,16 +185,5 @@
     "source": "Focus Taiwan (CNA English News)",
     "category": "wire_en",
     "published": "2026-10-08T06:50:46+00:00"
-  },
-  {
-    "id": "9bcc2e33c2b6cc09b1e74fb3ec515d021bee6dfb",
-    "title": "Taiwan cooperation key to Indo-Pacific stability: Ex-President Tsai",
-    "title_original": null,
-    "summary": "San Francisco, Oct. 7 (CNA) Former Taiwan President Tsai Ing-wen (蔡英文) said Wednesday that deeper international cooperation with Taiwan will not only strengthen its security, but also boost stability in the Indo-Pacific and the resilience of other democracies.",
-    "link": "https://focustaiwan.tw/politics/202610080005",
-    "link_key": "https://focustaiwan.tw/politics/202610080005",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-10-08T04:28:37+00:00"
   }
 ]
