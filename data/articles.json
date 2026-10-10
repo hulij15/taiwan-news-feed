@@ -1,5 +1,49 @@
 [
   {
+    "id": "ab50a644d9b16af2c933e9ea42f6f82b5afd5dab",
+    "title": "President Lai evokes ‘city on a hill’",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/10/11/2003865753",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/10/11/2003865753",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-11T00:00:00+00:00"
+  },
+  {
+    "id": "b96558061ec53e0e7298ef49159f26ea82ee35a6",
+    "title": "KMT Han’s distasteful national day speech",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/10/11/2003865744",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/10/11/2003865744",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-11T00:00:00+00:00"
+  },
+  {
+    "id": "0c97701ed3b6cf89fd1c25c2474f76a3e31b3dd5",
+    "title": "KMT’s Cheng Li-wun on the ballot",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/10/11/2003865745",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/10/11/2003865745",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-11T00:00:00+00:00"
+  },
+  {
+    "id": "33b8cc8bff09d921f1e2a07bf04a83d96122fd25",
+    "title": "Brazil lowers fuel prices ahead of runoff election",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/10/11/2003865779",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/10/11/2003865779",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-11T00:00:00+00:00"
+  },
+  {
     "id": "5d76544dab435376dde603c587e6ee10a598e07c",
     "title": "Opposition leaders criticize DPP, Lai in National Day remarks",
     "title_original": null,
@@ -119,16 +163,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-10-09T00:00:00+00:00"
-  },
-  {
-    "id": "063726f5368b43e4face36962e11283aec09d897",
-    "title": "228 foreign guests to attend 2026 ROC National Day celebrations: MOFA",
-    "title_original": null,
-    "summary": "Taipei, Oct. 8 (CNA) A total of 228 foreign guests will take part in 2026 Republic of China (Taiwan) National Day celebrations, including King Mswati III of Taiwan's sole African ally Eswatini and Indiana Lieutenant Governor Micah Beckwith, according to the Ministry of Foreign Affairs (MOFA) on Thursday.",
-    "link": "https://focustaiwan.tw/politics/202610080021",
-    "link_key": "https://focustaiwan.tw/politics/202610080021",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-10-08T12:53:20+00:00"
   }
 ]
