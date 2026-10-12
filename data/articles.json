@@ -1,5 +1,60 @@
 [
   {
+    "id": "d7a99c94d4aaee64778f149eb9a4e9571b01e402",
+    "title": "President Lai hosts state banquet for King Mswati III and Inkhosikati Make Zuma of Eswatini",
+    "title_original": null,
+    "summary": "At noon on October 9, following a welcome ceremony with military honors and bilateral talks, Preside...",
+    "link": "https://english.president.gov.tw/NEWS/7228",
+    "link_key": "https://english.president.gov.tw/NEWS/7228",
+    "source": "Office of the President - News",
+    "category": "government",
+    "published": "2026-10-12T09:33:35+00:00"
+  },
+  {
+    "id": "e1d09f57bcaae937a525269970b1c10ec2c29358",
+    "title": "President Lai welcomes King Mswati III and Inkhosikati Make Zuma of Eswatini with military honors",
+    "title_original": null,
+    "summary": "On the morning of October 9, President Lai Ching-te welcomed His Majesty King Mswati III and Inkhosi...",
+    "link": "https://english.president.gov.tw/NEWS/7227",
+    "link_key": "https://english.president.gov.tw/NEWS/7227",
+    "source": "Office of the President - News",
+    "category": "government",
+    "published": "2026-10-12T09:20:01+00:00"
+  },
+  {
+    "id": "af16b121c2fa6bc6f5eea100a7960600413ef3b3",
+    "title": "From compassion to liberation: Animal advocacy, veganism, and sustainability in Taiwan",
+    "title_original": null,
+    "summary": "Written by Gina Song Lopez. This article explores the rise of Taiwan’s modern vegan movement, examining its transition from traditional religious vegetarianism to a youth-driven advocacy centered on animal ethics, climate action, and identity. Through NGOs, digital platforms, and policy engagement, local advocates…",
+    "link": "https://taiwaninsight.org/2026/10/12/from-compassion-to-liberation-animal-advocacy-veganism-and-sustainability-in-taiwan/",
+    "link_key": "https://taiwaninsight.org/2026/10/12/from-compassion-to-liberation-animal-advocacy-veganism-and-sustainability-in-taiwan/",
+    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
+    "category": "analysis",
+    "published": "2026-10-12T08:00:00+00:00"
+  },
+  {
+    "id": "d09c0539d8e5d552aa49cc770f4d4c164420e027",
+    "title": "12 mayoral candidates sign sustainability pledges ahead of elections",
+    "title_original": null,
+    "summary": "Taipei, Oct. 12 (CNA) Twelve candidates in Taiwan's upcoming local government elections have signed pledges to promote sustainable and resilient policies if elected, civic groups said Monday.",
+    "link": "https://focustaiwan.tw/politics/202610120008",
+    "link_key": "https://focustaiwan.tw/politics/202610120008",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-10-12T05:14:35+00:00"
+  },
+  {
+    "id": "d12b40dec31ffe98b4b625d07a12cbe4c35ad62c",
+    "title": "PLA drills not close to Taiwan: Defense Minister Koo",
+    "title_original": null,
+    "summary": "Taipei, Oct. 12 (CNA) Defense Minister Wellington Koo (顧立雄) said Monday that Taiwan is closely monitoring China's military exercises in the region and has assessed that the latest round will be held off the coast of China rather than near Taiwan.",
+    "link": "https://focustaiwan.tw/politics/202610120006",
+    "link_key": "https://focustaiwan.tw/politics/202610120006",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-10-12T04:18:30+00:00"
+  },
+  {
     "id": "fdbfa16661ea362e953e6c3bd412e182d36824b9",
     "title": "DPP depriving Taiwan of future: KMT head",
     "title_original": null,
@@ -97,38 +152,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-10-11T00:00:00+00:00"
-  },
-  {
-    "id": "5d76544dab435376dde603c587e6ee10a598e07c",
-    "title": "Opposition leaders criticize DPP, Lai in National Day remarks",
-    "title_original": null,
-    "summary": "Taipei, Oct. 10 (CNA) Kuomintang (KMT) Chairperson Cheng Li-wun (鄭麗文) on Saturday urged voters to help her party win local elections in southern Taiwan, while Taiwan People's Party (TPP) Chairman Huang Kuo-chang (黃國昌) called on President Lai Ching-te (賴清德) to promulgate laws passed by the Legislature.",
-    "link": "https://focustaiwan.tw/politics/202610100013",
-    "link_key": "https://focustaiwan.tw/politics/202610100013",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-10-10T08:48:01+00:00"
-  },
-  {
-    "id": "c5519014291857c7d9b8ab590a44f9b42a91e92b",
-    "title": "President Lai delivers 2026 National Day Address",
-    "title_original": null,
-    "summary": "President Lai Ching-te on the morning of October 10 attended the ROC’s 115th Double Tenth National D...",
-    "link": "https://english.president.gov.tw/NEWS/7226",
-    "link_key": "https://english.president.gov.tw/NEWS/7226",
-    "source": "Office of the President - News",
-    "category": "government",
-    "published": "2026-10-10T04:35:52+00:00"
-  },
-  {
-    "id": "b4879aab58433402057774cd34b225d41125ee1d",
-    "title": "President Lai receives congratulations from foreign guests attending 2026 National Day celebration",
-    "title_original": null,
-    "summary": "On the morning of October 10 at the Presidential Office Building, President Lai Ching-te and the Fir...",
-    "link": "https://english.president.gov.tw/NEWS/7225",
-    "link_key": "https://english.president.gov.tw/NEWS/7225",
-    "source": "Office of the President - News",
-    "category": "government",
-    "published": "2026-10-10T04:29:50+00:00"
   }
 ]
