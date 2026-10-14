@@ -1,5 +1,82 @@
 [
   {
+    "id": "d43f72e078583064f84dece2cd022b1ffbf57d5a",
+    "title": "MAC criticizes China’s sanctions aiming at election interference",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/10/15/2003865986",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/10/15/2003865986",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-15T00:00:00+00:00"
+  },
+  {
+    "id": "1fa0baafdec056aee48ea254432f31f1393a0735",
+    "title": "Legislator calls for tighter agricultural import rules",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/15/2003866008",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/15/2003866008",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-15T00:00:00+00:00"
+  },
+  {
+    "id": "b89c03cef8996b7549f4b182ff2bf206a922e887",
+    "title": "Notes from Central Taiwan: Annexation could sever Taiwan’s chip lifeline",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/feat/archives/2026/10/15/2003865982",
+    "link_key": "https://www.taipeitimes.com/News/feat/archives/2026/10/15/2003865982",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-15T00:00:00+00:00"
+  },
+  {
+    "id": "9f5ff3bea3ea30e92933a3603d0eed7d684a9275",
+    "title": "Before the Blockade: Marine Insurance’s Relevance to Taiwan’s Energy Lifeline",
+    "title_original": null,
+    "summary": "In the event of a Taiwan Strait crisis, the fate of a liquid natural gas (LNG) cargo bound for Taichung, or one of Taiwan’s other major ports, could turn into a commercial question: can it still obtain war-risk cover? As naval planning receives most of the attention in relation to a potential blockade, marine…",
+    "link": "https://globaltaiwan.org/2026/10/before-the-blockade/",
+    "link_key": "https://globaltaiwan.org/2026/10/before-the-blockade/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-10-14T18:23:32+00:00"
+  },
+  {
+    "id": "e757812cfef1b768732f520e4992c41e77e4ac20",
+    "title": "“Last Year We Needed Volunteers, This Year We Need Tourists”: Reviving Post-Disaster Tourism in Eastern Taiwan",
+    "title_original": null,
+    "summary": "Long after a town rebuilds itself, its image can remain stuck in the past. Potential visitors may view the place through outdated images and previous disaster headlines. Without enough reassurance or incentives, they steer clear for longer than necessary, forgetting that the place was, and still can be, a holiday…",
+    "link": "https://globaltaiwan.org/2026/10/the-challenges-of-reviving-post-disaster-tourism-in-eastern-taiwan/",
+    "link_key": "https://globaltaiwan.org/2026/10/the-challenges-of-reviving-post-disaster-tourism-in-eastern-taiwan/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-10-14T18:22:17+00:00"
+  },
+  {
+    "id": "2a2eef83b29f2fbb7e2bb3cf91bde91c80950563",
+    "title": "Fruit at the Forefront of a Trade and Diplomatic Push",
+    "title_original": null,
+    "summary": "Shoppers in the United Kingdom and France got a treat when supplies of fresh fruit from Taiwan found their way onto their supermarket shelves for the first time this year. The first batch, a mixed shipment of premium Irwin mangoes from Tainan and black-leaf lychees from Taichung, cleared customs in the British city…",
+    "link": "https://globaltaiwan.org/2026/10/fruit-at-the-forefront-of-a-trade-and-diplomatic-push/",
+    "link_key": "https://globaltaiwan.org/2026/10/fruit-at-the-forefront-of-a-trade-and-diplomatic-push/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-10-14T18:21:41+00:00"
+  },
+  {
+    "id": "b95862c262b767f7bbe8fdafd66140bd52c38269",
+    "title": "A Taiwanese Youth’s Perspective: TSMC’s US Expansion and the American Dream",
+    "title_original": null,
+    "summary": "Producing more than 90 percent of the advanced chips powering AI development, TSMC has significantly elevated Taiwan’s strategic importance in global affairs. In recent years, cognitive influence operations have nonetheless fueled fears among many older Taiwanese that TSMC’s overseas expansion could cost Taiwan…",
+    "link": "https://globaltaiwan.org/2026/10/a-taiwanese-youths-perspective-tsmcs-us-expansion-and-the-american-dream/",
+    "link_key": "https://globaltaiwan.org/2026/10/a-taiwanese-youths-perspective-tsmcs-us-expansion-and-the-american-dream/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-10-14T18:20:08+00:00"
+  },
+  {
     "id": "cbbb0c3c4167e978b28d7f7e1881ce40b858d765",
     "title": "Taiwan's parties ramp up campaigning ahead of Nov. 28 local elections",
     "title_original": null,
