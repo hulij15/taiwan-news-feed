@@ -1,5 +1,93 @@
 [
   {
+    "id": "de72fbddcf70301d169c49f2a86a43aa98737fe5",
+    "title": "Chinese student deported for targeting President Lai",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/10/17/2003866112",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/10/17/2003866112",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-17T00:00:00+00:00"
+  },
+  {
+    "id": "692d2dd92a66afdff3dec7bb47572c7952587503",
+    "title": "KMT bill for providing NT$20,000 handout advances",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866130",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866130",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-17T00:00:00+00:00"
+  },
+  {
+    "id": "237ca446e8cd67ee7844845e1516cb1499147e2e",
+    "title": "2026 Elections: Puma Shen interview draws KMT ire",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866131",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866131",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-17T00:00:00+00:00"
+  },
+  {
+    "id": "b1bc7cfae184139d765ea938e62f53f9da18e6e2",
+    "title": "2026 Elections: Chiang proposes easing urban renewal threshold; Shen questions bottlenecks",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866132",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866132",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-17T00:00:00+00:00"
+  },
+  {
+    "id": "8435af9eba73863182656f03f0c638b41e61142b",
+    "title": "2026 Elections: Ten local election candidates fail eligibility review",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866133",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866133",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-17T00:00:00+00:00"
+  },
+  {
+    "id": "cdb678ce22354c7d3f358d56568c3443c6d74560",
+    "title": "2026 Elections: Man loses NT$1.04m in fraud scheme",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866134",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/17/2003866134",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-17T00:00:00+00:00"
+  },
+  {
+    "id": "a681d8f2b5f92d937a9d271f3627c7da11ed4f59",
+    "title": "No trade in obedience to Beijing",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/10/17/2003866103",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/10/17/2003866103",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-17T00:00:00+00:00"
+  },
+  {
+    "id": "134defef42d309fc36d6e86d0cfd0d3826541c2b",
+    "title": "Europe’s big election season could change everything",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/10/17/2003866105",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/10/17/2003866105",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-17T00:00:00+00:00"
+  },
+  {
     "id": "1d236b4545a8f8eec4caf456fe6f0a51e46ab080",
     "title": "10 local election candidates fail eligibility review: CEC",
     "title_original": null,
@@ -20,6 +108,17 @@
     "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
     "category": "analysis",
     "published": "2026-10-16T08:00:00+00:00"
+  },
+  {
+    "id": "eff3243ab86e557f98452348d54da9c5241eae5f",
+    "title": "Temple Management and Potential Pathways for Corruption in Taiwan",
+    "title_original": null,
+    "summary": "Taiwan’s most holy temple to the Daoist medicine god, Baosheng Dadi (保生大帝), is found in Xuejia, Tainan. The temple is managed by a powerful local figure named Wang Wen-tsung (王文宗), a name that means “eminent writer” in literary Chinese. Wang’s name, as well as the therapeutic role of Baosheng Dadi, contrast with…",
+    "link": "https://globaltaiwan.org/2026/10/temple-management-and-potential-pathways-for-corruption-in-taiwan/",
+    "link_key": "https://globaltaiwan.org/2026/10/temple-management-and-potential-pathways-for-corruption-in-taiwan/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-10-16T05:03:38+00:00"
   },
   {
     "id": "5c5657f14479af03e41751cb33566ddc6740090a",
@@ -152,49 +251,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-10-15T00:00:00+00:00"
-  },
-  {
-    "id": "9f5ff3bea3ea30e92933a3603d0eed7d684a9275",
-    "title": "Before the Blockade: Marine Insurance’s Relevance to Taiwan’s Energy Lifeline",
-    "title_original": null,
-    "summary": "In the event of a Taiwan Strait crisis, the fate of a liquid natural gas (LNG) cargo bound for Taichung, or one of Taiwan’s other major ports, could turn into a commercial question: can it still obtain war-risk cover? As naval planning receives most of the attention in relation to a potential blockade, marine…",
-    "link": "https://globaltaiwan.org/2026/10/before-the-blockade/",
-    "link_key": "https://globaltaiwan.org/2026/10/before-the-blockade/",
-    "source": "Global Taiwan Brief (Global Taiwan Institute)",
-    "category": "analysis",
-    "published": "2026-10-14T18:23:32+00:00"
-  },
-  {
-    "id": "e757812cfef1b768732f520e4992c41e77e4ac20",
-    "title": "“Last Year We Needed Volunteers, This Year We Need Tourists”: Reviving Post-Disaster Tourism in Eastern Taiwan",
-    "title_original": null,
-    "summary": "Long after a town rebuilds itself, its image can remain stuck in the past. Potential visitors may view the place through outdated images and previous disaster headlines. Without enough reassurance or incentives, they steer clear for longer than necessary, forgetting that the place was, and still can be, a holiday…",
-    "link": "https://globaltaiwan.org/2026/10/the-challenges-of-reviving-post-disaster-tourism-in-eastern-taiwan/",
-    "link_key": "https://globaltaiwan.org/2026/10/the-challenges-of-reviving-post-disaster-tourism-in-eastern-taiwan/",
-    "source": "Global Taiwan Brief (Global Taiwan Institute)",
-    "category": "analysis",
-    "published": "2026-10-14T18:22:17+00:00"
-  },
-  {
-    "id": "2a2eef83b29f2fbb7e2bb3cf91bde91c80950563",
-    "title": "Fruit at the Forefront of a Trade and Diplomatic Push",
-    "title_original": null,
-    "summary": "Shoppers in the United Kingdom and France got a treat when supplies of fresh fruit from Taiwan found their way onto their supermarket shelves for the first time this year. The first batch, a mixed shipment of premium Irwin mangoes from Tainan and black-leaf lychees from Taichung, cleared customs in the British city…",
-    "link": "https://globaltaiwan.org/2026/10/fruit-at-the-forefront-of-a-trade-and-diplomatic-push/",
-    "link_key": "https://globaltaiwan.org/2026/10/fruit-at-the-forefront-of-a-trade-and-diplomatic-push/",
-    "source": "Global Taiwan Brief (Global Taiwan Institute)",
-    "category": "analysis",
-    "published": "2026-10-14T18:21:41+00:00"
-  },
-  {
-    "id": "b95862c262b767f7bbe8fdafd66140bd52c38269",
-    "title": "A Taiwanese Youth’s Perspective: TSMC’s US Expansion and the American Dream",
-    "title_original": null,
-    "summary": "Producing more than 90 percent of the advanced chips powering AI development, TSMC has significantly elevated Taiwan’s strategic importance in global affairs. In recent years, cognitive influence operations have nonetheless fueled fears among many older Taiwanese that TSMC’s overseas expansion could cost Taiwan…",
-    "link": "https://globaltaiwan.org/2026/10/a-taiwanese-youths-perspective-tsmcs-us-expansion-and-the-american-dream/",
-    "link_key": "https://globaltaiwan.org/2026/10/a-taiwanese-youths-perspective-tsmcs-us-expansion-and-the-american-dream/",
-    "source": "Global Taiwan Brief (Global Taiwan Institute)",
-    "category": "analysis",
-    "published": "2026-10-14T18:20:08+00:00"
   }
 ]
