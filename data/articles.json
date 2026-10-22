@@ -1,5 +1,49 @@
 [
   {
+    "id": "d8682de062fffa6561f113a96e18284518358f56",
+    "title": "Cabinet approves tax incentives for TISAs",
+    "title_original": null,
+    "summary": "Taipei, Oct. 22 (CNA) Taiwan's Cabinet, the Executive Yuan, on Thursday approved draft tax incentives for the Taiwan Individual Savings Account (TISA) program.",
+    "link": "https://focustaiwan.tw/politics/202610220011",
+    "link_key": "https://focustaiwan.tw/politics/202610220011",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-10-22T08:15:20+00:00"
+  },
+  {
+    "id": "54436fe8b16c585ac3cc23860b4cf12e32158412",
+    "title": "The Energy Dimension of Taiwan’s AI Shield",
+    "title_original": null,
+    "summary": "Written by Scott M. Moore. This article assesses whether Taiwan's energy system can sustain an \"AI Shield\" built on its dominance in semiconductor manufacturing. Although the aggregate generation capacity is adequate, outdated grids, rising data-centre demand, dependence on imported gas and affordability disputes…",
+    "link": "https://taiwaninsight.org/2026/10/22/the-energy-dimension-of-taiwans-ai-shield/",
+    "link_key": "https://taiwaninsight.org/2026/10/22/the-energy-dimension-of-taiwans-ai-shield/",
+    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
+    "category": "analysis",
+    "published": "2026-10-22T08:00:00+00:00"
+  },
+  {
+    "id": "ce73be83a947e49c59ce26b4463701a172ec53ed",
+    "title": "Avoid beaches, mountains during typhoon on long-weekend holiday: Premier",
+    "title_original": null,
+    "summary": "Taipei, Oct. 22 (CNA) Premier Cho Jung-tai (卓榮泰) on Thursday urged the public to stay away from creeks, beaches and mountainous areas as Typhoon Champi approached Taiwan's main island, bringing heavy rain and strong winds over the Retrocession Day long weekend.",
+    "link": "https://focustaiwan.tw/society/202610220009",
+    "link_key": "https://focustaiwan.tw/society/202610220009",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-10-22T06:53:14+00:00"
+  },
+  {
+    "id": "47858d5a24485149cd419cff6a14c1407001895f",
+    "title": "China's election interference in Taiwan becomes more targeted: NSB",
+    "title_original": null,
+    "summary": "Taipei, Oct. 22 (CNA) China's election interference in Taiwan is now focusing more on specific groups and audiences, a senior National Security Bureau (NSB) official said Thursday.",
+    "link": "https://focustaiwan.tw/politics/202610220007",
+    "link_key": "https://focustaiwan.tw/politics/202610220007",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-10-22T05:50:09+00:00"
+  },
+  {
     "id": "6eab9220d100599d269130beb2704c37d4181eda",
     "title": "Academia Sinica, US institute ink sharing agreement",
     "title_original": null,
@@ -97,27 +141,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-10-21T00:00:00+00:00"
-  },
-  {
-    "id": "ce1a3f9d79dcccf07f4cd9c15c49550bad0812f7",
-    "title": "Taiwan-donated patrol vessel will not patrol waters near Taiwan: Premier",
-    "title_original": null,
-    "summary": "Taipei, Oct. 20 (CNA) Premier Cho Jung-tai (卓榮泰) said Tuesday that a patrol vessel donated by Taiwan's Coast Guard Administration (CGA) to the Philippines would not be used in waters near Taiwan or areas where Taiwanese fishing vessels operate.",
-    "link": "https://focustaiwan.tw/politics/202610200022",
-    "link_key": "https://focustaiwan.tw/politics/202610200022",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-10-20T11:14:05+00:00"
-  },
-  {
-    "id": "a784c2c32345b2a4759ff98469342ce8bfa8fc21",
-    "title": "Detention (2019): Displacing Millennial, Nipponophiliac Taiwan’s Red Scare onto Mid-Century White Terror Part II",
-    "title_original": null,
-    "summary": "Written by Sheng-mei Ma. Part II of the article perceives Detention as a haunting of Taiwan’s White Terror, where Fang’s guilt, forbidden love, and suppressed memory recur through ghosts, banned texts, and images of facelessness and decapitation. Its hybrid cultural references reveal Taiwanese identity as…",
-    "link": "https://taiwaninsight.org/2026/10/20/detention-2019-displacing-millennial-nipponophiliac-taiwans-red-scare-onto-mid-century-white-terror-part-ii/",
-    "link_key": "https://taiwaninsight.org/2026/10/20/detention-2019-displacing-millennial-nipponophiliac-taiwans-red-scare-onto-mid-century-white-terror-part-ii/",
-    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
-    "category": "analysis",
-    "published": "2026-10-20T08:00:00+00:00"
   }
 ]
