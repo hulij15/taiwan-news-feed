@@ -1,5 +1,49 @@
 [
   {
+    "id": "fc4d6257cb9898104994bade00f1a8856508efc0",
+    "title": "Legislative Yuan stiffens penalties on drug driving",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/10/31/2003866903",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/10/31/2003866903",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-31T00:00:00+00:00"
+  },
+  {
+    "id": "6c45bcd2f677ea5f29b88248e39b713c2abee7c4",
+    "title": "Netanyahu’s bloc loses majority in Israeli parliament",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/10/31/2003866905",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/10/31/2003866905",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-31T00:00:00+00:00"
+  },
+  {
+    "id": "12779e97be9cd8a947663c85a956a965c991c4f0",
+    "title": "Indigenous ancestry travel book launched",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/31/2003866915",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/31/2003866915",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-31T00:00:00+00:00"
+  },
+  {
+    "id": "adc4e522a84f7e24271921a192938f153eb97406",
+    "title": "Beijing denies spying on Nvidia CEO Jensen Huang",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/10/31/2003866928",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/10/31/2003866928",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-10-31T00:00:00+00:00"
+  },
+  {
     "id": "15ce753f68cf089856e0ed5afd0cd0524db57b09",
     "title": "Taiwan-South Africa relations: how the ‘One China’ principle strengthens Beijing’s influence",
     "title_original": null,
@@ -9,6 +53,17 @@
     "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
     "category": "analysis",
     "published": "2026-10-30T09:00:00+00:00"
+  },
+  {
+    "id": "48b36d98cda526f5ddf406af40529591374dd714",
+    "title": "Battle for the Capital: Inside the 2026 Taipei Mayoral Race, Part 1",
+    "title_original": null,
+    "summary": "Taiwan is fast approaching its “Nine-in-One” local elections, which will be held on Saturday, November 28, 2026. While President Lai Ching-te (賴清德) is not on the ballot, the election will serve as the first significant electoral test of Taiwanese voters’ assessments of the Kuomintang Party (KMT, 中國國民黨) and Democratic…",
+    "link": "https://globaltaiwan.org/2026/10/introduction-to-2026-taipei-mayor-election/",
+    "link_key": "https://globaltaiwan.org/2026/10/introduction-to-2026-taipei-mayor-election/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-10-30T08:00:05+00:00"
   },
   {
     "id": "9bf84986a6277e2da9c881fff75c453d3832e902",
@@ -119,6 +174,17 @@
     "source": "Office of the President - News",
     "category": "government",
     "published": "2026-10-29T06:38:45+00:00"
+  },
+  {
+    "id": "2466804004a33be5e0f8f6530ec2a45881633bf8",
+    "title": "President Lai presides over ninth meeting of National Climate Change Committee",
+    "title_original": null,
+    "summary": "President Lai presides over ninth meeting of National Climate Change Committee",
+    "link": "https://english.president.gov.tw/NEWS/7233",
+    "link_key": "https://english.president.gov.tw/NEWS/7233",
+    "source": "Office of the President - News",
+    "category": "government",
+    "published": "2026-10-29T02:49:16+00:00"
   },
   {
     "id": "2d74b2d1ec76a023d495e9781fffc9068a7f8fc1",
