@@ -1,5 +1,38 @@
 [
   {
+    "id": "d4daa78ec41cea8ec6fb1a4e637764e695675c47",
+    "title": "G20 summit to end with no consensus on critical issues",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/11/01/2003866948",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/11/01/2003866948",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-01T00:00:00+00:00"
+  },
+  {
+    "id": "947960468c8e9b17ca85bc3426a51b8d619a45d2",
+    "title": "2026 Elections: Chiang, Shen clash in first televised mayoral debate",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/01/2003866954",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/01/2003866954",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-01T00:00:00+00:00"
+  },
+  {
+    "id": "fa5dd79f2160b53403a7f90bd7f1e901d670641e",
+    "title": "2026 Elections: Kaohsiung debate focuses on 205th Arsenal, donations",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/01/2003866955",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/01/2003866955",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-01T00:00:00+00:00"
+  },
+  {
     "id": "fc4d6257cb9898104994bade00f1a8856508efc0",
     "title": "Legislative Yuan stiffens penalties on drug driving",
     "title_original": null,
@@ -119,16 +152,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-10-30T00:00:00+00:00"
-  },
-  {
-    "id": "a7463967053d4700d31b837dcc7b8c93b6a7b971",
-    "title": "Elections chief apologizes after leak of candidates' personal data",
-    "title_original": null,
-    "summary": "Taipei, Oct. 29 (CNA) The head of Taiwan's Central Election Commission (CEC) apologized on Thursday after the national ID numbers of over 1,500 candidates for office, including those of top politicians, were reportedly exposed on its website for 11 days.",
-    "link": "https://focustaiwan.tw/politics/202610290017",
-    "link_key": "https://focustaiwan.tw/politics/202610290017",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-10-29T12:56:21+00:00"
   }
 ]
