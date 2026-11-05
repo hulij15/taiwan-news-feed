@@ -1,5 +1,49 @@
 [
   {
+    "id": "fdc5cd1364c716ab8d617826a02a1ed0fd606298",
+    "title": "Taiwan ranks high on CCW open parliament index",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/06/2003867260",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/06/2003867260",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-06T00:00:00+00:00"
+  },
+  {
+    "id": "51c7b5b73180c03923c58fab2ef0edcdb515f738",
+    "title": "EDITORIAL: US’ growing Indo-Pacific presence",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/11/06/2003867233",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/11/06/2003867233",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-06T00:00:00+00:00"
+  },
+  {
+    "id": "c3827315279292742cac52c52802b00d20656eb5",
+    "title": "KMT disconnect with young voters",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/11/06/2003867235",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/11/06/2003867235",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-06T00:00:00+00:00"
+  },
+  {
+    "id": "b8d07ad8dcdfb7597a75a4758af163c76f9f0241",
+    "title": "Ninety Books, More Stories of Taiwan",
+    "title_original": null,
+    "summary": "Written by Chee-Hann Wu. This article further explores the diversity of Taiwan literature through nearly ninety books curated for the Brooklyn Book Festival. From translated fiction and graphic narratives to Taiwanese American writing, it examines how literature crosses linguistic and geographic boundaries, revealing…",
+    "link": "https://taiwaninsight.org/2026/11/05/ninety-books-more-stories-of-taiwan/",
+    "link_key": "https://taiwaninsight.org/2026/11/05/ninety-books-more-stories-of-taiwan/",
+    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
+    "category": "analysis",
+    "published": "2026-11-05T09:00:00+00:00"
+  },
+  {
     "id": "1389bbf3ac9d750d99ea0f95a1caf9feaea1e53c",
     "title": "U.S. support for Taiwan defense remains bipartisan: Defense Minister",
     "title_original": null,
@@ -86,16 +130,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-11-04T00:00:00+00:00"
-  },
-  {
-    "id": "acc09c952fec060a4e152ef13dde474ce13bb0b2",
-    "title": "Falling Edifice: The Decay of the Nash Equilibrium in the Taiwan Strait",
-    "title_original": null,
-    "summary": "Written by Novatus Joseph Igosha. This article argues that the equilibrium restraining cross-Strait conflict is weakening as military pressure, technological competition and strategic uncertainty reshape incentives in Beijing, Taipei and Washington. From an African perspective, it explains how instability could…",
-    "link": "https://taiwaninsight.org/2026/11/03/falling-edifice-the-decay-of-the-nash-equilibrium-in-the-taiwan-strait/",
-    "link_key": "https://taiwaninsight.org/2026/11/03/falling-edifice-the-decay-of-the-nash-equilibrium-in-the-taiwan-strait/",
-    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
-    "category": "analysis",
-    "published": "2026-11-03T09:00:00+00:00"
   }
 ]
