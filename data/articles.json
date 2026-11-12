@@ -1,5 +1,60 @@
 [
   {
+    "id": "3dbeb6c03139c0b6aa704db63da7e17ab4001476",
+    "title": "Battle of North Taiwan: What does ‘Victory’ mean to Both Sides?",
+    "title_original": null,
+    "summary": "Written by Jonathan Leung. This article argues that Taiwan’s 2026 local elections are becoming a “Battle of North Taiwan”, as previously predictable contests give way to competitive races in northern municipalities. He analyses key municipal contests, highlighting how the DPP’s prospects of recovery contrast with KMT…",
+    "link": "https://taiwaninsight.org/2026/11/12/battle-of-north-taiwan-what-does-victory-mean-to-both-sides/",
+    "link_key": "https://taiwaninsight.org/2026/11/12/battle-of-north-taiwan-what-does-victory-mean-to-both-sides/",
+    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
+    "category": "analysis",
+    "published": "2026-11-12T09:00:00+00:00"
+  },
+  {
+    "id": "d9151c51f656b72610dd97245849a63bac9db616",
+    "title": "China pressure behind PNG's abrupt expulsion of Taiwan diplomats: MOFA",
+    "title_original": null,
+    "summary": "Taipei, Nov. 12 (CNA) Taiwan foreign ministry officials said Thursday that China was behind Papua New Guinea's (PNG) sudden decision last week to expel Taiwanese diplomats and demand the closure of the Taiwan representative office there.",
+    "link": "https://focustaiwan.tw/politics/202611120011",
+    "link_key": "https://focustaiwan.tw/politics/202611120011",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-12T06:15:10+00:00"
+  },
+  {
+    "id": "694c763a7c12625c9a21202a76485acacc3f528f",
+    "title": "Presidential Office vows stronger self-defense after G7 statement",
+    "title_original": null,
+    "summary": "Taipei, Nov. 12 (CNA) The Presidential Office said Thursday that Taiwan would continue strengthening its self-defense capabilities and resilience following a joint statement by Group of Seven (G7) foreign ministers emphasizing the importance of peace and stability across the Taiwan Strait.",
+    "link": "https://focustaiwan.tw/politics/202611120009",
+    "link_key": "https://focustaiwan.tw/politics/202611120009",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-12T06:00:06+00:00"
+  },
+  {
+    "id": "b875e66961f9410f5aa0680be9aab2bd92ced626",
+    "title": "Lai asks Shih to convey Taiwan's desire for AI cooperation at APEC summit",
+    "title_original": null,
+    "summary": "Taipei, Nov. 12 (CNA) President Lai Ching-te (賴清德) on Thursday called on Acer Group founder and honorary chairman Stan Shih (施振榮), his representative to the Asia-Pacific Economic Cooperation (APEC) Leaders' Meeting in Shenzhen, China, to convey Taiwan's commitment to collaborating with international partners on…",
+    "link": "https://focustaiwan.tw/business/202611120006",
+    "link_key": "https://focustaiwan.tw/business/202611120006",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-12T05:06:58+00:00"
+  },
+  {
+    "id": "e3a83cc4a5ea744ebd7bf882a840139610ea604a",
+    "title": "U.S. fellowship participants will not access classified Taiwan data: MOFA",
+    "title_original": null,
+    "summary": "Taipei, Nov. 12 (CNA)U.S. federal government employees participating in a new study program in Taiwan will not have access to sensitive or confidential Taiwanese government information, Deputy Foreign Minister Chen Ming-chi (陳明祺) said Thursday.",
+    "link": "https://focustaiwan.tw/politics/202611120004",
+    "link_key": "https://focustaiwan.tw/politics/202611120004",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-12T03:24:52+00:00"
+  },
+  {
     "id": "65644c862641b462203be5eef51686ce47cf265e",
     "title": "MOFA begins withdrawal of staff from office in PNG",
     "title_original": null,
@@ -196,27 +251,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-11-11T00:00:00+00:00"
-  },
-  {
-    "id": "e760a9255af535894fc8c6161070ec5c73183eee",
-    "title": "Cheng Li-wun’s China Gamble",
-    "title_original": null,
-    "summary": "Written by Tin Pak and Sam Lee. This article suggests that Cheng Li-wun’s conciliatory approach towards Beijing risks deepening divisions within the KMT while alienating moderate Taiwanese voters. Her strategy is driven by a desire to position herself as Taiwan’s “peace” candidate, but could instead produce a major…",
-    "link": "https://taiwaninsight.org/2026/11/10/cheng-li-wuns-china-gamble/",
-    "link_key": "https://taiwaninsight.org/2026/11/10/cheng-li-wuns-china-gamble/",
-    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
-    "category": "analysis",
-    "published": "2026-11-10T09:00:00+00:00"
-  },
-  {
-    "id": "2ffb0db01cc224ab6ed9cb5e660073ecc3ef4b79",
-    "title": "Taiwan in contact with Paraguay's new leader; ties stable: MOFA",
-    "title_original": null,
-    "summary": "Taipei, Nov. 10 (CNA) Taiwan has been in close contact with Paraguay's new President Pedro Alliana, and relations between the two countries remain close and cordial despite the impeachment and removal of his predecessor from office, the Ministry of Foreign Affairs (MOFA) said Tuesday.",
-    "link": "https://focustaiwan.tw/politics/202611100011",
-    "link_key": "https://focustaiwan.tw/politics/202611100011",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-10T06:43:40+00:00"
   }
 ]
