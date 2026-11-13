@@ -1,5 +1,49 @@
 [
   {
+    "id": "125d652dcd07bab43bba6f5207269f5a3a0aed39",
+    "title": "EU leaders seek to tackle challenges in first AI summit",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/11/14/2003867714",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/11/14/2003867714",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-14T00:00:00+00:00"
+  },
+  {
+    "id": "af767f08a2d2af74ac43c6d5aba968fed9f0cd0c",
+    "title": "China’s Sun celebrations a ‘united front’ tactic: experts",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/14/2003867729",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/14/2003867729",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-14T00:00:00+00:00"
+  },
+  {
+    "id": "7baa30dcbe0244ac440b1d2afbd97dc30d440d77",
+    "title": "2026 ELECTIONS: New Taipei City mayoral candidates outline visions",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/14/2003867730",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/14/2003867730",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-14T00:00:00+00:00"
+  },
+  {
+    "id": "39fe2716b96db2d9fbe37fb1426bf635daa3f0e0",
+    "title": "Blues’ Internal Competition: Remapping Post-Chu Chinese Nationalist Party",
+    "title_original": null,
+    "summary": "Written by Jonathan Leung. This article explores how the local elections have effectively become the KMT's primary battle for the 2028 presidential nomination. It examines the struggle between Cheng Li-wun and dissenting Lu Shiow-yen, along with the ambitious Chiang Wan-an and Han Guo-yu. The local election results…",
+    "link": "https://taiwaninsight.org/2026/11/13/blues-internal-competition-remapping-post-chu-chinese-nationalist-party/",
+    "link_key": "https://taiwaninsight.org/2026/11/13/blues-internal-competition-remapping-post-chu-chinese-nationalist-party/",
+    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
+    "category": "analysis",
+    "published": "2026-11-13T09:00:00+00:00"
+  },
+  {
     "id": "2673cc7ea48e8241487d71361b64f6a1d1e37615",
     "title": "Taiwan welcomes G7’s stance on Strait",
     "title_original": null,
@@ -55,6 +99,17 @@
     "published": "2026-11-12T11:28:42+00:00"
   },
   {
+    "id": "80bb8abc778e91fc022ce61e2336b580ed48168e",
+    "title": "President Lai attends press conference before Taiwan’s delegation departs for 2026 APEC Economic Leaders’ Meeting",
+    "title_original": null,
+    "summary": "On the morning of November 12, President Lai Ching-te attended a press conference before the departu...",
+    "link": "https://english.president.gov.tw/NEWS/7241",
+    "link_key": "https://english.president.gov.tw/NEWS/7241",
+    "source": "Office of the President - News",
+    "category": "government",
+    "published": "2026-11-12T09:56:51+00:00"
+  },
+  {
     "id": "3dbeb6c03139c0b6aa704db63da7e17ab4001476",
     "title": "Battle of North Taiwan: What does ‘Victory’ mean to Both Sides?",
     "title_original": null,
@@ -64,6 +119,17 @@
     "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
     "category": "analysis",
     "published": "2026-11-12T09:00:00+00:00"
+  },
+  {
+    "id": "ece7c8e0b6c7ada904cbbcc61b0e301b86a34323",
+    "title": "Presidential Office thanks G7 foreign ministers for joint statement",
+    "title_original": null,
+    "summary": "Following a meeting in Paris, France, the foreign ministers of the Group of Seven (G7) and the Europ...",
+    "link": "https://english.president.gov.tw/NEWS/7240",
+    "link_key": "https://english.president.gov.tw/NEWS/7240",
+    "source": "Office of the President - News",
+    "category": "government",
+    "published": "2026-11-12T08:47:51+00:00"
   },
   {
     "id": "d9151c51f656b72610dd97245849a63bac9db616",
@@ -196,27 +262,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-11-12T00:00:00+00:00"
-  },
-  {
-    "id": "0e4a7688c08991d761d2f4dc45bfbc652855bc09",
-    "title": "Acer founder Stan Shih named Taiwan's envoy to 2026 APEC summit",
-    "title_original": null,
-    "summary": "Taipei, Nov. 11 (CNA) Acer Group founder and Honorary Chairman Stan Shih (施振榮) has been named Taiwan's envoy to the 2026 Asia-Pacific Economic Cooperation (APEC) Economic Leaders' Meeting in Shenzhen, China, the Presidential Office said on Wednesday.",
-    "link": "https://focustaiwan.tw/business/202611110022",
-    "link_key": "https://focustaiwan.tw/business/202611110022",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-11T12:23:26+00:00"
-  },
-  {
-    "id": "322a46908d37cf6fcf01a0b99782e89bc0fc5d69",
-    "title": "From Recontextualization to Amplification: Tracing Chinese Information Manipulation in the Cheng Li-wun Case",
-    "title_original": null,
-    "summary": "Written by Chu-hui (Emily) Yang. This article traces a misleadingly edited video of Cheng Li-wun: how Chinese state media amplified it, and how the video then recirculated across social media platforms and political divides in Taiwan. The case shows how simple framing can deepen Taiwan’s partisan polarisation and…",
-    "link": "https://taiwaninsight.org/2026/11/11/from-recontextualization-to-amplification-tracing-chinese-information-manipulation-in-the-cheng-li-wun-case/",
-    "link_key": "https://taiwaninsight.org/2026/11/11/from-recontextualization-to-amplification-tracing-chinese-information-manipulation-in-the-cheng-li-wun-case/",
-    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
-    "category": "analysis",
-    "published": "2026-11-11T09:00:00+00:00"
   }
 ]
