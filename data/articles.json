@@ -1,5 +1,137 @@
 [
   {
+    "id": "8faa52edac3eb111f9fbf99583f12ced494c9194",
+    "title": "Bureau warns on spreading election misinformation",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867866",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867866",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-17T00:00:00+00:00"
+  },
+  {
+    "id": "5eaa5d24fef5b58917fc424438417e542dfcf5a7",
+    "title": "KMT aims to pass NT$20,000 cash handout bill soon",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867879",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867879",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-17T00:00:00+00:00"
+  },
+  {
+    "id": "ddbca2a618561f76f3c99415d1919afdb550f20f",
+    "title": "2026 Elections: KMT’s Lee Shu-chuan narrowly leads in New Taipei City mayoral race: poll",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867880",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867880",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-17T00:00:00+00:00"
+  },
+  {
+    "id": "4f48e2080e893d5518cf27ad00b45c250738b72c",
+    "title": "2026 Elections: Hospital reports a rise in election-related vocal strain",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867881",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867881",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-17T00:00:00+00:00"
+  },
+  {
+    "id": "b27aeb508d883eb4db892cd50693387014c5c432",
+    "title": "2026 Elections: Nuclear power supporter, opponent clash at referendum forum",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867882",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867882",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-17T00:00:00+00:00"
+  },
+  {
+    "id": "6f8400985fe64992615efbbecc5ebd8c00fdbb2d",
+    "title": "Ready for summit",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/biz/archives/2026/11/17/2003867855",
+    "link_key": "https://www.taipeitimes.com/News/biz/archives/2026/11/17/2003867855",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-17T00:00:00+00:00"
+  },
+  {
+    "id": "033678ac65f3ea33ff12d3897e987624e92a70b4",
+    "title": "Victoria lawmaker leaves hospital for rehab after attack",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/11/17/2003867895",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/11/17/2003867895",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-17T00:00:00+00:00"
+  },
+  {
+    "id": "25bf3361f1ce9fb3c749fc13f30722a86e9666b8",
+    "title": "World leaders urge climate action, major polluters skip COP31 summit COP31氣候峰會登場 美中印領袖缺席、各國減碳承諾與行動落差擴大",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/lang/archives/2026/11/17/2003867846",
+    "link_key": "https://www.taipeitimes.com/News/lang/archives/2026/11/17/2003867846",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-17T00:00:00+00:00"
+  },
+  {
+    "id": "e851d9227b976721d73b55d29d35782bc7b2c72c",
+    "title": "Nuclear power supporter, opponent clash at referendum forum",
+    "title_original": null,
+    "summary": "Taipei, Nov. 16 (CNA) Pro-nuclear power activist Huang Shih-hsiu (黃士修) and anti-nuclear group spokeswoman Shen Pei-lin (沈佩琳) clashed Monday over Taiwan's energy policy at a televised forum, with Huang arguing that nuclear power ensures a stable electricity supply and Shen questioning the feasibility and safety of…",
+    "link": "https://focustaiwan.tw/politics/202611160018",
+    "link_key": "https://focustaiwan.tw/politics/202611160018",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-16T11:50:56+00:00"
+  },
+  {
+    "id": "ad17a10b2287d58010c7a098d26fb049e3041988",
+    "title": "President Lai meets Idaho Governor Brad Little",
+    "title_original": null,
+    "summary": "On the morning of November 16, President Lai Ching-te met with a delegation led by Idaho Governor Br...",
+    "link": "https://english.president.gov.tw/NEWS/7242",
+    "link_key": "https://english.president.gov.tw/NEWS/7242",
+    "source": "Office of the President - News",
+    "category": "government",
+    "published": "2026-11-16T10:10:39+00:00"
+  },
+  {
+    "id": "e766178723a9b8504b0c6c1e5c4281c6bd1a0e04",
+    "title": "The prospects for a revival of Taiwan’s progressive movement parties in the 2026 local elections",
+    "title_original": null,
+    "summary": "Written by Dafydd J. Fell. Taiwan’s progressive movement parties thrived after the Sunflower Movement but lost influence after 2020 amid competition from the TPP defections and internal fragmentation. This article examines the Taiwan Go Go Alliance, which brings four parties together for the 2026 local elections, and…",
+    "link": "https://taiwaninsight.org/2026/11/16/the-prospects-for-a-revival-of-taiwans-progressive-challenger-parties-in-the-2026-local-elections/",
+    "link_key": "https://taiwaninsight.org/2026/11/16/the-prospects-for-a-revival-of-taiwans-progressive-challenger-parties-in-the-2026-local-elections/",
+    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
+    "category": "analysis",
+    "published": "2026-11-16T09:00:00+00:00"
+  },
+  {
+    "id": "ad04604b7391280648a0036c41a8f76d487e76d7",
+    "title": "Man charged over arson, missile threats if DPP's Shen wins Taipei",
+    "title_original": null,
+    "summary": "Taipei, Nov. 16 (CNA) Taipei prosecutors indicted a man Monday for allegedly threatening to set fire to the Presidential Office if Democratic Progressive Party (DPP) Taipei mayoral candidate Puma Shen (沈伯洋) wins the Nov. 28 mayoral contest.",
+    "link": "https://focustaiwan.tw/society/202611160011",
+    "link_key": "https://focustaiwan.tw/society/202611160011",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-16T07:30:36+00:00"
+  },
+  {
     "id": "6e7b4f237316bd89ea12862cc4f0695a675be64a",
     "title": "MOFA introduces tighter cybersecurity after data breaches",
     "title_original": null,
@@ -174,49 +306,5 @@
     "source": "Taipei Times",
     "category": "press_en",
     "published": "2026-11-15T00:00:00+00:00"
-  },
-  {
-    "id": "d8a017b8a9e06d0460790a75e73db07d94f47809",
-    "title": "Referendum reignites debate over Taiwan's 'non-nuclear homeland' policy",
-    "title_original": null,
-    "summary": "Taipei, Nov. 14 (CNA) A supporter of ending Taiwan's \"non-nuclear homeland\" policy argued Saturday that restarting reactors could buy time for renewable energy to develop, while a government representative questioned the need for a referendum when restart assessments were already underway under existing law.",
-    "link": "https://focustaiwan.tw/politics/202611140014",
-    "link_key": "https://focustaiwan.tw/politics/202611140014",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-14T12:51:52+00:00"
-  },
-  {
-    "id": "6617679b24668bbbeb436820b57fec210dd9defc",
-    "title": "Chiang, Shen ramp up campaigns ahead of local elections",
-    "title_original": null,
-    "summary": "Taipei, Nov. 14 (CNA) Taipei Mayor Chiang Wan-an (蔣萬安) and his Democratic Progressive Party (DPP) challenger Puma Shen (沈伯洋) stepped up their campaigns Saturday, with Chiang staging a large-scale rally and march and Shen organizing a music festival ahead of Nov. 28's local elections.",
-    "link": "https://focustaiwan.tw/politics/202611140013",
-    "link_key": "https://focustaiwan.tw/politics/202611140013",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-14T12:16:49+00:00"
-  },
-  {
-    "id": "5a3227a120acaf4c8558f53d97c55bd34dc2d472",
-    "title": "KMT, DPP candidates for Kaohsi0ung mayor court voters at TV forum",
-    "title_original": null,
-    "summary": "Taipei, Nov. 14 (CNA) The Kuomintang (KMT) and Democratic Progressive Party (DPP) candidates for Kaohsiung mayor clashed over city funding at a televised policy forum Saturday, even as both pledged to carry on parts of outgoing Mayor Chen Chi-mai's (陳其邁) agenda.",
-    "link": "https://focustaiwan.tw/politics/202611140011",
-    "link_key": "https://focustaiwan.tw/politics/202611140011",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-14T10:36:43+00:00"
-  },
-  {
-    "id": "27ab7ac592ad588a72f8d0cb57f686f624dc51a5",
-    "title": "5 allies back Taiwan's participation at COP31: MOFA",
-    "title_original": null,
-    "summary": "Taipei, Nov. 14 (CNA) Five of Taiwan's diplomatic allies have voiced support for its participation in global climate efforts at the 31st Conference of the Parties to the United Nations Framework Convention on Climate Change (COP31), the Ministry of Foreign Affairs (MOFA) said Saturday.",
-    "link": "https://focustaiwan.tw/politics/202611140009",
-    "link_key": "https://focustaiwan.tw/politics/202611140009",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-14T09:20:38+00:00"
   }
 ]
