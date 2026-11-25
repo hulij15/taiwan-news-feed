@@ -1,5 +1,16 @@
 [
   {
+    "id": "459cd14d85356b299e09e6c4ec8d08c3f1e98d33",
+    "title": "If Cities Could Breathe: Multi-Tiered Greenery, Plant Companionship, and the Future of Urban Taiwan",
+    "title_original": null,
+    "summary": "Written by Gene-Sheng Tung. This article explores how cities can address unequal access to greenery by cultivating interconnected vegetation across streets, rooftops, walls, and balconies. Drawing on the 3-30-300 rule, Taiwanese botanical research, and Singapore’s urban greening experience, it examines how native…",
+    "link": "https://taiwaninsight.org/2026/11/25/if-cities-could-breathe-multi-tiered-greenery-plant-companionship-and-the-future-of-urban-taiwan/",
+    "link_key": "https://taiwaninsight.org/2026/11/25/if-cities-could-breathe-multi-tiered-greenery-plant-companionship-and-the-future-of-urban-taiwan/",
+    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
+    "category": "analysis",
+    "published": "2026-11-25T09:00:00+00:00"
+  },
+  {
     "id": "e724f1a250d4509f63ea4cdfef0b27074af5737b",
     "title": "MOFA working closely with new US lawmakers",
     "title_original": null,
@@ -29,6 +40,17 @@
     "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/25/2003868352",
     "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/25/2003868352",
     "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-25T00:00:00+00:00"
+  },
+  {
+    "id": "85d785ea0146175e7da788df069a18c71fb098ad",
+    "title": "MOFA welcomes German legislative delegation",
+    "title_original": null,
+    "summary": "The visit of a German parliamentary contingent is sincerely appreciated by the government and people of Taiwan, the Ministry of Foreign Affairs said Nov. 24. The group, comprising seven members from the State Parliaments of Hesse and Baden-Wurttemberg, was led by Christoph Mikuschek, member of Hesse’s Landtag, and…",
+    "link": "https://taiwantoday.tw/Politics/Top-News/287360/MOFA-welcomes-German-legislative-delegation",
+    "link_key": "https://taiwantoday.tw/Politics/Top-News/287360/MOFA-welcomes-German-legislative-delegation",
+    "source": "Taiwan Today",
     "category": "press_en",
     "published": "2026-11-25T00:00:00+00:00"
   },
@@ -251,49 +273,5 @@
     "source": "Office of the President - News",
     "category": "government",
     "published": "2026-11-23T11:49:16+00:00"
-  },
-  {
-    "id": "14cd4068e9607c0b696f11d74573932fce815d45",
-    "title": "'Long live Japan-Taiwan friendship': Departing envoy Katayama bids farewell",
-    "title_original": null,
-    "summary": "Taipei, Nov. 23 (CNA) Kazuyuki Katayama, Japan's departing top representative to Taiwan, on Monday bid farewell to friends in Taiwan as he concluded his three-year tenure in the country.",
-    "link": "https://focustaiwan.tw/politics/202611230017",
-    "link_key": "https://focustaiwan.tw/politics/202611230017",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-23T11:21:27+00:00"
-  },
-  {
-    "id": "8b77be4f8b4d5b1bbc4255b5ef7299ca404b7373",
-    "title": "MAC sends warning about China election interference",
-    "title_original": null,
-    "summary": "Taipei, Nov. 23 (CNA) Taiwan's Mainland Affairs Council (MAC) warned Monday that China's methods of interfering in Taiwan's elections were becoming increasingly sophisticated with advances in technology, urging the public to remain vigilant ahead of Saturday's local elections.",
-    "link": "https://focustaiwan.tw/politics/202611230016",
-    "link_key": "https://focustaiwan.tw/politics/202611230016",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-23T11:11:25+00:00"
-  },
-  {
-    "id": "ad343e752c6bfe6944beb3ed738a4fcc990ab844",
-    "title": "Imagination and Practice of an Eco-city: By Whom and For Whom Is It To Be Planned and Designed?",
-    "title_original": null,
-    "summary": "Written by Meng-Chin Tsai. The author explores how green infrastructure connects climate adaptation with community participation and coexistence with urban wildlife. Drawing on community gardens, the Open Green Programme and wetland restoration, she argues that an eco-city grows through collaboration among residents,…",
-    "link": "https://taiwaninsight.org/2026/11/23/imagination-and-practice-of-an-eco-city-by-whom-and-for-whom-is-it-to-be-planned-and-designed/",
-    "link_key": "https://taiwaninsight.org/2026/11/23/imagination-and-practice-of-an-eco-city-by-whom-and-for-whom-is-it-to-be-planned-and-designed/",
-    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
-    "category": "analysis",
-    "published": "2026-11-23T09:00:00+00:00"
-  },
-  {
-    "id": "ad6f4c291c3bec80ce1b3a278122d7f86ff9d4ad",
-    "title": "3.5-year sentence sought for man who solicited bribe to not enter election",
-    "title_original": null,
-    "summary": "Taipei, Nov. 23 (CNA) Prosecutors have sought a 3.5-year prison sentence for a man accused of demanding a NT$100,000 (US$3,033) bribe from a Taipei neighborhood chief in return for not entering the race against him.",
-    "link": "https://focustaiwan.tw/society/202611230005",
-    "link_key": "https://focustaiwan.tw/society/202611230005",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-23T05:04:55+00:00"
   }
 ]
