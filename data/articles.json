@@ -1,5 +1,93 @@
 [
   {
+    "id": "e724f1a250d4509f63ea4cdfef0b27074af5737b",
+    "title": "MOFA working closely with new US lawmakers",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/25/2003868350",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/25/2003868350",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-25T00:00:00+00:00"
+  },
+  {
+    "id": "44fa65e19bff1cf721aad1aad77b4c508ac5af20",
+    "title": "2026 Elections: DPP warns against Chinese election interference",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/25/2003868351",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/25/2003868351",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-25T00:00:00+00:00"
+  },
+  {
+    "id": "850438224b0c742047d17dbe8a0f0eb18926a6f5",
+    "title": "2026 Elections: KMT complains of legal hassling by government",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/25/2003868352",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/25/2003868352",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-25T00:00:00+00:00"
+  },
+  {
+    "id": "a4be21317b41cbfdc843fb170c2c76bbf9f58d51",
+    "title": "Truths, Lies, and Prospects for the New Cross-Strait Security Complex in the Taiwan and Luzon Straits",
+    "title_original": null,
+    "summary": "The current crisis in the Strait of Hormuz demonstrates how strategic geopolitical chokepoints can affect the global supply chain. The Luzon and Taiwan Straits are no different. Once imagined by academics and politicians to be isolated and separated, these Western Pacific chokepoints have the potential to harm the…",
+    "link": "https://globaltaiwan.org/2026/11/truths-lies-and-prospects-for-the-new-cross-strait-security-complex/",
+    "link_key": "https://globaltaiwan.org/2026/11/truths-lies-and-prospects-for-the-new-cross-strait-security-complex/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-11-24T19:54:56+00:00"
+  },
+  {
+    "id": "a04fa61e2a43278e30e34188561aeb9f9217473e",
+    "title": "Double Dragon: How Taiwan and South Korea Can Collaborate through Chips",
+    "title_original": null,
+    "summary": "Taiwan and South Korea, the two largest of the Four Asian Dragons by population and economic output, are fierce rivals, especially in the semiconductor manufacturing industry. But their common reliance on China’s market has become a vulnerability that neither can address alone. Each controls crucial nodes of global…",
+    "link": "https://globaltaiwan.org/2026/11/double-dragon-taiwan-south-korea-chips/",
+    "link_key": "https://globaltaiwan.org/2026/11/double-dragon-taiwan-south-korea-chips/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-11-24T19:53:18+00:00"
+  },
+  {
+    "id": "08c2dc8202da9da98e0a3572d31f70a7dddabd65",
+    "title": "Battle for the Capital: Inside the 2026 Taipei Mayoral Race, Part 2",
+    "title_original": null,
+    "summary": "As the incumbent Taipei mayor, Chiang Wan-an (蔣萬安) of the Kuomintang (KMT, 中國國民黨) faces immense pressure to succeed in his re-election bid against Puma Shen (沈伯洋), the candidate nominated by the Democratic Progressive Party (DPP, 民主進步黨). Despite the similarities in their backgrounds and public image, their political…",
+    "link": "https://globaltaiwan.org/2026/11/taipei-mayoral-election-part-two/",
+    "link_key": "https://globaltaiwan.org/2026/11/taipei-mayoral-election-part-two/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-11-24T19:52:29+00:00"
+  },
+  {
+    "id": "bc6de6708e9fab5c790e8c526e4101cd9df0c5df",
+    "title": "Taiwan as a Partner and Leader in Disaster Prevention and Management",
+    "title_original": null,
+    "summary": "In 2026, Taiwan has demonstrated how it prioritized disaster prevention, management, and preparedness at home and abroad. The “ 2026 Disaster Response and Flood-Season Preparedness (115年救災及汛期整備)” plan, announced by the Ministry of the Interior (內政部, MOI), encouraged cross-agency collaboration, set up projects for…",
+    "link": "https://globaltaiwan.org/2026/11/taiwan-leader-disaster-prevention-management/",
+    "link_key": "https://globaltaiwan.org/2026/11/taiwan-leader-disaster-prevention-management/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-11-24T19:51:54+00:00"
+  },
+  {
+    "id": "cff2ed0878642d21585f5a99d4c78b22e7153af0",
+    "title": "Observations from Taiwan’s Education Frontline amid Cognitive Warfare",
+    "title_original": null,
+    "summary": "Taiwan faces several serious threats, not only from direct military forces, but also from a self-defeating attitude that I see frequently in people of my age. While foreign observers warn of the possibility of a cross-Strait conflict, social media platforms popular among young people are filled with claims that “War…",
+    "link": "https://globaltaiwan.org/2026/11/observations-from-taiwans-education-frontline-amid-cognitive-warfare/",
+    "link_key": "https://globaltaiwan.org/2026/11/observations-from-taiwans-education-frontline-amid-cognitive-warfare/",
+    "source": "Global Taiwan Brief (Global Taiwan Institute)",
+    "category": "analysis",
+    "published": "2026-11-24T19:50:14+00:00"
+  },
+  {
     "id": "5fb9cd1282001efd69d4bfddf55191cd64bdd267",
     "title": "Nearly 19.6 million eligible to vote in Taiwan's local elections",
     "title_original": null,
@@ -207,82 +295,5 @@
     "source": "Focus Taiwan (CNA English News)",
     "category": "wire_en",
     "published": "2026-11-23T05:04:55+00:00"
-  },
-  {
-    "id": "557156dfdbf793b4268955f5fa7251882d6d2589",
-    "title": "2026 Elections: Parties hold ‘Super Sunday’ events ahead of elections",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868217",
-    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868217",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-23T00:00:00+00:00"
-  },
-  {
-    "id": "2ae85deef2958c7b1d3b1fbf177fe1ce20ce0d06",
-    "title": "2026 Elections: KMT to step up nuclear referendum campaign efforts",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868235",
-    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868235",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-23T00:00:00+00:00"
-  },
-  {
-    "id": "2a418f0641ead1a2f77243cbfffda3964274726c",
-    "title": "2026 Elections: Puma Shen’s passion, warmth has reached people: aides",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868236",
-    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868236",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-23T00:00:00+00:00"
-  },
-  {
-    "id": "97e2667e1b745efcd8b2dc412c97127213fe3ef3",
-    "title": "2026 Elections: Chiang Wan-an a gentle but firm leader, aides say",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868237",
-    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868237",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-23T00:00:00+00:00"
-  },
-  {
-    "id": "5161d8166880117d9293bceed69000813e821097",
-    "title": "EDITORIAL: Taipei’s Chiang eyes TPP support",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868207",
-    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868207",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-23T00:00:00+00:00"
-  },
-  {
-    "id": "ad57d2befe657357a856e70a82747f3adeabce29",
-    "title": "A response to Elon Musk’s misconstruction of relations across the Taiwan Strait",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868208",
-    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868208",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-23T00:00:00+00:00"
-  },
-  {
-    "id": "88de83a89747609ed70f852e5fcc9d0507fb44b2",
-    "title": "Foreign minister launches office to advance trade ties with allies",
-    "title_original": null,
-    "summary": "Foreign Minister Lin Chia-lung presided over the opening ceremony of Allies Prosperity Trade Office Nov. 20 in Taipei City, establishing a new public-private platform for economic exchange. The Ministry of Foreign Affairs said that the Marshall Islands’ Finance Minister David Paul was in attendance, as were members…",
-    "link": "https://taiwantoday.tw/Economics/Top-News/287302/Foreign-minister-launches-office-to-advance-trade-ties-with-allies",
-    "link_key": "https://taiwantoday.tw/Economics/Top-News/287302/Foreign-minister-launches-office-to-advance-trade-ties-with-allies",
-    "source": "Taiwan Today",
-    "category": "press_en",
-    "published": "2026-11-23T00:00:00+00:00"
   }
 ]
