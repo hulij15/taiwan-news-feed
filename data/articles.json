@@ -1,5 +1,82 @@
 [
   {
+    "id": "54156a60cc6c41492c5959ead383780715eef50e",
+    "title": "US report warns of Chinese AI persona tactics targeting Taiwan elections",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/11/26/2003868404",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/11/26/2003868404",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-26T00:00:00+00:00"
+  },
+  {
+    "id": "13c5b7d2fb99183c7c1e9a92a70898051a54d913",
+    "title": "North Korea expels head of Swiss diplomatic office",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/11/26/2003868408",
+    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/11/26/2003868408",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-26T00:00:00+00:00"
+  },
+  {
+    "id": "e58ff8178c2cd07416fe89dc7db5b7dd113a6caf",
+    "title": "Parties begin final election blitz",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/26/2003868414",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/26/2003868414",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-26T00:00:00+00:00"
+  },
+  {
+    "id": "2e35c06e4fc9e9944429dba44432f30ff4332d68",
+    "title": "Foreign ministry details ongoing aid to Ukraine",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/26/2003868417",
+    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/26/2003868417",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-26T00:00:00+00:00"
+  },
+  {
+    "id": "e075331f0814718256c41411022186168713334d",
+    "title": "The KMT’s mudslinging business",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/11/26/2003868394",
+    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/11/26/2003868394",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-26T00:00:00+00:00"
+  },
+  {
+    "id": "2f373427a59c9999a2dee20f53e2bb6a75e963b2",
+    "title": "Solomon Islands and Australia sign treaty",
+    "title_original": null,
+    "summary": "",
+    "link": "https://www.taipeitimes.com/News/world/archives/2026/11/26/2003868428",
+    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/11/26/2003868428",
+    "source": "Taipei Times",
+    "category": "press_en",
+    "published": "2026-11-26T00:00:00+00:00"
+  },
+  {
+    "id": "64520cbd36f1120d6e3e8342740f78e90173e0ce",
+    "title": "Taiwan parties, candidates step up campaigning as local elections near",
+    "title_original": null,
+    "summary": "Taipei, Nov. 25 (CNA) With less than three days to go before Taiwan's local elections, political party leaders stepped up campaigning across the country on Wednesday, while mayoral candidates in Taipei and New Taipei sought to drum up support through motorcades and market visits.",
+    "link": "https://focustaiwan.tw/politics/202611250023",
+    "link_key": "https://focustaiwan.tw/politics/202611250023",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-25T12:54:12+00:00"
+  },
+  {
     "id": "459cd14d85356b299e09e6c4ec8d08c3f1e98d33",
     "title": "If Cities Could Breathe: Multi-Tiered Greenery, Plant Companionship, and the Future of Urban Taiwan",
     "title_original": null,
@@ -262,16 +339,5 @@
     "source": "Taiwan Today",
     "category": "press_en",
     "published": "2026-11-24T00:00:00+00:00"
-  },
-  {
-    "id": "32362f914eec7399a5a2be97737e6649a19b1e8b",
-    "title": "President Lai meets delegation led by French National Assembly Vice President Marie-Agnès Poussier-Winsback",
-    "title_original": null,
-    "summary": "On the morning of November 20, President Lai Ching-te met with a joint delegation led by Vice Presid...",
-    "link": "https://english.president.gov.tw/NEWS/7247",
-    "link_key": "https://english.president.gov.tw/NEWS/7247",
-    "source": "Office of the President - News",
-    "category": "government",
-    "published": "2026-11-23T11:49:16+00:00"
   }
 ]
