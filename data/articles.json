@@ -1,5 +1,49 @@
 [
   {
+    "id": "fb3cf9b4d65d161ef13b2591833b529a9bafe53c",
+    "title": "Beyond a Greener Taipei: Building a Shared Home",
+    "title_original": null,
+    "summary": "Written by Yih-Ren Lin. Taking Taipei mayoral candidate Puma Shen’s HEART agenda as a starting point, this article asks who and what inhabits the city, and when, where, how and why they do so. From Shezidao’s redevelopment to the Tamsui watershed, it examines how housing, care and ecological protection can give…",
+    "link": "https://taiwaninsight.org/2026/11/26/beyond-a-greener-taipei-building-a-shared-home/",
+    "link_key": "https://taiwaninsight.org/2026/11/26/beyond-a-greener-taipei-building-a-shared-home/",
+    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
+    "category": "analysis",
+    "published": "2026-11-26T09:00:00+00:00"
+  },
+  {
+    "id": "24c6bf213ec5787e75198f0ae531e56620eeb559",
+    "title": "Vice premier outlines tariffs, support for U.S. investments by Taiwan firms",
+    "title_original": null,
+    "summary": "Taipei, Nov. 26 (CNA) Vice Premier Cheng Li-chiun (鄭麗君) said Thursday that Taiwan has secured preferential treatment under potential U.S. semiconductor tariffs and is helping companies expanding there obtain tariff exemptions and investment support.",
+    "link": "https://focustaiwan.tw/politics/202611260010",
+    "link_key": "https://focustaiwan.tw/politics/202611260010",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-26T06:45:54+00:00"
+  },
+  {
+    "id": "035a17003988379191904d5c267cce640ad13e1b",
+    "title": "Premier Cho calls for vigilance against cyberattacks ahead of elections",
+    "title_original": null,
+    "summary": "Taipei, Nov. 26 (CNA) Premier Cho Jung-tai (卓榮泰) on Thursday urged the relevant authorities to remain vigilant against anticipated cyberattacks to safeguard the integrity of Taiwan's upcoming local government elections.",
+    "link": "https://focustaiwan.tw/politics/202611260009",
+    "link_key": "https://focustaiwan.tw/politics/202611260009",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-26T06:02:51+00:00"
+  },
+  {
+    "id": "529a354b31ff04c9ccb85746c8d5dd058a06e990",
+    "title": "Mostly stable weather forecast for Taiwan on election day",
+    "title_original": null,
+    "summary": "Taipei, Nov. 26 (CNA) Taiwan will see scattered showers on Thursday, but the rain will give way to mostly sunny to partly cloudy skies by Saturday, election day, according to the Central Weather Administration (CWA).",
+    "link": "https://focustaiwan.tw/society/202611260005",
+    "link_key": "https://focustaiwan.tw/society/202611260005",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-26T03:25:39+00:00"
+  },
+  {
     "id": "54156a60cc6c41492c5959ead383780715eef50e",
     "title": "US report warns of Chinese AI persona tactics targeting Taiwan elections",
     "title_original": null,
@@ -196,38 +240,5 @@
     "source": "Focus Taiwan (CNA English News)",
     "category": "wire_en",
     "published": "2026-11-24T13:02:52+00:00"
-  },
-  {
-    "id": "2ac36cd8820c0ce9d45f68d3baf990bf84d59d8b",
-    "title": "Our Wild Neighbours: Masked Palm Civets in Taiwan’s Cities",
-    "title_original": null,
-    "summary": "Written by Hui-Yun Tseng. Drawing on rescue records, radio tracking and citizen observations, this article explores how these elusive mammals navigate urban environments, from the dangers of free-roaming dogs and shared feeding sites to unexpected evidence of cooperative care for young. It shows how collaboration…",
-    "link": "https://taiwaninsight.org/2026/11/24/our-wild-neighbours-masked-palm-civets-in-taiwans-cities/",
-    "link_key": "https://taiwaninsight.org/2026/11/24/our-wild-neighbours-masked-palm-civets-in-taiwans-cities/",
-    "source": "Taiwan Insight (Taiwan Research Hub, U. Nottingham)",
-    "category": "analysis",
-    "published": "2026-11-24T09:00:00+00:00"
-  },
-  {
-    "id": "8ee3f87bf5c120666395a7b3fc3f997fa2d912d6",
-    "title": "MOFA to court new U.S. lawmakers after midterms gut pro-Taiwan caucuses",
-    "title_original": null,
-    "summary": "Taipei, Nov. 24 (CNA) The Ministry of Foreign Affairs (MOFA) said Tuesday it would seek support from newly elected U.S. lawmakers after 12 of the Senate Taiwan Caucus's 38 members and 63 of the Congressional Taiwan Caucus's 220 members lost their seats in this month's midterms.",
-    "link": "https://focustaiwan.tw/politics/202611240010",
-    "link_key": "https://focustaiwan.tw/politics/202611240010",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-24T05:54:15+00:00"
-  },
-  {
-    "id": "2f513d95c68838a2d088eb6f42074dcb1d9d151c",
-    "title": "U.S. policy on Taiwan unchanged despite Xinhua's Trump claim: MOFA",
-    "title_original": null,
-    "summary": "Taipei, Nov. 24 (CNA) The United States has reaffirmed to Taiwan that its policy toward the country remains unchanged, a senior Taiwanese diplomat said Tuesday, following a Chinese state media report quoting U.S. President Donald Trump as saying that Washington \"does not support Taiwan independence.\"",
-    "link": "https://focustaiwan.tw/politics/202611240008",
-    "link_key": "https://focustaiwan.tw/politics/202611240008",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-24T05:15:10+00:00"
   }
 ]
