@@ -1,5 +1,16 @@
 [
   {
+    "id": "b64adf891de1981124d4518e7ceabb452e27a748",
+    "title": "Polls open for Taiwan's '9-in-1' elections, nuclear referendum",
+    "title_original": null,
+    "summary": "Taipei, Nov. 28 (CNA) Polls opened across Taiwan at 8 a.m. Saturday for the \"9-in-1\" local elections and a referendum on nuclear power, with voters choosing local government leaders and representatives and deciding whether to abolish the country's nuclear-free energy policy.",
+    "link": "https://focustaiwan.tw/politics/202611280002",
+    "link_key": "https://focustaiwan.tw/politics/202611280002",
+    "source": "Focus Taiwan (CNA English News)",
+    "category": "wire_en",
+    "published": "2026-11-28T00:03:53+00:00"
+  },
+  {
     "id": "27ef87c6103863340e4fc46366e9213cf2669cd7",
     "title": "2026 Elections: Candidates make final call for support",
     "title_original": null,
@@ -240,82 +251,5 @@
     "source": "Focus Taiwan (CNA English News)",
     "category": "wire_en",
     "published": "2026-11-26T06:02:51+00:00"
-  },
-  {
-    "id": "529a354b31ff04c9ccb85746c8d5dd058a06e990",
-    "title": "Mostly stable weather forecast for Taiwan on election day",
-    "title_original": null,
-    "summary": "Taipei, Nov. 26 (CNA) Taiwan will see scattered showers on Thursday, but the rain will give way to mostly sunny to partly cloudy skies by Saturday, election day, according to the Central Weather Administration (CWA).",
-    "link": "https://focustaiwan.tw/society/202611260005",
-    "link_key": "https://focustaiwan.tw/society/202611260005",
-    "source": "Focus Taiwan (CNA English News)",
-    "category": "wire_en",
-    "published": "2026-11-26T03:25:39+00:00"
-  },
-  {
-    "id": "54156a60cc6c41492c5959ead383780715eef50e",
-    "title": "US report warns of Chinese AI persona tactics targeting Taiwan elections",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/front/archives/2026/11/26/2003868404",
-    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/11/26/2003868404",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-26T00:00:00+00:00"
-  },
-  {
-    "id": "13c5b7d2fb99183c7c1e9a92a70898051a54d913",
-    "title": "North Korea expels head of Swiss diplomatic office",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/front/archives/2026/11/26/2003868408",
-    "link_key": "https://www.taipeitimes.com/News/front/archives/2026/11/26/2003868408",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-26T00:00:00+00:00"
-  },
-  {
-    "id": "e58ff8178c2cd07416fe89dc7db5b7dd113a6caf",
-    "title": "Parties begin final election blitz",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/26/2003868414",
-    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/26/2003868414",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-26T00:00:00+00:00"
-  },
-  {
-    "id": "2e35c06e4fc9e9944429dba44432f30ff4332d68",
-    "title": "Foreign ministry details ongoing aid to Ukraine",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/26/2003868417",
-    "link_key": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/26/2003868417",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-26T00:00:00+00:00"
-  },
-  {
-    "id": "e075331f0814718256c41411022186168713334d",
-    "title": "The KMT’s mudslinging business",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/editorials/archives/2026/11/26/2003868394",
-    "link_key": "https://www.taipeitimes.com/News/editorials/archives/2026/11/26/2003868394",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-26T00:00:00+00:00"
-  },
-  {
-    "id": "2f373427a59c9999a2dee20f53e2bb6a75e963b2",
-    "title": "Solomon Islands and Australia sign treaty",
-    "title_original": null,
-    "summary": "",
-    "link": "https://www.taipeitimes.com/News/world/archives/2026/11/26/2003868428",
-    "link_key": "https://www.taipeitimes.com/News/world/archives/2026/11/26/2003868428",
-    "source": "Taipei Times",
-    "category": "press_en",
-    "published": "2026-11-26T00:00:00+00:00"
   }
 ]
